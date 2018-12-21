@@ -141,32 +141,33 @@ DixitOrgano = {
 		f f f f f f
 		f f f f f f
 		f f f f f f
-		f4 f8 es! d c
-		b b b b b b %135
+		f f f f f f
+		f4 f8 es! d c %135
+		b b b b b b
 		a a a a a a
 		b b b b b b
 		a a a a a a
-		b b d d b b
-		es es f f es es %140
+		b b d d b b %140
+		es es f f es es
 		d4 b' b,
 		es f f,
 		b8\p b b b b b
-		a a a a a a
-		b b b b b b %145
+		a a a a a a %145
+		b b b b b b
 		a a a a a a
 		b b d d b b
 		es es f f es es
-		d d b' b b, b
-		es4 f f, %150
+		d d b' b b, b %150
+		es4 f f,
 		b'8\f d16 c b8 d f,4\trill
 		g8 b16 a g8 b d,4\trill
 		es8 d16 c f4 f,
-		b'8 d16 c b8 d f,4\trill
-		g8 b16 a g8 b d,4\trill %155
+		b'8 d16 c b8 d f,4\trill %155
+		g8 b16 a g8 b d,4\trill
 		es8 d16 c f4 f,
 		b b8 f b f
 		b4 b b
-		b r r\fermata \bar "||" %159 finis
+		b r r\fermata \bar "||" %160 finis
 	}
 }
 
