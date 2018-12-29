@@ -129,7 +129,7 @@ DixitSopranoNotes = {
 		es \appoggiatura d c2
 		d4 r r
 		R2.
-		es4\fE c2
+		\mvDll es4\fE c2
 		d4 r r %155
 		R2.
 		es4 c2

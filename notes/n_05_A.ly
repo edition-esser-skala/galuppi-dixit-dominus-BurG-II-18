@@ -116,7 +116,7 @@ DixitAltoNotes = {
 		r r f
 		b4. b8 b4 %140
 		b a a
-		b4. c8 b4
+		b4. b8^\critnote b4
 		c \appoggiatura b a2
 		b4 r r
 		r r f\pE %145
@@ -124,11 +124,11 @@ DixitAltoNotes = {
 		r r f
 		b4. b8 b4
 		b a a
-		b4. c8^\critnote b4 %150
+		b4. b8 b4 %150
 		c \appoggiatura b a2^\critnote
 		b4 r r
 		R2.
-		c4\fE a2
+		\mvDll c4\fE a2
 		b4 r r %155
 		R2.
 		c4 \appoggiatura b a2
