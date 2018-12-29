@@ -35,8 +35,8 @@ DixitSopranoNotes = {
 		es( d) c
 		d d2
 		d4 d d
-		d2( e4 %50
-		f e) d
+		d2 e4 %50
+		f e d
 		e? e r
 		e?2.
 		f
@@ -155,8 +155,8 @@ DixitSopranoLyrics = \lyricmode {
 	dex -- tris
 	me -- is,
 	se -- de a
-	dex -- %50
-	tris
+	dex -- _ %50
+	_ _ tris
 	me -- is,
 	se --
 	de
