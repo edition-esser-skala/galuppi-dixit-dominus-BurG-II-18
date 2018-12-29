@@ -43,7 +43,7 @@ DixitAltoNotes = {
 		a4 r a %65
 		b b g
 		c2 c4
-		d( g,2)
+		d \appoggiatura a g2^\critnote
 		a4 r r
 		R2. %70
 		a4\pE a r
@@ -51,7 +51,7 @@ DixitAltoNotes = {
 		a a r
 		r r g
 		a2 f4 %75
-		b( g2)
+		b \appoggiatura a4 g2^\critnote
 		a4 r r
 		\mvDll a\fE a r8 f
 		b b g2
@@ -162,7 +162,7 @@ DixitAltoLyrics = \lyricmode {
 	de a %65
 	dex -- tris, a
 	dex -- tris
-	me --
+	me -- _
 	is,]
 	%70
 	[se -- de
@@ -170,7 +170,7 @@ DixitAltoLyrics = \lyricmode {
 	dex -- tris,
 	a
 	dex -- tris %75
-	me --
+	me -- _
 	is,
 	se -- de a
 	dex -- tris me --

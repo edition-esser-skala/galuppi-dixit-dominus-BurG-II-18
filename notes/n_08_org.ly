@@ -172,7 +172,47 @@ DixitOrgano = {
 }
 
 DixitBassFigures = \figuremode {
-	r2.*41 %41
+	r2.
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r
+	r2 <7>8 <6!>
+	r2. %10
+	<6 4>
+	<7>
+	<6 4>
+	<5 3>
+	r %15
+	<6>
+	r
+	<6>
+	r4 q2
+	r <2>4 %20
+	<6>2.
+	q4 <6 4> <5 3>
+	r2.
+	<6>
+	r %25
+	<6>
+	r4 <6>2
+	r2 <2>4
+	<6>2.
+	q4 <6 4> <5 3> %30
+	r2.
+	r
+	r
+	r
+	r %35
+	r
+	r
+	r
+	r
+	r %40
+	r
 	<6 5>2.
 	r
 	r
@@ -180,7 +220,7 @@ DixitBassFigures = \figuremode {
 	<5 3>2 <6 4>4
 	<7 5> <6 4> <5 3>
 	r2.
-	<6\\ 5->
+	<6\\ 4 3>
 	<5 _!>2 <6! 4>4 %50
 	<7 5 _!> <6! 4> <5 _!>
 	<_!>2.
@@ -199,7 +239,7 @@ DixitBassFigures = \figuremode {
 	r %65
 	r4 <7 _!> <4! 2>
 	<6>2.
-	r4 <4> <_!>
+	r4 <6 4> <5 _!>
 	r2.
 	<6> %70
 	r
@@ -207,7 +247,7 @@ DixitBassFigures = \figuremode {
 	r4 <6>2
 	r4 <_!> <4! 2>
 	<6>2. %75
-	r4 <4> <_!>
+	r4 <6 4> <5 _!>
 	r2.
 	r2 <6>4
 	r <4> <_!>
@@ -231,11 +271,11 @@ DixitBassFigures = \figuremode {
 	<_!>
 	<6 4! 2>
 	<7 5! _+>4 \bassFigureExtendersOn <8 6 _+> <7 5! _+> \bassFigureExtendersOff
-	<9!> <6 4>2 \bassFigureExtendersOn %100
+	<9! 4> <6 4>2 \bassFigureExtendersOn %100
 	q4 \bassFigureExtendersOff r2
 	<6 4 2!>2.
 	<7 5 _!>4 \bassFigureExtendersOn <8 6- _!> <7 5 _!> \bassFigureExtendersOff
-	<9> <8>2
+	<9 4> <8 3>2
 	<7>2. %105
 	<9 4>4 <8 3>2
 	<6\\>2.
