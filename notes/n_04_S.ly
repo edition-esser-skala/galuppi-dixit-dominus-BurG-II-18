@@ -63,7 +63,7 @@ DixitSopranoNotes = {
 		f2 c4 %75
 		d( c2)
 		c4 r r
-		d\fE d r8 c
+		\mvDll d\fE d r8 c
 		d d c2
 		c4 r r %80
 		d d r8 c
@@ -151,7 +151,7 @@ DixitSopranoLyrics = \lyricmode {
 	_
 	
 	o: %45
-	se -- de a
+	Se -- de a
 	dex -- tris
 	me -- is,
 	se -- de a
@@ -205,7 +205,7 @@ DixitSopranoLyrics = \lyricmode {
 	mit -- tet
 	Do -- mi -- nus
 	ex Si --
-	on: do -- mi -- %110
+	on: Do -- mi -- %110
 	na --
 	re in
 	me --
@@ -232,7 +232,7 @@ DixitSopranoLyrics = \lyricmode {
 	do -- ri -- bus san --
 	cto -- rum:] %135
 
-	[ex
+	[Ex
 	u -- te -- ro,
 	ex
 	u -- te -- ro %140

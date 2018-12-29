@@ -53,7 +53,7 @@ DixitAltoNotes = {
 		a2 f4 %75
 		b( g2)
 		a4 r r
-		a\fE a r8 f
+		\mvDll a\fE a r8 f
 		b b g2
 		a4 r r %80
 		a a r8 f
@@ -230,7 +230,7 @@ DixitAltoLyrics = \lyricmode {
 	do -- ri -- bus san --
 	cto -- rum:] %135
 
-	[ex
+	[Ex
 	u -- te -- ro,
 	ex
 	u -- te -- ro %140

@@ -52,7 +52,7 @@ DixitTenoreNotes = {
 		c2 f4 %75
 		f \appoggiatura f e?2
 		f4 r r
-		f\fE f r8 f
+		\mvDll f\fE f r8 f
 		f f \appoggiatura f4 e?2
 		f4 r r %80
 		f f r8 f
@@ -80,7 +80,7 @@ DixitTenoreNotes = {
 		d4 d c
 		b2. %115
 		g'4 g g
-		f2.~
+		f!2.~
 		f~
 		f4 g g
 		f f r %120
@@ -204,7 +204,7 @@ DixitTenoreLyrics = \lyricmode {
 	do -- ri -- bus san --
 	cto -- rum:] %135
 
-	[ex
+	[Ex
 	u -- te -- ro,
 	ex
 	u -- te -- ro %140
