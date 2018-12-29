@@ -111,7 +111,7 @@ DixitViolinoI = {
 		d4 r r
 		f' f f
 		f8 es!16 f g4 f
-		f8^\critnote es es b a g
+		f8[^\critnote es] es b a g
 		fis4 r r %105
 		r r b'~
 		b a g
