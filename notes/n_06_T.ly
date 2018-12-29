@@ -68,7 +68,7 @@ DixitTenoreNotes = {
 		f'4 d c!
 		h h h
 		c g2
-		c4 es!8 d c b %105
+		c4 es!8 d c a^\critnote %105
 		d4 d d
 		g g,2
 		a4. d8 d4
