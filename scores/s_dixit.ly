@@ -81,9 +81,70 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2 JURAVIT DOMINUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JuravitViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JuravitViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\JuravitViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \JuravitSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \JuravitSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \JuravitAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \JuravitAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \JuravitTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \JuravitTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \JuravitBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \JuravitBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JuravitOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JuravitBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2 JURAVIT DOMINUS"
+			movement = "3 DOMINUS A DEXTRIS"
 		}
 		\score {
 			<<
@@ -91,55 +152,37 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JuravitViolinoI
+							\DominusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JuravitViolinoII
+							\DominusViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\JuravitViola
+						\DominusViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \JuravitSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DominusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JuravitSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \JuravitAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \JuravitAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \JuravitTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JuravitTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \JuravitBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JuravitBassoLyrics
+					\new Lyrics \lyricsto Soprano \DominusSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JuravitOrgano
+						\DominusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JuravitBassFigures
+					\DominusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

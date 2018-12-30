@@ -590,6 +590,19 @@ JuravitBassFigures = \figuremode {
 	r4.*4 %300 finis
 }
 
+DominusOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoDominus
+			\set Score.currentBarNumber = #301
+		\mvTr f8\fE-\soloE f f f f f f f
+	}
+}
+
+DominusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

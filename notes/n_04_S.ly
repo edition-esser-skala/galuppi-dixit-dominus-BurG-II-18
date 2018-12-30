@@ -519,6 +519,19 @@ JuravitSopranoLyrics = \lyricmode {
 	dech. %297 finis
 }
 
+DominusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoDominus
+			\set Score.currentBarNumber = #301
+		
+	}
+}
+
+DominusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

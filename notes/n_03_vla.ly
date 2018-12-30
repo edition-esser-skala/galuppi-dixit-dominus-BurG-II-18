@@ -313,3 +313,12 @@ JuravitViola = {
 		f r r\fermata \bar "||" %300 finis
 	}
 }
+
+DominusViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDominus
+			\set Score.currentBarNumber = #301
+		
+	}
+}

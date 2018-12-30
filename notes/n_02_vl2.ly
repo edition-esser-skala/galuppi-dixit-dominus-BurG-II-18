@@ -171,14 +171,6 @@ DixitViolinoII = {
 	}
 }
 
-% ViolinoII = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-
 JuravitViolinoII = {
 	\relative c' {
 		\clef treble
@@ -321,5 +313,14 @@ JuravitViolinoII = {
 		a' f d a f a
 		d,8 d d
 		d r r\fermata \bar "||" %300 finis
+	}
+}
+
+DominusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDominus
+			\set Score.currentBarNumber = #301
+		
 	}
 }

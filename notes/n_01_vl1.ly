@@ -320,6 +320,15 @@ JuravitViolinoI = {
 	}
 }
 
+DominusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDominus
+			\set Score.currentBarNumber = #301
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
