@@ -111,7 +111,7 @@ DixitOrgano = {
 		d4 r r
 		as' as as
 		g2.
-		c8 g' c b a! g
+		c8 g' c b! a! g
 		fis2 fis4 %105
 		g2 g4
 		es2 es4
@@ -182,11 +182,11 @@ DixitBassFigures = \figuremode {
 	r
 	r2 <7>8 <6!>
 	r2. %10
-	<6 4>
-	<7>
-	<6 4>
-	<5 3>
-	r %15
+	<6 4>2 <7! \t>4
+	<8 3>2 <7->4
+	<6 4>2 <7! \t>4
+	<8 3>2 <6>8 q
+	r2. %15
 	<6>
 	r
 	<6>
@@ -231,7 +231,7 @@ DixitBassFigures = \figuremode {
 	<7 _!>
 	<6 4>
 	<\t \t>4 <7 5 _!> <6 4>
-	<\t \t> <5 _!>2 %60
+	<\t \t> <5 _!>8 <6> q <6!> %60
 	r2.
 	<6>
 	r
@@ -265,8 +265,8 @@ DixitBassFigures = \figuremode {
 	r
 	r
 	r
-	<6 5>
-	r %95
+	<6 5>4. <4! 2>8 <6> <6!>
+	r2. %95
 	r
 	<_!>
 	<6 4! 2>
@@ -306,8 +306,8 @@ DixitBassFigures = \figuremode {
 	<6 4>2 <7! 4 2>4
 	<8 3>2.
 	<6 4>2 <7! 4 2>4
-	<8 3>2. %135
-	r
+	<8 3>4. <2>8 <6> q %135
+	r2.
 	<6>
 	r
 	q

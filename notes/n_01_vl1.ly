@@ -97,7 +97,7 @@ DixitViolinoI = {
 		f,8 f16 g a8 f c' c,
 		f f16 g a8 f c' c,
 		d d16 e f8 d a' a,
-		d d16 e f8 d a' a, %90
+		d d16 e? f8 d a' a, %90
 		b b'16 c d8 b f' f,
 		b b16 c d8 b f' f,
 		g g16 a b8 g d' b
@@ -111,7 +111,7 @@ DixitViolinoI = {
 		d4 r r
 		f' f f
 		f8 es!16 f g4 f
-		f8[^\critnote es] es b a g
+		f8[^\critnote es] es b! a! g
 		fis4 r r %105
 		r r b'~
 		b a g
