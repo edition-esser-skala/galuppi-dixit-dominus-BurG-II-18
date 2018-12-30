@@ -596,6 +596,157 @@ DominusOrgano = {
 		\key f \major \time 4/4 \tempoDominus
 			\set Score.currentBarNumber = #301
 		\mvTr f8\fE-\soloE f f f f f f f
+		d d d d d d d d
+		b b b b b b b b
+		a a d d g, g c c
+		f f f f f f f f %305
+		e e e e e e e e
+		f f f f f f f f
+		e e e e e e e e
+		f f f f b b b b
+		a a a a b b h h %310
+		c c, c c c c c c
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		c,8 c c c c c c c
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		c,8 c c c c c c c %315
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		f,4 f, r8 f' c a
+		b4 b' c c,
+		f f, r8 f' c a
+		b4 b' c c, %320
+		f8 c f c f4 r
+		f8\pE f f f f f f f
+		d d d d d d d d
+		b b b b b b b b
+		a a a a g g c c %325
+		f\f f f f f f f f
+		e\p e e e e e e e
+		f\f f f f f f f f
+		e\p e e e e e e e
+		f f f f e e e e %330
+		f r e r d r c r
+		f f f f f f fis fis
+		g g, g g g g g g
+		g g g g g g g g
+		g g g g g g g g %335
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g %340
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		c c c c e e e e %345
+		f f f f g g g g
+		c, c c c a' a a a
+		f f f f g g g g
+		c, c c c d d d d
+		e e e e f f fis fis %350
+		g,16[ a h c d e f g] g,[ a h c d e f g]
+		g,8 g g g g g g g
+		c16[ d e f g a h c] c,[ d e f g a h c]
+		g8 g, g g g g g g
+		c16[ d e f g a h c] c,[ d e f g a h c] %355
+		c,4 r r g
+		c4. c8 d4. d8
+		e e e e e e e e
+		f f f f f f f f
+		e e e e e e e e %360
+		d d d d g g g g
+		c, c c c d d d d
+		e e e e e e e e
+		f f f f f f f f
+		g g g g g, g g g %365
+		c4 f\f e f
+		g8\p g g g g, g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c]
+		c,8 c c c c c c c
+		c16[ d e f g a h c] c,[ d e f g a h c] %370
+		g8 g g g g g g g
+		c, c f f e e f f
+		g g g g g, g g g
+		c g' c g c,4 r
+		c8\pE c c c c c c c %375
+		c' c c c c c c c
+		c c c c c c c c
+		c c c c h h a a
+		h? h h h h h h h
+		h h h h h h h h %380
+		c c c c c c c c
+		c c c c b! b b b
+		a a a a d, d d d
+		g g g g c, c c c
+		f\fE f f f f f f f %385
+		e e e e e\pE e e e
+		f\fE f f f f f f f
+		a a a a a,\p a a a
+		b b b b h\f h[\p h h]
+		c c c c cis\f cis[\p cis cis] %390
+		d d d d d d d d
+		d d d d d d d d
+		g g g g g g g g
+		g g g g g g g g
+		c, c c c c c c c %395
+		c c c c c c c c
+		f f f f f f f f
+		f f f f f f f f
+		b, b b b b b b b
+		c c c c c c c c %400
+		d d d d d d d d
+		e e e e e e e e
+		f4 r r2
+		f4 r r2
+		f8 f f f b b b b %405
+		c c c c c, c c c
+		f,16[\fE g a b c d e f] f,[ g a b c d e f]
+		f,8\pE f f f f f f f
+		f16[\fE g a b c d e f] f,[ g a b c d e f]
+		des8\pE des des des des des des des %410
+		des? des des des des des des des
+		<< {
+			\oneVoice c8 c c c \voiceOne c' c b b
+			as1
+			b4 b b b
+			es,1 %415
+			as4 as as as
+			des,1
+			g4 g g g
+			c,1
+		} \\ {
+			s2 c4 r
+			as'8 as as as as as as as
+			b b b b b b b b
+			es, es es es es es es es %415
+			as as as as as as as as
+			des, des des des des des des des
+			g g g g g g g g
+			c, c c c c c c c
+		} >>
+		f8 f f f f f f f %420
+		h, h h h h h h h
+		c16[ d e f g a! b c] c,[ d e f g a b c]
+		c,8\p c c c c c c c
+		c16[\f d e f g a! b c] c,[ d e f g a b c]
+		c,8\pE c c c c c c c %425
+		c c c c a a a a
+		b b b b b b b b
+		c c c c c c c c
+		d d d d d d d d
+		e e e e e e e e %430
+		f4-! r r2
+		f4-! r r2
+		f8\fE f f f b b b b
+		c\p c c c c, c c c
+		f16[\f g a b c d e f] f,[ g a b c d e f] %435
+		d,[ e f g a b c d] d,[ e f g a b c d]
+		h,[ c d e f e d c] h4 h
+		c1\fermata
+		f4 r8 a, b4-! c-!
+		d-! r8 a b4-! c-! %440
+		f8 c f c f,4 r\fermata \bar "||" %441 finis
 	}
 }
 
