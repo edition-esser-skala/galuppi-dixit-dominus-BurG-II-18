@@ -259,7 +259,7 @@ JuravitAltoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		R1*17 %177
+		\grace s16 R1*17 %177
 		r4 r8 << { \voiceOne \mvTr d'^\pE^\solo d4 b } \\
 			\context Voice = "Alto" { \voiceTwo b8 b4 g } >> \oneVoice 
 		r4 r8 << { \voiceOne c c4 a } \\

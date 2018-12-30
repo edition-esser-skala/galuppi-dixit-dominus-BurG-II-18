@@ -218,7 +218,7 @@ JuravitBassoNotes = {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		R1*20 %180
+		\grace s16 R1*20 %180
 		\mvTr g'4.\fE^\tuttiE g8 g4 g
 		d'2. d4
 		h2 h\fermata

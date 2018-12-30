@@ -339,7 +339,7 @@ JuravitOrgano = {
 		\clef bass
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
-		\mvTr g'4-!\p-\soloE g-! g,-! r
+		\grace s16 \mvTr g'4-!\p-\soloE g-! g,-! r
 		g'-! g-! g,-! r
 		g'-! g-! g-! g-!
 		a-! a-! d,-! d-!
@@ -348,7 +348,7 @@ JuravitOrgano = {
 		r2 \tuplet 3/2 4 { r8 a-! g-! fis-! e-! d-! }
 		r2 \tuplet 3/2 4 { r8 d-! c-! b-! a-! g-! }
 		c4 c c c
-		d es es8.\fE es16 es8. es16 %170
+		d es es8.[\fE es16 es8. es16] %170
 		\tuplet 3/2 4 { d8 a' fis d a d } d2
 		g4\p g g, r
 		g' g g, r

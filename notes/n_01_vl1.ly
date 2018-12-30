@@ -176,7 +176,146 @@ JuravitViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
-		
+		\appoggiatura a'16 \tuplet 3/2 4 { g8\p fis g \appoggiatura a16 g8 fis g g-\parenthesize-! d-! c-! b-! a-! g-! }
+		\appoggiatura c'16 \tuplet 3/2 4 { b8 a b \appoggiatura c16 b8 a b b-\parenthesize-! d,-! c-! b-! a-! g-! }
+		\appoggiatura es''16 \tuplet 3/2 4 { d8 c d \appoggiatura es16 d8 c d r g d b' g d }
+		\appoggiatura d16 \tuplet 3/2 4 { c8 h c \appoggiatura d16 c8 h c r c a a' fis c }
+		\tuplet 3/2 4 { r b d g es cis } d2~ %165
+		d1~
+		d~
+		d
+		\tuplet 3/2 4 { r8 es-! g-! g( c,) es-!\pocoF es( as,) c-! c( as) g-\parenthesize-! }
+		\tuplet 3/2 4 { fis a fis g es d } cis8.[\f cis16 cis8. cis16] %170
+		\tuplet 3/2 4 { d8 a' fis d a d } d2
+		\appoggiatura a'16 \tuplet 3/2 4 { g8\p fis g \appoggiatura a16 g8 fis g g-! d-! c-! b-! a-! g-! }
+		\appoggiatura c'16 \tuplet 3/2 4 { b8 a b \appoggiatura c16 b8 a b b-! d,-! c-! b-! a-! g-! }
+		\appoggiatura es''16 \tuplet 3/2 4 { d8 c d \appoggiatura es16 d8 c d r g\f d b' g d }
+		\appoggiatura d16 \tuplet 3/2 4 { c8\p h c \appoggiatura d16 c8 h c r c\f a a' fis c } %175
+		\appoggiatura c16 \tuplet 3/2 4 { b8\p a b \appoggiatura c16 b8 a b r d\f b g' d b }
+		\tuplet 3/2 4 { r b'\p fis g es cis } d2~
+		d1~
+		d~
+		d2~ d4 r %180
+		d4.\f d8 d4 d
+		f2. f4
+		f2 f\fermata
+		\appoggiatura f16 \tuplet 3/2 4 { es8\p d es \appoggiatura f16 es8 d es es-! g,-! f-! es-! d-! c-! }
+		\appoggiatura d'16 \tuplet 3/2 4 { c8 b c \appoggiatura d16 c8 b c c-! es,-! d-! c-! b-! a-! } %185
+		\appoggiatura es''16 \tuplet 3/2 4 { d8 c d \appoggiatura es16 d8 c d d-! b-! a-! g-! f-! e-! }
+		\tuplet 3/2 4 { f f f f f f } f4 r
+		\appoggiatura g'16 \tuplet 3/2 4 { f8 e f \appoggiatura g16 f8 e f r f\f d d' b f }
+		\appoggiatura f16 \tuplet 3/2 4 { es8\p d es \appoggiatura f16 es8 d es r es\f c c' a es }
+		\appoggiatura es16 \tuplet 3/2 4 { d8\p cis d \appoggiatura es16 d8 cis d r f\f d gis f f } %190
+		f4 e8 d e e e e \noBreak
+		e1 \bar "||"
+		\key d \minor \time 3/8 a,4.\p \noBreak
+		a
+		a %195
+		a4 d,8
+		f e d
+		a'4 a'8\fE
+		a a, a'
+		a a, a' %200
+		g \appoggiatura f e4
+		f16 a, a f f d
+		d8 r r
+		c'4.\p
+		c %205
+		c
+		c4 f,8
+		a g f
+		c'4 c'8\f
+		c c, c' %210
+		c c, c'
+		b \appoggiatura a g4
+		a16 c, c a a f
+		f4 r8
+		r8 a' h %215
+		c4.~
+		c8 g a
+		b!4 f8
+		b4.
+		a8 f^\critnote g %220
+		a4.
+		g16 c, c c c c
+		c' c, b' c, a' c,
+		g' c, c c c c
+		c' c, b' c, a' c, %225
+		g' c, c c c c
+		d d f f a a
+		b8 a g
+		c b a
+		d c b %230
+		a \appoggiatura a g4
+		f8 f, r
+		c'4.\p
+		c
+		c %235
+		c4 r8
+		r c'\f a
+		g c a
+		g c a
+		g c, r %240
+		d4.\p
+		d
+		d
+		d4 r8
+		r d'\f b %245
+		a d b
+		a d b
+		a d, r
+		g4.
+		fis8 d e %250
+		f4 f8
+		e4 r8
+		c'4.
+		h8 g a
+		b4 b8 %255
+		a4.~
+		a8 a b
+		a a, a'
+		gis16 gis gis gis gis gis
+		a a, a a a a %260
+		a' a, g' a, f' a,
+		e' a, a a a a
+		a' a, g' a, f' a,
+		e' a a,8 r
+		r a d %265
+		d([ cis)] e
+		e([ d)] f
+		f([ e)] g
+		g([ e)] f~
+		f b g %270
+		\appoggiatura f e4 f8
+		g \appoggiatura f e4
+		d16 d, d d d d
+		d'' d, c' d, b' d,
+		a' <d, d,> q q q q %275
+		d' d, c' d, b' d,
+		a' <d, d,> q q q q
+		a' a, g' a, f'! a,
+		e' a, a a a a
+		a' a, g' a, f' a, %280
+		e' a, a e e cis
+		a4 r8
+		r a' d
+		d([ cis)] e
+		e([ d)] f %285
+		f([ e)] g
+		g([ e)] f~
+		f b g
+		e16 cis a' e f d
+		g,8 a a, %290
+		d'16 a f a d a
+		b g b d g d
+		cis8 e f
+		a, e' f
+		e16 a, cis e f d %295
+		a' f e8[ cis]
+		d16 d, f a d a
+		a' f d a f a
+		d,8 d d
+		d r r\fermata \bar "||" %300 finis
 	}
 }
 

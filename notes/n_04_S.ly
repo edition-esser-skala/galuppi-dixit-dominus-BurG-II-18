@@ -261,7 +261,7 @@ JuravitSopranoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		R1*10 %170
+		\grace s16 R1*10 %170
 		r2 r4 r8 r16 \mvTr g'\pE^\solo
 		g4.( a8) g4 r
 		r4 r8 g b4 d
