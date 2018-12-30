@@ -339,7 +339,144 @@ JuravitOrgano = {
 		\clef bass
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
-		r4 \mvTr g'-.\p-\soloE g-. g,-.
+		\mvTr g'4-!\p-\soloE g-! g,-! r
+		g'-! g-! g,-! r
+		g'-! g-! g-! g-!
+		a-! a-! d,-! d-!
+		g-! es-! d-! r %165
+		r2 \tuplet 3/2 4 { r8 d'-! c-! b-! a-! g-! }
+		r2 \tuplet 3/2 4 { r8 a-! g-! fis-! e-! d-! }
+		r2 \tuplet 3/2 4 { r8 d-! c-! b-! a-! g-! }
+		c4 c c c
+		d es es8.\fE es16 es8. es16 %170
+		\tuplet 3/2 4 { d8 a' fis d a d } d2
+		g4\p g g, r
+		g' g g, r
+		g' g g g
+		a a d, d %175
+		g g g g
+		es es d r
+		r2 \tuplet 3/2 4 { r8 d'-! c-! b-! a-! g-! }
+		r2 \tuplet 3/2 4 { r8 a-! g-! fis-! e-! d-! }
+		r2 \tuplet 3/2 4 { r8 d-! c-! b-! a-! g-! } %180
+		\mvTr g'4\f-\tuttiE g g g
+		d2. d4
+		h1\fermata
+		\mvTr c'4\p-\soloE c c, r
+		f f f, r %185
+		e' e e, r
+		f' f f r
+		r b-\tuttiE b b
+		r f f f
+		r b, b b %190
+		a1~
+		a \bar "||"
+		\key d \minor \time 3/8 R4.*5 %197
+		r8 r \mvTr d\f-\tuttiE
+		cis a d
+		cis? a d %200
+		g a a,
+		d d, d
+		d4 r8
+		R4.*5 %208
+		r8 r \mvTr f'\fE-\tuttiE
+		e c f %210
+		e c f
+		b, c c,
+		f f f
+		f4 r8
+		\clef treble << {
+			f'''4. %215
+			e8 c d
+			es4.
+			d4 r8
+		} \\ {
+			r8 a h %215
+			c4.~
+			c8 g a
+			b!4 r8
+		} >>
+		\clef bass r8 d,, e!
+		f4.~ %220
+		f8 a h
+		c c, c
+		c4.
+		c8 c' c,
+		c4. %225
+		c8 c' c,
+		r b! a
+		g c b
+		a d c
+		b a b %230
+		c c, c
+		f4 r8
+		R4.*4 %236
+		r8 a h
+		c a h
+		c a h
+		c c, c %240
+		R4.*4
+		r8 b'! c %245
+		d b c
+		d b c
+		d d, r
+		\clef treble << {
+			r8 b''' c
+			d4.~ %250
+			d8 a h
+			c4.
+		} \\ {
+			g4.
+			fis8 d e %250
+			f4.
+			e
+		} >>
+		\clef bass r8 e, fis
+		g4.~
+		g8 b, c %255
+		d4.~
+		d8 f g
+		a4 a,8
+		b4.
+		a8 a' a, %260
+		a4.
+		a8 a' a,
+		a4.
+		a8 r r
+		R4.*2 %266
+		d4.
+		e
+		f
+		g4 g8 %270
+		a g f
+		g a a,
+		d4.
+		g8 d' g,
+		d4 r8 %275
+		g d' g,
+		d4 r8
+		d cis d
+		a4 r8
+		d a' d, %280
+		a' a, a
+		a4 r8
+		R4.*2
+		d4. %285
+		e
+		f
+		g4 g8
+		a g f
+		g a a, %290
+		d4 r8
+		g4 g,8
+		a cis d
+		a cis? d
+		a'4 d,8~ %295
+		d a'[ a,]
+		d d d
+		d d d
+		d d d
+		d r r\fermata \bar "||" %300 finis
 	}
 }
 
