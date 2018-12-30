@@ -379,9 +379,9 @@ JuravitAltoLyrics = \lyricmode {
 	
 	[et non %188
 	poe -- ni --
-	te -- bit %190
+	te -- bit] %190
 	e --
-	um:]
+	um:
 	
 	[Se -- %198
 	cun -- dum

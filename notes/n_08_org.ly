@@ -371,7 +371,7 @@ JuravitOrgano = {
 		r b, b b %190
 		a1~ \noBreak
 		a \bar "||"
-		\key d \minor \time 3/8 R4.*5 %197
+		\key d \minor \time 3/8 \newSpacingSection R4.*5 %197
 		r8 r \mvTr d\f-\tuttiE
 		cis a d
 		cis? a d %200

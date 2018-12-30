@@ -233,12 +233,191 @@ JuravitTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		
+		R1*20 %180
+		\mvTr d4.\fE^\tuttiE d8 d4 d
+		f2. f4
+		f2 f\fermata
+		R1*4 %187
+		r2 f4. f8
+		f2. f4
+		f2. f4 %190
+		f4( e8[ d] e2) \noBreak
+		e?1 \bar "||"
+		\key d \minor \time 3/8 R4.*5 %197
+		r8 r \mvTr d\fE^\tuttiE
+		e4 d8
+		e4 f8 %200
+		g \appoggiatura f e4
+		f8. d16 d8
+		R4.*6 %208
+		r8 r f
+		g4 f8 %210
+		g4 f8
+		d c4
+		c8. c16 c8
+		R4.*5 %218
+		r8 f([ g)]
+		c,4.~ %220
+		c8 c([ d)]
+		e4 e8
+		f g f
+		e4 e8
+		f([ g)] f %225
+		e e e
+		d4.
+		g
+		f4 f8
+		d4 d8 %230
+		c c4
+		c r8
+		R4.*4 %236
+		r8 f f
+		e f f
+		e f4
+		e e8 %240
+		R4.*4
+		r8 g g %245
+		fis g g
+		fis g4
+		fis?8 fis r
+		R4.*4 %252
+		r8 g([ a)]
+		d,4.~
+		d8 d([ g)] %255
+		d4.~
+		d
+		cis8[ d] e
+		d([ f)] d
+		e4 e8 %260
+		f g f
+		e4 e8
+		f([ g)] f
+		e4 e8
+		R4.*2 %266
+		r8 a,8([ d)]
+		d([ cis)] e
+		e[ cis \once \tieDashed d]~
+		d4 g8 %270
+		e4 f8
+		e e4
+		f4 r8
+		R4.
+		fis4 r8 %275
+		g fis? g
+		fis?4 fis8
+		R4.
+		e4 r8
+		f! e f %280
+		e4 e8
+		R4.*3
+		r8 a,8([ d)] %285
+		d([ cis)] e
+		e[ cis \once \tieDashed d]~
+		d4 g8
+		e4 f8
+		e e4 %290
+		f4 r8
+		r r g
+		e4 f8
+		e4 f8
+		e4 f8~ %295
+		f e8. e16
+		f4 r8
+		R4.*2
+		R4.\fermataMarkup \bar "||" %300 finis
 	}
 }
 
 JuravitTenoreLyrics = \lyricmode {
+	[Et non poe -- ni -- %181
+	te -- bit
+	e -- um,]
 	
+	[et non %188
+	poe -- ni --
+	te -- bit] %190
+	e --
+	um:
+	
+	[Se -- %198
+	cun -- dum
+	or -- di -- %200
+	nem Mel --
+	chi -- se -- dech,]
+	
+	[se -- %209
+	cun -- dum %210
+	or -- di --
+	nem Mel --
+	chi -- se -- dech,]
+	
+	tu __ %219
+	es __ %220
+	sa --
+	cer -- dos,
+	tu es sa --
+	cer -- dos
+	in __ ae -- %225
+	ter -- num se --
+	cun --
+	dum
+	or -- di --
+	nem Mel -- %230
+	chi -- se --
+	dech,
+	
+	[in ae -- %237
+	ter -- num, tu
+	es sa --
+	cer -- dos,] %240
+	
+	[in ae -- %245
+	ter -- num, tu
+	es sa --
+	cer -- dos,]
+	
+	tu __ %253
+	es __
+	sa -- %255
+	cer --
+	
+	_ dos
+	in __ ae --
+	ter -- num, %260
+	tu es sa --
+	cer -- dos
+	in ae --
+	ter -- num,
+	
+	se -- %267
+	cun -- dum
+	or --
+	di -- %270
+	nem Mel --
+	chi -- se --
+	dech,
+	
+	[tu, %275
+	tu es sa --
+	cer -- dos,]
+	
+	[tu,
+	tu es sa -- %280
+	cer -- dos]
+	
+	se -- %284
+	cun -- dum %285
+	or --
+	[di --
+	nem Mel --
+	chi -- se -- %290
+	dech,
+	se --
+	cun -- dum
+	or -- di --
+	nem Mel -- %295
+	chi -- se --
+	dech.] %297 finis
 }
 
 % TenoreNotes = {
