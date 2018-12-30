@@ -216,9 +216,9 @@ JuravitViolinoII = {
 		\appoggiatura g16 \tuplet 3/2 4 { f8\p e f \appoggiatura g16 f8 e f r d'\f d, d' d d } %190
 		d2~ d8 d cis h \noBreak
 		cis1 \bar "||"
-		\key d \minor \time 3/8 f,8(\p g) e-! \noBreak
-		f( g) e-!
-		f( g) e-! %195
+		\key d \minor \time 3/8 f,8([\p g)] e-! \noBreak
+		f([ g)] e-!
+		f([ g)] e-! %195
 		f4 a8~
 		a gis gis
 		a4 f'8\fE
@@ -227,11 +227,11 @@ JuravitViolinoII = {
 		e \appoggiatura d cis4
 		d16 a a f f d
 		d8 r r
-		a'8(\p b) g-!
-		a( b) g-! %205
-		a( b) g-!
+		a'8([\p b)] g-!
+		a([ b)] g-! %205
+		a([ b)] g-\parenthesize-!
 		a4 c8~
-		c b? a
+		c h h
 		c4 a'8\f
 		g e a %210
 		g e a
@@ -255,17 +255,17 @@ JuravitViolinoII = {
 		g a g %230
 		f \appoggiatura f e4
 		f8 f, r
-		a8(\p b) g-!
-		a( b) g-!
-		a( b) g-! %235
+		a8([\p b)] g-!
+		a([ b)] g-!
+		a([ b)] g-! %235
 		a4 r8
 		r a'\f f
 		e a f
 		e a f
 		e4 r8 %240
-		b8(\p c) a-!
-		b( c) a-!
-		b( c) a-!
+		b8([\p c)] a-!
+		b([ c)] a-!
+		b([ c)] a-!
 		b4 r8
 		r b'\f g %245
 		fis b g

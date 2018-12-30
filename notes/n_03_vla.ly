@@ -185,5 +185,138 @@ JuravitViola = {
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
 		\grace s16 b4-!\pE b-! b-! r
+		d4-! d-! d-! r
+		g-! g-! b g
+		es es d d
+		d g fis r %165
+		\tuplet 3/2 4 { \appoggiatura a16 g8 fis g \appoggiatura a16 g8 fis g } g2
+		\tuplet 3/2 4 { \appoggiatura b16 a8-\critnote gis? a \appoggiatura b16 a8 gis? a } a2
+		\tuplet 3/2 4 { \appoggiatura a16 g8-\critnote fis g \appoggiatura a16 g8 fis g } g2
+		es4 es es es
+		d b g8.[\fE g16 g8. g16] %170
+		\tuplet 3/2 4 { fis8 a'-! fis-! d-! a-! d-! } d2
+		d4\pE d d r
+		d d d r
+		g g g g
+		fis fis fis fis %175
+		g d d b
+		g g' fis r
+		\tuplet 3/2 4 { \appoggiatura a16 g8 fis g \appoggiatura a16 g8 fis g } g2
+		\tuplet 3/2 4 { \appoggiatura b16 a8 gis? a \appoggiatura b16 a8 gis? a } a2
+		\tuplet 3/2 4 { \appoggiatura a16 g8 fis g \appoggiatura a16 g8 fis g } g2 %180
+		g4.\fE g8 g4 g
+		as2. as4
+		g2 g\fermata
+		g4\pE g g, r
+		f' f f, r %185
+		g' g g, r
+		a a a r
+		r f' f f
+		r f f a
+		r gis gis gis %190
+		a1~ \noBreak
+		a \bar "||"
+		\key d \minor \time 3/8 d,8([\p e)] cis-! \noBreak
+		d([ e)] cis-!
+		d([ e)] cis-! %195
+		d d c
+		b4.
+		a4 d8\fE
+		cis a d
+		cis? a d %200
+		b' a a
+		a f d
+		d r r
+		f([\pE g)] e-!
+		f([ g)] e-! %205
+		\once \tieDashed f([ g)] e-\parenthesize-!
+		f f e
+		d4.
+		c4 f8\fE
+		e c f %210
+		e c f
+		d' c c
+		c a f
+		f4 r8
+		R4.*4 %218
+		r8 f g
+		c,4 d8 %220
+		c c d
+		e g e
+		f g a
+		c g e
+		f g a %225
+		c g e
+		f b, a
+		g c b
+		a d c
+		b a b %230
+		c c c
+		a4 r8
+		f'([\pE g)] e-\parenthesize-!
+		f([ g)] e-\parenthesize-!
+		f([ g)] e-\parenthesize-! %235
+		f4 r8
+		r a,\fE h
+		c a h
+		c a h
+		c4 r8 %240
+		g'([\pE a)] fis-\parenthesize-!
+		g([ a)] fis?-\parenthesize-!
+		g([ a)] fis-\parenthesize-!
+		g4 r8
+		r b,\fE c %245
+		d b c
+		d b c
+		d4 r8
+		R4.*4 %252
+		r8 g a
+		d,4.~
+		d8 d g %255
+		d4.~
+		d
+		cis8 d e
+		d f d
+		e cis a %260
+		a4.
+		a'8 e cis
+		a4.
+		a8 r r
+		d4. %265
+		e
+		f
+		g
+		a
+		b4 b8 %270
+		a4 a8
+		b a a
+		f4 r8
+		g fis g
+		d'4 r8 %275
+		g, fis g
+		d'4 r8
+		d, cis d
+		a'4 r8
+		a a a %280
+		a cis, a
+		a r r
+		d4.
+		e
+		f %285
+		g
+		a
+		b4 b8
+		a4 a8
+		g a a, %290
+		f4 r8
+		d' g g
+		e cis d
+		a cis d
+		a4 a'8~ %295
+		a a[ a,]
+		a a a
+		f f f
+		f f f
+		f r r\fermata \bar "||" %300 finis
 	}
 }

@@ -495,7 +495,7 @@ JuravitBassFigures = \figuremode {
 	r
 	r
 	r
-	<7>2 <7 _+> %175
+	<6\\>2 <7 _+> %175
 	r1
 	<6\\>2 <_+>
 	r2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
