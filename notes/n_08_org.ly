@@ -236,8 +236,8 @@ DixitBassFigures = \figuremode {
 	<6>
 	r
 	<6>
-	r %65
-	r4 <7 _!> <4! 2>
+	r4 <6> r %65
+	r <7 _!> <4! 2>
 	<6>2.
 	r4 <6 4> <5 _!>
 	r2.

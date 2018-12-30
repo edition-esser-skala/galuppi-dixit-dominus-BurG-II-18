@@ -6,7 +6,7 @@
 
 DixitViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 3/4 \tempoDixit
 		b'8\fE b16 c d8 b f' f,
 		b b16 c d8 b f' f,
@@ -76,7 +76,7 @@ DixitViola = {
 		f f c' c g g
 		a a f f c c
 		d4 f e
-		a8\pE a a a a a
+		a8 a a\pE a a a
 		g g g g g g %70
 		a a a a a a
 		g g g g g g
