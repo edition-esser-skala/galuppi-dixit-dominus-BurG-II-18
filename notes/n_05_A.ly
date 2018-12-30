@@ -275,7 +275,7 @@ JuravitAltoNotes = {
 		a1 \noBreak
 		a \bar "||"
 		\key d \minor \time 3/8 R4.*5 %197
-		r8 r \mvTr a\fE^\tuttiE
+		r8 r a
 		a4 a8
 		a4 a8 %200
 		b a4

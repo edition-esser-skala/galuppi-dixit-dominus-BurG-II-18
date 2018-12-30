@@ -244,7 +244,7 @@ JuravitTenoreNotes = {
 		f4( e8[ d] e2) \noBreak
 		e?1 \bar "||"
 		\key d \minor \time 3/8 R4.*5 %197
-		r8 r \mvTr d\fE^\tuttiE
+		r8 r d
 		e4 d8
 		e4 f8 %200
 		g \appoggiatura f e4
