@@ -213,6 +213,19 @@ DixitBassoLyrics = \lyricmode {
 	te. %158 finis
 }
 
+JuravitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
+			\set Score.currentBarNumber = #161
+		
+	}
+}
+
+JuravitBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

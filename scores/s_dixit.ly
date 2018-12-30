@@ -14,9 +14,76 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "1 DIXIT DOMINUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DixitViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DixitViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DixitViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \DixitSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DixitSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \DixitAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DixitAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \DixitTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DixitTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DixitBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DixitBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DixitOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DixitBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1 DIXIT DOMINUS"
+			movement = "2 JURAVIT DOMINUS"
 		}
 		\score {
 			<<
@@ -24,61 +91,55 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DixitViolinoI
+							\JuravitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DixitViolinoII
+							\JuravitViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DixitViola
+						\JuravitViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \DixitSopranoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \JuravitSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DixitSopranoLyrics
+					\new Lyrics \lyricsto Soprano \JuravitSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \DixitAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \JuravitAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DixitAltoLyrics
+					\new Lyrics \lyricsto Alto \JuravitAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \DixitTenoreNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \JuravitTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DixitTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JuravitTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DixitBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \JuravitBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DixitBassoLyrics
+					\new Lyrics \lyricsto Basso \JuravitBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DixitOrgano
+						\JuravitOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DixitBassFigures
+					\JuravitBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

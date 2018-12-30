@@ -254,6 +254,19 @@ DixitAltoLyrics = \lyricmode {
 	te.] %158 finis
 }
 
+JuravitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
+			\set Score.currentBarNumber = #161
+		
+	}
+}
+
+JuravitAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

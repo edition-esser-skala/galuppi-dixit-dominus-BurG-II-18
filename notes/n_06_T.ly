@@ -228,6 +228,19 @@ DixitTenoreLyrics = \lyricmode {
 	te.] %158 finis
 }
 
+JuravitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
+			\set Score.currentBarNumber = #161
+		
+	}
+}
+
+JuravitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

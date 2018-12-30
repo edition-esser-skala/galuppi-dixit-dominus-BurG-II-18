@@ -196,6 +196,7 @@ tempoMarkup =
 %
 
 tempoDixit = \tempoMarkup "Allegro"
+tempoJuravit = \tempoMarkup "Andante"
 
 
 

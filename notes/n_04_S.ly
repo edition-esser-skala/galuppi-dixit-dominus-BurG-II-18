@@ -256,6 +256,19 @@ DixitSopranoLyrics = \lyricmode {
 	te.] %158 finis
 }
 
+JuravitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
+			\set Score.currentBarNumber = #161
+		
+	}
+}
+
+JuravitSopranoLyrics = \lyricmode {
+% 	Juravit Dominus et non poenitebit eum: tu es sacerdos in aeternum secundum ordinem Melchisedech
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

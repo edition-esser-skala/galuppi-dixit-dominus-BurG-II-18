@@ -334,6 +334,19 @@ DixitBassFigures = \figuremode {
 	r %160 finis
 }
 
+JuravitOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoJuravit
+			\set Score.currentBarNumber = #161
+		r4 \mvTr g'-.\p-\soloE g-. g,-.
+	}
+}
+
+JuravitBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

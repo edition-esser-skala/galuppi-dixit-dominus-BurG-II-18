@@ -178,3 +178,12 @@ DixitViola = {
 % 		
 % 	}
 % }
+
+JuravitViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoJuravit
+			\set Score.currentBarNumber = #161
+		
+	}
+}
