@@ -233,7 +233,8 @@ JuravitTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		\grace s16 R1*20 %180
+		\grace s16
+			R1*20 %180
 		\mvTr d4.\fE^\tuttiE d8 d4 d
 		f2. f4
 		f2 f\fermata

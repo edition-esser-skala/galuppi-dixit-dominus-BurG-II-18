@@ -176,7 +176,8 @@ JuravitViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
-		\appoggiatura a'16 \tuplet 3/2 4 { g8\p fis g \appoggiatura a16 g8 fis g g-\parenthesize-! d-! c-! b-! a-! g-! }
+		\appoggiatura a'16
+			\tuplet 3/2 4 { g8\p fis g \appoggiatura a16 g8 fis g g-\parenthesize-! d-! c-! b-! a-! g-! }
 		\appoggiatura c'16 \tuplet 3/2 4 { b8 a b \appoggiatura c16 b8 a b b-\parenthesize-! d,-! c-! b-! a-! g-! }
 		\appoggiatura es''16 \tuplet 3/2 4 { d8 c d \appoggiatura es16 d8 c d r g d b' g d }
 		\appoggiatura d16 \tuplet 3/2 4 { c8 h c \appoggiatura d16 c8 h c r c a a' fis c }

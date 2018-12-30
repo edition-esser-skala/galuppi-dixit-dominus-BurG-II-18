@@ -171,20 +171,13 @@ DixitViola = {
 	}
 }
 
-% Viola = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-
 JuravitViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoJuravit
 			\set Score.currentBarNumber = #161
-		\grace s16 b4-!\pE b-! b-! r
+		\grace s16
+			b4-!\pE b-! b-! r
 		d4-! d-! d-! r
 		g-! g-! b g
 		es es d d
