@@ -369,7 +369,7 @@ JuravitOrgano = {
 		r b-\tuttiE b b
 		r f f f
 		r b, b b %190
-		a1~
+		a1~ \noBreak
 		a \bar "||"
 		\key d \minor \time 3/8 R4.*5 %197
 		r8 r \mvTr d\f-\tuttiE
