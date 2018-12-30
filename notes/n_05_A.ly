@@ -259,12 +259,219 @@ JuravitAltoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoJuravit
 			\set Score.currentBarNumber = #161
-		
+		R1*17 %177
+		r4 r8 << { \voiceOne \mvTr d'^\pE^\solo d4 b } \\
+			\context Voice = "Alto" { \voiceTwo b8 b4 g } >> \oneVoice 
+		r4 r8 << { \voiceOne c c4 a } \\
+			\context Voice = "Alto" { \voiceTwo a8 a4 fis } >> \oneVoice
+		R1 %180
+		\mvTr g4.\fE^\tuttiE g8 g4 g
+		as2. as4
+		g2 g\fermata
+		R1*4 %187
+		r2 b4. b8
+		a2. a4
+		gis2. gis4 %190
+		a1 \noBreak
+		a \bar "||"
+		\key d \minor \time 3/8 R4.*5 %197
+		r8 r \mvTr a\fE^\tuttiE
+		a4 a8
+		a4 a8 %200
+		b a4
+		a8. f16 f8
+		R4.*6 %208
+		r8 r a
+		g([ e)] a %210
+		g([ e)] a
+		g \appoggiatura f e4
+		f8. f16 f8
+		R4.
+		r8 a([ h?)] %215
+		c4.~
+		c8 g8([ a)]
+		b!4 f8
+		b4.
+		a8([ f)] g %220
+		a4 a8
+		g4 g8
+		a([ b)] a
+		g4 g8
+		a([ b)] a %225
+		g g g
+		f4.(
+		b8[ a)] g
+		c([ b)] a
+		g([ a)] g %230
+		f \appoggiatura f e4
+		f r8
+		R4.*4 %236
+		r8 a a
+		g a a
+		g a4
+		g g8 %240
+		R4.*4
+		r8 b b %245
+		a b b
+		a b4
+		a8 a r
+		g4.
+		fis8([ d)] e %250
+		f4 f8
+		e4.
+		c'
+		h8([ g)] a
+		b4 b8 %255
+		a4.~
+		a8 a([ b)]
+		a4.(
+		gis4) gis8
+		a4 r8 %260
+		a4.
+		a
+		a
+		a4 a8
+		d,4. %265
+		e
+		f
+		g
+		a
+		b4 b8 %270
+		a4 a8
+		b a4
+		a r8
+		R4.
+		a4 r8 %275
+		b a b
+		a4 a8
+		R4.
+		a4 r8
+		a a a %280
+		a4 a8
+		R4.
+		d,
+		e
+		f %285
+		g
+		a
+		b4 b8
+		a4 a8
+		b a4 %290
+		a r8
+		r r b
+		a4 a8
+		a4 a8
+		a4 a8~ %295
+		a a8. a16
+		a4 r8
+		R4.*2
+		R4.\fermataMarkup \bar "||" %300 finis
 	}
 }
 
 JuravitAltoLyrics = \lyricmode {
+	Ju -- ra -- vit, %178
+	ju -- ra -- vit,
+	%180
+	et non poe -- ni --
+	te -- bit
+	[e -- um,]
 	
+	[et non %188
+	poe -- ni --
+	te -- bit %190
+	e --
+	um:]
+	
+	[Se -- %198
+	cun -- dum
+	or -- di -- %200
+	nem Mel --
+	chi -- se -- dech,]
+	
+	[se -- %209
+	cun -- dum %210
+	or -- di --
+	nem Mel --
+	chi -- se -- dech,]
+	
+	tu __ %215
+	es __
+	sa --
+	cer -- dos
+	se --
+	cun -- dum %220
+	or -- di --
+	nem, tu
+	es __ sa --
+	cer -- dos
+	in __ ae -- %225
+	ter -- num se --
+	cun --
+	dum
+	or -- di --
+	nem Mel -- %230
+	chi -- se --
+	dech,
+	
+	[in ae -- %237
+	ter -- num, tu
+	es sa --
+	cer -- dos,] %240
+	
+	[in ae -- %245
+	ter -- num, tu
+	es sa --
+	cer -- dos,]
+	se --
+	cun -- dum %250
+	or -- di --
+	nem,
+	se --
+	cun -- dum
+	or -- di -- %255
+	nem __
+	Mel --
+	chi --
+	se --
+	dech, %260
+	tu
+	es
+	sa --
+	cer -- dos
+	se -- %265
+	cun --
+	dum
+	or --
+	_
+	_ di -- %270
+	nem Mel --
+	chi -- se --
+	dech,
+	
+	[tu, %275
+	tu es sa --
+	cer -- dos,]
+	
+	[tu,
+	tu es sa -- %280
+	cer -- dos]
+	
+	se --
+	cun --
+	dum %285
+	or --
+	_
+	_ [di --
+	nem Mel --
+	chi -- se -- %290
+	dech,
+	se --
+	cun -- dum
+	or -- di --
+	nem Mel -- %295
+	chi -- se --
+	dech.] %297 finis
 }
 
 % AltoNotes = {

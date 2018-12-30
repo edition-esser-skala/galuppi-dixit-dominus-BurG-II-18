@@ -404,7 +404,7 @@ JuravitOrgano = {
 		c8 c' c,
 		c4. %225
 		c8 c' c,
-		r b! a
+		r b a
 		g c b
 		a d c
 		b a b %230
