@@ -405,8 +405,8 @@ JuravitTenoreLyrics = \lyricmode {
 	tu es sa -- %280
 	cer -- dos]
 	
-	se -- %284
-	cun -- dum %285
+	se -- %285
+	cun -- dum
 	or --
 	[di --
 	nem Mel --

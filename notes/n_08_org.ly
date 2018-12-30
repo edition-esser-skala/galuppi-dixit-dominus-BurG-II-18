@@ -481,7 +481,112 @@ JuravitOrgano = {
 }
 
 JuravitBassFigures = \figuremode {
-	
+	r1 %161
+	r
+	r
+	<7>2 <7 _+>
+	r4 <6\\> <_+>2 %165
+	r2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6->4 <5>
+	<_+>2 <6\\> %170
+	<_+>1
+	r
+	r
+	r
+	<7>2 <7 _+> %175
+	r1
+	<6\\>2 <_+>
+	r2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %180
+	r1
+	<6 5->
+	<6 5>
+	r
+	r %185
+	<7>
+	r
+	r
+	r
+	r4 <6\\>2. %190
+	<6 4>2 <5! 4>4 \bassFigureExtendersOn <5! _+>8 <5! 2>
+	<5! _+>1 \bassFigureExtendersOff
+	r4.*6 %198
+	<6>8 <_+> r
+	<6> <_+> r %200
+	<6> <6 4> <5 _+>
+	r4.*8 %209
+	<6>4. %210
+	q
+	q8 <6 4> <5 3>
+	r4.*6 %218
+	r8 <6> <\t>
+	r4. %220
+	r8 <6> <7>
+	r4.
+	<6 4>
+	<5 3>
+	<6 4> %225
+	<5 3>
+	r8 <5> <\t>
+	<6>4 \bassFigureExtendersOn q8
+	<6\!>4 <6>8
+	<6\!>4 <6>8 \bassFigureExtendersOff %230
+	<6 4>4 <5 3>8
+	r4.*5 %236
+	r8 <6> <7>
+	r <6> <7>
+	r <6> <7>
+	r4.*5 %244
+	r8 <6> <7 _-> %245
+	<_+> <6> <7 _->
+	<_+> <6> <7 _->
+	<_+>4.
+	r4.*4 %252
+	r8 <6> <\t>
+	<_!>4.
+	<_->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %255
+	<_+>4.
+	<_!>8 <6> <7>
+	<_+>4.
+	<6\\>
+	<5 _+> %260
+	<6 4>
+	<5 _+>
+	<6 4>
+	<5 _+>
+	r4.*2 %266
+	<9>8 <8>4
+	<7>8 <6\\>4
+	<7> <6>8
+	<7> <6> <5> %270
+	<_+> <\t> <6>
+	<6 5> <_+>4
+	r4.
+	r8 <_+> r
+	<_+>4. %275
+	r8 <_+> r
+	<_+>4.
+	<_!>8 <6 5> r
+	<_+>4.
+	r8 <_+> r %280
+	<_+>4.
+	r4.*3
+	<9>8 <8>4 %285
+	<7>8 <6\\>4
+	<7> <6>8
+	<7> <6> <5>
+	<_+> <\t> <6>
+	<6 5> <_+>4 %290
+	r4.
+	r
+	<_+>8 <6> r
+	<_+> <6> r
+	<_+>4 r8 %295
+	r <_+>4
+	r4.*4 %300 finis
 }
 
 % Organo = {
