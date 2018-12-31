@@ -764,12 +764,62 @@ JudicabitSopranoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		
+		R1*4 %445
+		\mvTr b'2.~\pE^\soloE b8 a16([ g)]
+		g([ f8.)] f4 r c'8. es,16
+		d8.([ es16)] f4 r8 b16([ g)] f8 es
+		d8.[ es16] f4~ f8[ b16 g] f8 \appoggiatura f32 \tuplet 3/2 8 { es16[ d] es }
+		d4 r r2 %450
+		r r8 d' d d
+		c a4 b16.[ c32] b8 g4 b16.[ c32]
+		a8 c4 b16.[ a32] d8[ e f a,]
+		a8. g16 g4 r2
+		r8 g16([ a)] b8 b a c4 b16.[\trill a32] %455
+		g8 b4 a16.[\trill g32] a16.[ b32 c8] r c
+		d d4 e8 f8.[ c16] d[ b a g]
+		f8.[ g16] g8.\trill f16 f4 r
+		R1*2 %460
+		f4. c'16([ a)] a([ g)] g4.
+		g d'16([ b)] b([ a)] a4.
+		r8 c c c c8. h16 h4
+		r8 d d f, f8. es16 es4
+		R1 %465
+		r8 es' es es es[ f,]~ f[ a16 f]
+		c'[ a es'8]~ \tuplet 3/2 8 { es16[ c d] \appoggiatura f32 es16[ d c] } d4 d16.[ b32 d16. b32]
+		f'16.[ es32 d16. c32] b8[ as\trill] g8. a16 b4
+		r8 es es g, f[ as]~ \tuplet 3/2 8 { as16[ c b] as[ g f] } \noBreak
+		g8 es'4 g,8 \appoggiatura as16 g8. f16 f4\fermata \bar "||" %470
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
 	}
 }
 
 JudicabitSopranoLyrics = \lyricmode {
-% 	Judicabit in nationibus, implebit ruinas: conquassabit capita in terra multorum.
+	Ju -- di -- %446
+	ca -- bit, ju -- di --
+	ca -- bit in na -- ti --
+	o -- _ _ _ ni --
+	bus, %450
+	in na -- ti --
+	o -- _ _ _ _ _
+	_ _ _ _
+	_ ni -- bus,
+	in na -- ti -- o -- _ _ %455
+	_ _ _ _ _
+	_ _ _ _ _
+	_ _ ni -- bus.
+	
+	Ju -- di -- ca -- bit, %461
+	ju -- di -- ca -- bit
+	in na -- ti -- o -- ni -- bus,
+	in na -- ti -- o -- ni -- bus,
+	%465
+	in na -- ti -- o --
+	_ _ _ _
+	_ _ _ ni -- bus,
+	in na -- ti -- o -- _
+	_ _ _ _ ni -- bus, %470
+	
+% 	implebit ruinas: conquassabit capita in terra multorum.
 }
 
 % SopranoNotes = {

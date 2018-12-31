@@ -409,7 +409,9 @@ JudicabitBassoNotes = {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		
+		R1*28 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
 	}
 }
 

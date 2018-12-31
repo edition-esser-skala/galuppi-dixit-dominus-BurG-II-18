@@ -904,33 +904,33 @@ JudicabitOrgano = {
 		\clef bass
 		\key b \major \time 4/4 \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		\mvTr b4-!\pE-\soloE b-! b-! b-!
+		\mvTr b4-!\fE-\soloE b-! b-! b-!
 		b-! b-! b-! a-!
 		b-! g'-! es-! f-!
 		b,-! g'-! es-! f-! %445
-		b,-! b-! b-! b-!
+		b,-!\pE b-! b-! b-!
 		b-! b-! b-! a-!
 		b d es f
 		b, d es f
-		b, b g' g %450
-		es f b, b'
+		\mvTr b,\fE-\tuttiE b g' g %450
+		es f b, \mvTr b'\pE-\soloE
 		a f g c,
 		f f b, h
-		c c c c
-		c c f, f' %455
+		\mvTr c\fE-\tuttiE c c c
+		c c f, \mvTr f'\pE-\soloE %455
 		f e f a
 		b g b b
-		c c, f, f
+		c c, \mvTr f,\fE-\tuttiE f
 		d' d8 b c4 c
 		f d b c %460
-		f f f f
+		\mvTr f\pE-\soloE f f f
 		e e f f
 		es es d d
-		g, g c c
+		g, g c \mvTr c\fE-\tuttiE
 		as' as f g %465
-		c, c f f
+		c, \mvTr c\pE-\soloE f f
 		f f b b 
-		d, d es es
+		\mvTr d,\fE-\tuttiE d es es
 		a,! a b b \noBreak
 		b b b2\fermata \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit

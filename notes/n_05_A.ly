@@ -480,12 +480,45 @@ JudicabitAltoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		
+		R1*8 %449
+		\mvTr b'2\fE^\tutti d,4.( es8) %450
+		\appoggiatura d4 c2 b
+		R1*2
+		c'2 f,
+		c c %455
+		R1*2
+		r2 f
+		a,4.( d8) \appoggiatura c4 b2
+		a r %460
+		R1*3
+		r2 r4 c'
+		es,4.( f8) \appoggiatura es4 d2\trill %465
+		c r
+		R1
+		b'2 es,
+		a,! b~ \noBreak
+		b2. r8\fermata f'^\critnote \bar "||" %470
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
 	}
 }
 
 JudicabitAltoLyrics = \lyricmode {
+	Ju -- di -- %450
+	ca -- bit,
 	
+	ju -- di -- %454
+	ca -- bit,
+	
+	ju -- %458
+	di -- ca --
+	bit,
+	
+	ju -- %464
+	di -- ca --
+	bit,
+	
+	ju -- di -- %468
+	ca -- bit, __
 }
 
 % AltoNotes = {
