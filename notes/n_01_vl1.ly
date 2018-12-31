@@ -469,6 +469,15 @@ DominusViolinoI = {
 	}
 }
 
+JudicabitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

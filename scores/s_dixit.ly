@@ -142,48 +142,109 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3 DOMINUS A DEXTRIS"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DominusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DominusViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DominusViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \DominusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DominusSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DominusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DominusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3 DOMINUS A DEXTRIS"
+			movement = "4 JUDICABIT IN NATIONIBUS"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DominusViolinoI
+							\JudicabitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DominusViolinoII
+							\JudicabitViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DominusViola
+						\JudicabitViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DominusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \JudicabitSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DominusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \JudicabitSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \JudicabitAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \JudicabitAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \JudicabitTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \JudicabitTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \JudicabitBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \JudicabitBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DominusOrgano
+						\JudicabitOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DominusBassFigures
+					\JudicabitBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

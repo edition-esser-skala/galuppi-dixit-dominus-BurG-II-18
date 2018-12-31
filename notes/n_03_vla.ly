@@ -472,3 +472,12 @@ DominusViola = {
 		f8 c f c a4 r\fermata \bar "||" %441 finis
 	}
 }
+
+JudicabitViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}

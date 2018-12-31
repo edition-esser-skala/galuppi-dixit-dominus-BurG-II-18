@@ -404,6 +404,19 @@ JuravitBassoLyrics = \lyricmode {
 	dech. %297 finis
 }
 
+JudicabitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}
+
+JudicabitBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

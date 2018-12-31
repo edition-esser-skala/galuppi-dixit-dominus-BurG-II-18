@@ -894,6 +894,19 @@ DominusBassFigures = \figuremode {
 	r1 %441 finis
 }
 
+JudicabitOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		\mvTr b4-!\fE-\soloE b-! b-! b-!
+	}
+}
+
+JudicabitBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

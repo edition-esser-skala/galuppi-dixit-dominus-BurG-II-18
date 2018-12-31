@@ -421,6 +421,19 @@ JuravitTenoreLyrics = \lyricmode {
 	dech.] %297 finis
 }
 
+JudicabitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}
+
+JudicabitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -759,6 +759,19 @@ DominusSopranoLyrics = \lyricmode {
 	ges. %439 finis
 }
 
+JudicabitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}
+
+JudicabitSopranoLyrics = \lyricmode {
+% 	Judicabit in nationibus, implebit ruinas: conquassabit capita in terra multorum.
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

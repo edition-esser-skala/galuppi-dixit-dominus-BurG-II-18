@@ -464,3 +464,12 @@ DominusViolinoII = {
 		f,8 c f c f4 r\fermata \bar "||" %441 finis
 	}
 }
+
+JudicabitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}

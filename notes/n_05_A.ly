@@ -475,6 +475,19 @@ JuravitAltoLyrics = \lyricmode {
 	dech.] %297 finis
 }
 
+JudicabitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
+			\set Score.currentBarNumber = #442
+		
+	}
+}
+
+JudicabitAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
