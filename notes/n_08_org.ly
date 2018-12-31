@@ -699,8 +699,8 @@ DominusOrgano = {
 		e e e e e e e e
 		f4 r r2
 		f4 r r2
-		f8 f f f b b b b %405
-		c c c c c, c c c
+		f8\pocoFE f f f b b b b %405
+		c\pE c c c c, c c c
 		f,16[\fE g a b c d e f] f,[ g a b c d e f]
 		f,8\pE f f f f f f f
 		f16[\fE g a b c d e f] f,[ g a b c d e f]
@@ -727,7 +727,7 @@ DominusOrgano = {
 		} >>
 		f8 f f f f f f f %420
 		h, h h h h h h h
-		c16[ d e f g a! b c] c,[ d e f g a b c]
+		c16[\fE d e f g a! b c] c,[ d e f g a b c]
 		c,8\p c c c c c c c
 		c16[\f d e f g a! b c] c,[ d e f g a b c]
 		c,8\pE c c c c c c c %425

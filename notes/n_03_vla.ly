@@ -319,6 +319,156 @@ DominusViola = {
 		\clef treble
 		\key f \major \time 4/4 \tempoDominus
 			\set Score.currentBarNumber = #301
-		
+		a8\fE a a a a a a a
+		a a a a a a a a
+		d d d d d d d d
+		f f f f d d e e
+		f c a a a a a a %305
+		g g g g g g g g
+		a a a a a a a a
+		g g g g g g c c
+		c c c c d d d d
+		c c c c d g4 f8 %310
+		e e e e e e e e
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		f,8 f f f f f f f
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		c,8 c c c c c c c %315
+		c16[ d e f g a b c] c,[ d e f g a b c]
+		f,4 c r8 a' f c
+		d4 f f e
+		f c r8 a' f c
+		d4 f f e %320
+		f8 c f c f4 r
+		c8\pE c c c c c c c
+		d d d d d d d d
+		b b b b b b b b
+		a a a a g g c c %325
+		a\fE a a a a a a a
+		g\pE g g g g g c c
+		c\fE c a a a a a a
+		g\pE g g g c c c c
+		c c c c c c c c %330
+		f r e r d r c r
+		f f f f f f fis fis
+		g g, g g g g g g
+		g g g g g g g g
+		g g g g g g g g %335
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g %340
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		c c c c e e e e %345
+		f f f f g g g g
+		c, c c c a' a a a
+		f f f f g g g g
+		c, c c c d d d d
+		e e e e f f fis fis %350
+		g,16[\fE a h c d e f g] g,[ a h c d e f g]
+		g,8\pE g g g g g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c]
+		g8\pE g, g g g g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c] %355
+		c,4\pE r r g
+		c4. c8 d4. d8
+		e e e e e e e e
+		f f f f f f f f
+		e e e e e e e e %360
+		d d d d d d d d
+		c c c c d d d d
+		e e e e e e e e
+		f f f f f f f f
+		g g g g g, g g g %365
+		c4 f\f e f
+		g8\p g g g g, g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c]
+		a8 a a a a a a a
+		c,16[ d e f g a h c] c,[ d e f g a h c] %370
+		h8 h h h h h h h
+		c4 c c c
+		e c2 h4
+		c8 g c g e4 r
+		c8\pE c c c c c c c %375
+		c c c c c c c c
+		c c c c c c c c
+		c c c c h h a a
+		h? h h h h h h h
+		h h h h h h h h %380
+		c c c c c c c c
+		c c c c b! b b b
+		a a a a d, d d d
+		g g g g g g g g
+		a\fE a a a a a a a %385
+		g g g g g\pE g c c
+		a\fE a a a a a a a
+		c c c c f\p f f f
+		f f f f d\f d[\p d d]
+		e e e e e\f e[\p e e] %390
+		d d d d d d d d
+		d d d d d d d d
+		g g g g g g g g
+		g g g g g g g g
+		c, c c c c c c c %395
+		c c c c c c c c
+		f f f f f f f f
+		f f f f f f f f
+		b, b b b b b b b
+		c c c c c c c c %400
+		d d d d d d d d
+		e e e e e e e e
+		f4 r r2
+		f4 r r2
+		f8\pocoFE f f f b, b b b %405
+		c\pE c c c c c c c
+		f,16[\fE g a b c d e f] f,[ g a b c d e f]
+		d1\pE
+		f,16[\fE g a b c d e f] f,[ g a b c d e f]
+		des8\pE des des des des des des des %410
+		des? des des des des des des des
+		c2 c8 c b b
+		<< {
+			as8 as as as as as as as
+			b b b b b b b b
+			es, es es es es es es es %415
+			as as as as as as as as
+			des, des des des des des des des
+			g g g g g g g g
+			c, c c c c c c c
+		} \\ {
+			as'1
+			b4 b b b
+			es,1 %415
+			as4 as as as
+			des,1
+			g4 g g g
+			c,1
+		} >>
+		f8 f f f f f f f %420
+		h h h h h h h h
+		c16[\fE d e f g a! b c] c,[ d e f g a b c]
+		<< { a!8 a a a a a a a } \\ { f\pE f f f f f f f } >>
+		c16[\f d e f g a! b c] c,[ d e f g a b c]
+		<< { a8 a a a a a a a } \\ { f\p f f f f f f f } >> %425
+		g e e g c, c c c
+		b b b b b b b b
+		c c c c c c c c
+		d d d d d d d d
+		e e e e e e e e %430
+		f4-! r r2
+		f4-! r r2
+		f8\fE f f f b b b b
+		c\p c c c c, c c c
+		f,16[\f g a b c d e f] f,[ g a b c d e f] %435
+		d[ e f g a b c d] d,[ e f g a b c d]
+		h,[ c d e f e d c] h4 h
+		c1\fermata
+		f4 r8 a, b4-! c-!
+		d-! r8 a b4-! c-! %440
+		f8 c f c a4 r\fermata \bar "||" %441 finis
 	}
 }
