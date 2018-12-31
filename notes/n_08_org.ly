@@ -751,7 +751,147 @@ DominusOrgano = {
 }
 
 DominusBassFigures = \figuremode {
-	
+	r1 %301
+	r
+	r
+	<6>2 <7 4>4 <7>
+	r1 %305
+	<6>
+	r
+	q
+	r
+	<6>2. <8 6>8 <7 5> %310
+	r1
+	<7->2... \bassFigureExtendersOn q16
+	<6 4>1
+	q2... q16 \bassFigureExtendersOff
+	<5 3>1 %315
+	<7->2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	r1
+	r2 <6 4>4 <5 3>
+	r1
+	r2 <6 4>4 <5 3> %320
+	r1
+	r
+	r
+	r
+	<6>2 <7>4 q %325
+	r1
+	<6>
+	r
+	q
+	r2 q %330
+	r4 q <6\\>2
+	<6>2. <5>4
+	<4> <_!>2.
+	<7 _!>1
+	<\t \t> %335
+	q
+	<6 4>
+	<\t \t>
+	q
+	q %340
+	<7 _!>
+	<\t \t>
+	q
+	q
+	r2 <6> %345
+	<6 5> <_!>
+	r1
+	<6 5>2 <_!>
+	r <6\\>
+	<6>2. <5>4 %350
+	<_!>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<7 _!>1
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<7 _!>1
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff %355
+	r2. <_!>4
+	r2 <6\\>
+	<6 3>2. <\t _+>4
+	r1
+	<6> %360
+	<6\\>2 <7 _!>
+	r <6\\>
+	<6>1
+	r
+	<6 4>2 <5 _!> %365
+	r2 <6>4 q
+	<6 4>2 <5 _!>
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6 4>1
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff %370
+	<7 _!>1
+	r2 <6>4 q
+	<6 4>2 <5 _!>
+	r1
+	r %375
+	r
+	<10 4>4 <9 \t>2.
+	<\t \t>2 q4 q
+	q1
+	q %380
+	<9 4>4 <8 3>2.
+	<4 2>2 <2>
+	<6>1
+	<7>2 q
+	r1 %385
+	<6>
+	r
+	<6 5->
+	r2 <6 5>
+	r <6 5> %390
+	r1
+	r
+	r
+	r
+	r %395
+	r
+	r
+	r
+	<5>2 <6>
+	<5> <6> %400
+	<5> <6>
+	<5> <6>
+	r1
+	r
+	r %405
+	<6 4>2 <5 3>
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6 4>1
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<5->1 %410
+	<6! 5->
+	r1
+	<6>
+	<7- _->
+	<7-> %415
+	<7 5->
+	<7 5->
+	<7 5->
+	<7>
+	<_-> %420
+	<7->
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6! 4>1
+	<5 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6 4>1 %425
+	r2 <6>
+	<5> <6>
+	<5> <6>
+	<5> <6>
+	<5> <6> %430
+	r1
+	r
+	r
+	<6 4>2 <5 3>
+	<8 3>1 \bassFigureExtendersOn %435
+	q
+	q
+	q2 \bassFigureExtendersOff <5 3>
+	r4. <6>8 r2
+	r4. <6>8 r2 %440
+	r1 %441 finis
 }
 
 % Organo = {
