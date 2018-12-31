@@ -200,6 +200,7 @@ tempoDixit = \tempoMarkup "Allegro"
 tempoJuravit = \tempoMarkup "Andante"
 tempoDominus = \tempoMarkup "Allegro"
 tempoJudicabit = \tempoMarkup "Largo"
+tempoImplebit = \tempoMarkup "Allegro"
 
 
 

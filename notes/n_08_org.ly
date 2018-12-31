@@ -896,10 +896,151 @@ DominusBassFigures = \figuremode {
 
 JudicabitOrgano = {
 	\relative c {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef bass
 		\key b \major \time 4/4 \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		\mvTr b4-!\fE-\soloE b-! b-! b-!
+		\mvTr b4-!\pE-\soloE b-! b-! b-!
+		b-! b-! b-! a-!
+		b-! g'-! es-! f-!
+		b,-! g'-! es-! f-! %445
+		b,-! b-! b-! b-!
+		b-! b-! b-! a-!
+		b d es f
+		b, d es f
+		b, b g' g %450
+		es f b, b'
+		a f g c,
+		f f b, h
+		c c c c
+		c c f, f' %455
+		f e f a
+		b g b b
+		c c, f, f
+		d' d8 b c4 c
+		f d b c %460
+		f f f f
+		e e f f
+		es es d d
+		g, g c c
+		as' as f g %465
+		c, c f f
+		f f b b 
+		d, d es es
+		a,! a b b \noBreak
+		b b b2\fermata \bar "||" %470
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+			R2*3
+		r4 r8 \mvTr f\fE-\tuttiE
+		b4 b8 b %475
+		c4 c8 c
+		d4 d8 d
+		a4 a8 a
+		b4 b'8 f'
+		es d c b %480
+		f'4 f,8 f'
+		es d c b
+		f'4 f,
+		a f
+		b b, %485
+		a' f
+		b b,
+		h' g
+		c c,
+		h' g %490
+		c c,
+		c r
+		R2*2
+		f8 f f f %495
+		f f f f
+		f f f f
+		e e e e
+		f f f f
+		f f f f %500
+		f f f f
+		e e e e
+		f f f f
+		a, a a a
+		b b b b %505
+		c c c c
+		d4 r
+		d r
+		h\p r
+		h? r %510
+		c r
+		c r
+		f, r
+		r r8 c'\f
+		f4 f8 f %515
+		g4 g8 g
+		a4 a8 a
+		f4 es!8 es
+		d2
+		a' %520
+		b
+		r4 r8 b,
+		es4 es8 es
+		f4 f8 f
+		g4 g8 g %525
+		d4 d8 d
+		es4 d
+		g f
+		es d
+		c b %530
+		f' f,
+		f r
+		R2*2
+		b'8 b b b %535
+		b b b b
+		a a a a
+		a, a a a
+		b b b b
+		b' b b b %540
+		a a a a
+		a, a a a
+		b b b b
+		d d d d
+		es es es es %545
+		e e e e
+		f f f f
+		a, a a a
+		b4 es
+		f f, %550
+		b8\p b b b
+		b' b b b
+		a a a a
+		a,\f a a a
+		b\p b b b %555
+		b' b b b
+		a a a a
+		a,\f a a a
+		b b b b
+		b b b b %560
+		es, es es es
+		f f f f
+		g g g g
+		g g g g
+		g2 %565
+		R2*2
+		r4 r16 b c d
+		es4 es,
+		es2 %570
+		r4 es'
+		f b,
+		f' f,
+		b r
+		R2 %575
+		r4 r16 b c d
+		es4 es,
+		es2
+		r4 es'
+		\time 4/4 f2 b, %580
+		f1
+		b\fermata \bar "||" %582 finis
 	}
 }
 
