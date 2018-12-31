@@ -391,8 +391,8 @@ DominusViolinoI = {
 		a-! a-! a-! a-! h-! h-! c-! c-!
 		e, e e e d d d d %365
 		e( g) a([\f f)] g( c,) f([ d)]
-		e16\p e e e e e e e d d d d d d d d
-		<< { g[ g g g g g g g] g[ g g g g g g g] } \\ { e[\f e e e e e e e] e2 } >>
+		e\p e e e d d d d
+		<< { g16[ g g g g g g g] g[ g g g g g g g] } \\ { e[\f e e e e e e e] e2 } >>
 		a16( f e f) g( f e f) a( f e f) g( f e f)
 		<< { g[ g g g g g g g] g[ g g g g g g g] } \\ { e2 e } >> %370
 		f16( d cis d) e( d cis d) f( d cis d) e( d cis d)

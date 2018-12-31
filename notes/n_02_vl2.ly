@@ -321,6 +321,146 @@ DominusViolinoII = {
 		\clef treble
 		\key f \major \time 4/4 \tempoDominus
 			\set Score.currentBarNumber = #301
-		
+		c'2.\fE \appoggiatura b8 a4
+		f4 f~ f8 g16 a b c d e
+		f8. f16 f4~ f8 a16 g \appoggiatura g f8 e16 d
+		c4.( d8) \appoggiatura c4 b2
+		a8( f) c c c4 c %305
+		c2 c16 d e f g a b g
+		a8( f) c c c4 c
+		c2 c16 d e f g a b g
+		a8 f f'4 d8 b f'4
+		c8 a f'4~ f16 e d c b8 a %310
+		g16( c h c) d( c h c) e( c h c) d( c h c)
+		b b b b b b b b b b b b b b b b
+		a( f' e f) g( f e f) a( f e f) g( f e f)
+		f f f f f f f f f f f f f f f f
+		e( c h c) d( c h c) e( c h c) d( c h c) %315
+		g' g g g g g g g g g g g g g g g
+		a8( c a) f-! f2~
+		f8 b,16 c d8 c16 b a8 c g b
+		a c' a f f2~
+		f8 b,16 c d8 c16 b a8 c c, e %320
+		f c f c f4 r
+		f8\p f f f f f f f
+		f f f f f f f f
+		f f f f f f f f 
+		f f f f d4( e) %325
+		\once \slurDashed a8(\f f) c c c4-! c-!
+		c2~\p c16 d e f g a b g
+		a8(\f f) c c c4-! c-!
+		c2~\p c16 d e f g a b g
+		a8 c a f g4 c %330
+		c-! c-! h-! c-!
+		a d2 a4
+		c16( h a h) c( h a h) d( h a h) c( h a h)
+		d8 f, f f f f f f
+		d' d d d d d d d %335
+		d2. d4
+		e16( c h c d c h c) e( c h c d c h c)
+		c8 c c c c c c c
+		c c c c c c c c
+		c2. e4 %340
+		\slurDashed d16( h ais? h c h ais? h) d( h ais? h c h ais? h) \slurSolid
+		d8 d d d d d d d
+		d d d d d d d d
+		d2. d4
+		c8 c c c c c c c %345
+		c c c c h h h h
+		c c c c c c c c
+		c c c c h h h h
+		c16 c c c c c c c h h h h h h h h
+		c c c c c c c c c8 c a a %350
+		h16\f h h h h h h h h h h h h h h h
+		f'(\p d c d e d c d) f( d c d e d c d)
+		c16\f c c c c c c c c c c c c c c c
+		f(\p d c d e d c d) f( d c d e d c d)
+		c\fE c c c c c c c g g g g e e e e %355
+		e4\pE r r g
+		g4. g8 h4. h8
+		c c c c c c c c
+		c r c r c r c r
+		c r c r c r c r %360
+		h r h r h r h r
+		c r c r h r h r
+		c g'-! g-! g-! g-! g-! g-! g-!
+		a-! a-! a-! a-! h-! h-! c-! c-!
+		c, c c c h h h h %365
+		c4 c2\fE d4
+		c8\p c c c h h h h
+		<< { e16[ e e e e e e e] e[ e e e e e e e] } \\ { c[\f c c c c c c c] c2 } >>
+		a'16( f e f) g( f e f) a( f e f) g( f e f)
+		<< { g[ g g g g g g g] g[ g g g g g g g] } \\ { e2 e } >> %370
+		f16( d cis d) e( d cis d) f( d cis d) e( d cis d)
+		e8 c <a' c, f,>4 g8 c, f d
+		g,4. a32 h c d d2\trill
+		c8 g c g <c g c,>4 r
+		g8\p g g g g g g g %375
+		g g g g g g g g
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %380
+		f f e e e16 e e e e e e e
+		f f f f f f f f g g g g g g g g
+		c8 c c c f, f f f
+		f f f f e e e e
+		a([\f f)] c8 c c4 c %385
+		\once \tieDashed c2~ c16 d\p e f g a b g
+		a8([\f c)] f, f f4 f
+		f2~ f16 g\p a b c d es c
+		d8(^\critnote b) f-! f-! <g g,>4\f f'\p
+		e!8( c) g-! g-! <a a,>4\f g'4\p %390
+		f8 d a a a a a a
+		a a a a a a a a
+		b b b b b b b b
+		b b b b b b b b
+		g g g g g g g g %395
+		g g g g g g g g
+		a a a a a a a a
+		a2 a8 a a a
+		f2 g~
+		g a %400
+		a4 r b r
+		b r c r
+		c r r2
+		c4 r r2
+		c4\pocoF a f2 %405
+		f8\p f f f e e e e
+		c'16\f^\critnote a a a a a a a a a a a a a a a
+		d(\p b a b) c( b a b) d( b a b) c( b a b)
+		c\f a a a a a a a a a a a a a a a
+		<< { as\p } \\ { as } >> as[ as as] as as as as as as as as as as as as %410
+		<< { f } \\ { f } >> f[ f f] f f f f f f f f f f f f
+		e8\fE g e g c,4 r
+		r8 as''\p as([ f)] f([ c)] c([ des)]
+		des([\trill c)] c([\trill b)] b([\trill as)] as([\trill g)]
+		g4 g'8([ es)] es([ des)] des([ c)] %415
+		c([\trill b)] b([\trill as)] as([\trill g)] g([\trill f)]
+		f4 f'8([ des)] des([ c)] c([ b)]
+		b([\trill as)] as([\trill g)] g([\trill f)] f([\trill e)]
+		e?4 g'8([ c,)] c([ b]) b([ as)]
+		as?8 c, c c c c c c %420
+		f f f f as as as as
+		g16\f << { g' g g g g g g g g g g g g g g } \\ { e e e e e e e e e e e e e e e } >>
+		a!(\p f e f g f e f) a( f e f g f e f)
+		e\f << { g g g g g g g g g g g g g g g } \\ { e e e e e e e e e e e e e e e } >>
+		a(\p f e f) g( f e f) a( f e f) g( f e f) %425
+		e8 g g e f c a c
+		d4-\parenthesize-! f,-\parenthesize-! g-\parenthesize-! g-\parenthesize-!
+		g g a a
+		a r b r
+		b r c r %430
+		c-\parenthesize-! r r2
+		c4-\parenthesize-! r r2
+		c16\f c c c a a a a f f f f f f f f
+		f\p f f f f f f f e e e e e e e e
+		f[\f g a b c d e f] f,[ g a b c d e f] %435
+		d,[ e f g a b c d] d,[ e f g a b c d]
+		h,[ c d e f e d c] h4 h
+		c4 r r2\fermata
+		f16[ g a b c d e f] <d f, b,>4 <e c g c,>
+		f16 g a g f8 a, <b f b,>4 <c g c,> %440
+		f,8 c f c f4 r\fermata \bar "||" %441 finis
 	}
 }
