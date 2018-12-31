@@ -789,7 +789,103 @@ JudicabitSopranoNotes = {
 		f'16.[ es32 d16. c32] b8[ as\trill] g8. a16 b4
 		r8 es es g, f[ as]~ \tuplet 3/2 8 { as16[ c b] as[ g f] } \noBreak
 		g8 es'4 g,8 \appoggiatura as16 g8. f16 f4\fermata \bar "||" %470
-		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit R2 \noBreak
+		r4 r8 f
+		b4 b8 b
+		c4 c8 c
+		d4 d8 d %475
+		es4 es8 es
+		f4 f8 f
+		es4 es8 es
+		d4 d8 f
+		es([ d)] c b %480
+		f'4 f,8 f'
+		es([ d)] c b
+		f'4 f,
+		c'-! es-!
+		d-! b-! %485
+		c es
+		d b
+		d f
+		e c
+		d f %490
+		e r
+		R2*4 %495
+		r4 c
+		b g~
+		g b
+		a c
+		r c %500
+		b g
+		r g
+		a c
+		r c
+		d d %505
+		r e
+		f2~
+		f
+		a,~\pE
+		a4. b8 %510
+		\appoggiatura a4 g2~
+		g
+		a4 r
+		R2*4 %517
+		r4 r8 f\fE
+		b4 b8 b
+		c4 c8 c %520
+		d4 d8 d
+		f4 f8 f
+		b,4 b
+		r r8 b
+		es4 es8 es %525
+		f4 f8 f
+		g4 f
+		es d
+		g f
+		es d %530
+		c2
+		r4 f
+		f,2~
+		f~
+		f~ %535
+		f
+		f~
+		f~
+		f~
+		f4 f' %540
+		f,2~
+		f
+		f4 r
+		r f'
+		b, b %545
+		r g'
+		c, c
+		r es
+		d d8 es
+		\appoggiatura d4 c2 %550
+		d
+		R2*2
+		r4 c8 c
+		d4 d %555
+		R2*2
+		r4 c
+		d d
+		r f %560
+		f2
+		es4 es,
+		es2
+		d~
+		d %565
+		R2*5 %570
+		r4 es'
+		c d8 d
+		\appoggiatura d4 c2
+		d4 r
+		R2*4 %578
+		r4 b
+		\time 4/4 a2 b4 b %580
+		b2( a)
+		b1\fermata \bar "||" %582 finis
 	}
 }
 
@@ -819,7 +915,99 @@ JudicabitSopranoLyrics = \lyricmode {
 	in na -- ti -- o -- _
 	_ _ _ _ ni -- bus, %470
 	
-% 	implebit ruinas: conquassabit capita in terra multorum.
+	im --
+	ple -- bit, im --
+	ple -- bit ru --
+	i -- nas, ru -- %475
+	i -- nas, im --
+	ple -- bit ru --
+	i -- nas, im --
+	ple -- bit, im --
+	ple -- bit ru -- %480
+	i -- nas, im --
+	ple -- bit ru --
+	i -- nas:
+	Con -- quas --
+	sa -- bit, %485
+	con -- quas --
+	sa -- bit,
+	con -- quas --
+	sa -- bit
+	ca -- pi -- %490
+	ta
+	
+	in %496
+	ter -- ra __
+	mul --
+	to -- rum,
+	in %500
+	ter -- ra,
+	in
+	ter -- ra,
+	in
+	ter -- ra, %505
+	in
+	ter --
+	
+	ra __
+	mul -- %510
+	to --
+	
+	rum.
+	
+	Im -- %518
+	ple -- bit, im --
+	ple -- bit ru -- %520
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit,
+	im --
+	ple -- bit, im -- %525
+	ple -- bit ru --
+	i -- nas:
+	Con -- quas --
+	sa -- bit
+	ca -- pi -- %530
+	ta
+	in
+	ter --
+	
+	ra, __ %537
+	
+	in %540
+	ter --
+	
+	ra
+	in
+	ter -- ra, %545
+	in
+	ter -- ra,
+	in
+	ter -- ra mul --
+	to -- %550
+	rum,
+	
+	con -- quas -- %554
+	sa -- bit %555
+	
+	in %558
+	ter -- ra,
+	in %560
+	ter --
+	ra, in
+	ter --
+	ra, __
+	%565
+	
+	in %571
+	ter -- ra mul --
+	to --
+	rum,
+	
+	in %579
+	ter -- ra mul -- %580
+	to --
+	rum. %582 finis
 }
 
 % SopranoNotes = {
