@@ -316,7 +316,7 @@ JuravitViola = {
 
 DominusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoDominus
 			\set Score.currentBarNumber = #301
 		a8\fE a a a a a a a

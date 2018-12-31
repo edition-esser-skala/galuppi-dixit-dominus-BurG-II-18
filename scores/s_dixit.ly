@@ -146,6 +146,7 @@
 		\header {
 			movement = "3 DOMINUS A DEXTRIS"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
