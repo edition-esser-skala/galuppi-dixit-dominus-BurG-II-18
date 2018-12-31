@@ -524,12 +524,239 @@ DominusSopranoNotes = {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoDominus
 			\set Score.currentBarNumber = #301
-		
+		R1*21 %321
+		\mvTr c'2.\pE^\soloE \appoggiatura b8 a4
+		f2. f4
+		f'2. d4
+		c4. d8 \appoggiatura c4 b2 %325
+		a4 r r2
+		r r4 c
+		a f r2
+		r r4 c'
+		c a r c %330
+		a'8 f g e f d e c
+		d4( a'8.[ g16] f8.[ e16]) d8.[( c16])
+		c4 h r g
+		f2 d
+		h f''~ %335
+		f16[ g f e] d[ e d c] h[ c h a] g[ a g f]
+		e4 r r c'
+		g2 e
+		c g''~
+		g16[ a g f] e[ f e d] c[ d c h] a[ h a g] %340
+		f4 r r f'
+		f,2 d
+		h f''~
+		f16[ g f e] d[ e d c] h[ c h a] g[ a g f]
+		e4( c') r16 c[ h? c] d[ c h c] %345
+		d4( f) r16 d[ c d] e[ d c d]
+		e4( g) r16 c,[ h? c] d[ c h c]
+		d4( f) r16 d[ c d] e[ d c d]
+		e2 f
+		g a4 c, %350
+		h g r d'
+		d2 h4 f
+		e g r g'
+		f d h f
+		e g r g %355
+		c4. c8 d4. d8
+		e4. e8 f4. f8
+		g2. gis4
+		a a,~ a8[ c f a]
+		g4 g,~ g8[ c e g] %360
+		f[ d h f] d[ h' d f]
+		e[ d16 c] e4 f8[ e16 d] f4
+		g2~\dots g\dots
+		a\dots h4 c
+		g,2 d'\trill %365
+		e4 a8 f g([ c,)] f([ d)]
+		e[ d16 c] h8[ a16 g] d'2\trill
+		c4 r r2
+		R1*6 %374
+		c2. g4 %375
+		\appoggiatura f e2. e'4
+		e d2.
+		r2 r4 d
+		d2 e4 f
+		g,2. f4 %380
+		f e r c'
+		d d2 f4
+		f a \appoggiatura g8 f4 \appoggiatura e8 d4
+		\appoggiatura c2 b!1
+		a4 r r2 %385
+		r r4 c
+		a f r2
+		r r4 c'
+		d b r d8 f
+		e4 c r e %390
+		f4. g16[ e] f4 f
+		r a8.[ g16] \appoggiatura g f8[ e16 d] \appoggiatura d c8[ b16 a]
+		b4 b'2 g4
+		d b g d
+		e r e'4. f16[ d] %395
+		e4 g8.[ f16] \appoggiatura f e8[ d16 c] \appoggiatura c b8[ a16 g]
+		a4 a'2 f4
+		c a f c
+		d2 d'16[ c f e] d8[ e16 f]
+		e4 r e16[ d g f] e8[ f16 g] %400
+		f1\trill
+		g\trill
+		a8([ f c a)] c[-! a-! f'-! c-!]
+		a'[( f c a)] c[ a f' c]
+		a'4 f8 e d([ e)] e([ f)] %405
+		f,4. g8 g2\trill
+		f4 r r2
+		d'4. b8 b4 d
+		c f, r c'
+		f f2 g4 %410
+		as f2 h,4
+		c c r2
+		R1
+		des4. c8 des2
+		r4 es,2( des'4) %415
+		c4.( h8) c2
+		r4 des,2( c'4)
+		b4.( a!8) b2
+		r4 des( c b)
+		\appoggiatura b4 as2. f8([ c']) %420
+		\appoggiatura b2 as1
+		g2 r4 c
+		f a,! r f
+		g c, r c'
+		f8 c c b a4 g8([ f)] %425
+		c'4 c r c
+		d16[ b a b] c[ b a b] d[ c d e] f8[ e16 d]
+		e[ c h c] d[ c h c] e[ d e f] g8[ f16 e]
+		f1\trill
+		g\trill %430
+		a8([ f c a)] c[ a f' c]
+		a'16[ g f e] f[ e d c] d[ c b a] b[ a g f]
+		a'4 f8 e d([ e)] e([ f)]
+		f,4. g8 g2\trill
+		f4 r r c' %435
+		f f, r2
+		R1
+		f4.\fermata g8 g2\trill
+		f4\fermata r r2
+		R1 %440
+		R\fermataMarkup \bar "||" %441 finis
 	}
 }
 
 DominusSopranoLyrics = \lyricmode {
+	Do -- mi -- %322
+	nus a
+	dex -- tris
+	tu -- _ _ %325
+	is:
+	Con --
+	fre -- git,
+	con --
+	fre -- git in %330
+	di -- e i -- rae su -- ae, i -- rae
+	su -- ae __
+	re -- ges, con --
+	fre -- _
+	_ _ %335
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ _ %340
+	_ _
+	_ _
+	_ _
+	_ _ _
+	_ _ _ %345
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _
+	_ _ _ %350
+	_ git, con --
+	fre -- git in
+	di -- e, in
+	di -- e i -- rae
+	su -- ae, in %355
+	di -- ae i -- rae
+	su -- ae, i -- rae
+	su -- ae
+	re -- _
+	_ _ %360
+	_ _
+	_ _ _ _
+	_
+	_ _ _
+	_ _ %365
+	ges, i -- rae su -- ae
+	re -- _ _
+	ges.
 	
+	Do -- mi -- %375
+	nus a
+	dex -- tris,
+	a
+	dex -- _ _
+	_ tris %380
+	tu -- is, a
+	dex -- tris, a
+	dex -- _ _ tris
+	tu --
+	is: %385
+	Con --
+	fre -- git
+	in
+	di -- e i -- rae
+	su -- ae, con -- %390
+	fre -- _ _ _
+	_ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ %395
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ _ %400
+	_
+	_
+	_ _
+	_ _
+	_ git, con -- fre -- git __ %405
+	re -- _ _
+	ges.
+	Do -- mi -- nus a
+	dex -- tris, a
+	dex -- _ _ %410
+	_ _ tris
+	tu -- is,
+	
+	Do -- mi -- nus
+	a __ %415
+	dex -- tris,
+	a __
+	dex -- tris,
+	a __
+	dex -- tris %420
+	tu --
+	is: Con --
+	fre -- git, con --
+	fre -- git in
+	di -- e i -- rae su -- ae __ %425
+	re -- ges, con --
+	fre -- _ _ _
+	_ _ _ _
+	_
+	_ %430
+	_ _
+	_ _ _ _
+	_ git, con -- fre -- git __
+	re -- _ _
+	ges, con -- %435
+	fre -- git
+	
+	re -- _ _
+	ges. %439 finis
 }
 
 % SopranoNotes = {

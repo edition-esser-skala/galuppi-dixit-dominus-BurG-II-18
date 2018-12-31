@@ -645,12 +645,12 @@ DominusOrgano = {
 		f f f f g g g g
 		c, c c c d d d d
 		e e e e f f fis fis %350
-		g,16[ a h c d e f g] g,[ a h c d e f g]
-		g,8 g g g g g g g
-		c16[ d e f g a h c] c,[ d e f g a h c]
-		g8 g, g g g g g g
-		c16[ d e f g a h c] c,[ d e f g a h c] %355
-		c,4 r r g
+		g,16[\fE a h c d e f g] g,[ a h c d e f g]
+		g,8\pE g g g g g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c]
+		g8\pE g, g g g g g g
+		c16[\fE d e f g a h c] c,[ d e f g a h c] %355
+		c,4\pE r r g
 		c4. c8 d4. d8
 		e e e e e e e e
 		f f f f f f f f
