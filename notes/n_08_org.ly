@@ -1191,7 +1191,143 @@ DeTorrenteOrgano = {
 		\clef bass
 		\key es \major \time 2/4 \tempoDeTorrente
 			\set Score.currentBarNumber = #583
-		r8 \mvTr es\fE-\soloE d b
+		r8 \mvTr es\pE-\soloE-! d-! b-!
+		c-! c-! g'-! es-!
+		r as-! b-! d,-! %585
+		r es-! g-! es-!
+		as-! g-! f-! b,-!
+		r b'-! g-! es-!
+		r b'-! g-! es-!
+		r b'-! g-! es-! %590
+		as,-! as'-! b-! b,-!
+		es\fE es es es
+		d d d d
+		es es es es
+		d d d d %595
+		es g, as a
+		b b' b,4
+		r8 c'\p c b
+		as g16. f32 g8 g,
+		r as' as g %600
+		f es16. d32 es8 es,
+		r g' g es
+		d4. es8
+		as,\fE as b b
+		es,4 r %605
+		es'8\fE as b b,
+		es4 r
+		es8 as b b,
+		es4 r
+		r8 es\pE d b %610
+		c c g' es
+		as as b b
+		es, es g g
+		as g f b,
+		es es, es r %615
+		r b'' g es
+		r b' g es
+		as as, b b
+		es, es es es
+		es' es es es %620
+		d d d d
+		c c f f
+		b, b b b
+		a a a a
+		b b d d %625
+		es es es es
+		es es es es
+		d d d d
+		d d d d
+		c c c c %630
+		f f f f
+		b, b b b
+		a\f-! a-! a-!\p a-!
+		b b b b
+		a-!\f a-! a-!\p a-! %635
+		b b d d
+		es es es es
+		d es d c
+		b es d c
+		b4 r8 es %640
+		d g es f
+		b, b b b
+		a\f a a\p a
+		b b b b
+		a\fE a a\pE a %645
+		b b d d
+		es es f f
+		b,4 r8 es
+		f f f, f
+		b\f c d es %650
+		f\p f f, f
+		b\f b b b
+		a a a a
+		b d es c
+		d g es f %655
+		b,4 r
+		R2
+		r8 c16. c32 c8 c
+		r f\pE f f
+		r b,16.\fE b32 es8 r %660
+		r b'16. b32 b16 es,[ d c]
+		b4 r
+		r8 es\pE d b
+		c c g g
+		as as b b %665
+		r es g es
+		as g f b,
+		r b'-! g-! es-!
+		r b'-! g-! es-!
+		r b'-! g-! es-! %670
+		as, as' b b,
+		r g' g g
+		g g, r g'
+		g g g g
+		as as as as %675
+		r as as as
+		g g g g
+		r g g g
+		f f f f
+		b, b b b %680
+		g' g g g
+		d d d d
+		es es es es
+		d\f d d\p d
+		es es es es %685
+		d\f d d\p d
+		r es as b
+		c g as as
+		b b b, b
+		es\f es es es %690
+		d\p d d d
+		es\f es es es
+		d\p d d d
+		es es g g
+		as as, as\f a %695
+		b es d c
+		b es d c
+		b4 r\fermata
+		r8 c'4(\pE b8)
+		as g16. f32 g8 es %700
+		r as4 g8
+		f es16. d32 es8 es,
+		r g' g es
+		d4. es8
+		as, as' b b, %705
+		es es, es r
+		r es' es,4
+		r8 es' g es
+		as, as' b b,
+		es es, es r %710
+		r es' es,4
+		r8 es'\f g es
+		as,\p as' b b,
+		es es\f g g,
+		as c b a %715
+		b2\fermata
+		es8 es g g
+		as g16. as32 b8 b,
+		es es, es r\fermata \bar "||" %719 finis
 	}
 }
 
