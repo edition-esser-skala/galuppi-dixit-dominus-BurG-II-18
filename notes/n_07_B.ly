@@ -410,13 +410,199 @@ JudicabitBassoNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
 		R1*28 \noBreak
-		R1\fermataMarkup \bar "||"
+		R1\fermataMarkup \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+			R2*3
+		r4 r8 \mvTr f\fE^\tuttiE
+		b4 b8 b %475
+		c4 c8 c
+		d4 d8 d
+		a4 a8 a
+		b4 b8 f'
+		es([ d)] c b %480
+		f'4 f,8 f'
+		es([ d)] c b
+		f'4 f,
+		a f
+		b b, %485
+		a' f
+		b b,
+		h' g
+		c c,
+		h' g %490
+		c r
+		R2*4 %495
+		r4 f,
+		f2
+		e4 e
+		f f
+		r f %500
+		f f
+		r e
+		f f
+		r a
+		b b %505
+		r c
+		d2~
+		d
+		h~\pE
+		h4. h8 %510
+		c2~
+		c
+		f,4 r
+		r r8 c\fE
+		f4 f8 f %515
+		g4 g8 g
+		a4 a8 a
+		f4 es!8 es
+		d4 d
+		R2*2 %521
+		r4 r8 b
+		es4 es8 es
+		f4 f8 f
+		g4 g8 g %525
+		d4 d8 d
+		es4 d
+		g f
+		es d
+		c b %530
+		f'2
+		R2*4 %535
+		b4. b8
+		a4 a~
+		a a
+		b b,
+		r b' %540
+		a a~
+		a a
+		b b,
+		r d
+		es es %545
+		r e
+		f f
+		r a
+		b es,8 es
+		f2 %550
+		b,
+		R2*2
+		r4 a'8 a
+		b4 b, %555
+		R2*2
+		r4 a'
+		b b,
+		r b' %560
+		es,2
+		f4 f
+		g2
+		g~
+		g %565
+		R2*5 %570
+		r4 es
+		f b8 b
+		f2
+		b,4 r
+		R2*4 %578
+		r4 es
+		\time 4/4 f2 b4 b %580
+		f1
+		b,\fermata \bar "||" %582 finis
 	}
 }
 
 JudicabitBassoLyrics = \lyricmode {
+	Im -- %474
+	ple -- bit, im -- %475
+	ple -- bit ru --
+	i -- nas, ru --
+	i -- nas, [im --
+	ple -- bit, im --
+	ple -- bit ru -- %480
+	i -- nas, im --
+	ple -- bit ru --
+	i -- nas:
+	Con -- quas --
+	sa -- bit, %485
+	con -- quas --
+	sa -- bit,
+	con -- quas --
+	sa -- bit
+	ca -- pi -- %490
+	ta]
 	
+	in %496
+	ter --
+	ra mul --
+	to -- rum,
+	in %500
+	ter -- ra,
+	in
+	ter -- ra,
+	in
+	ter -- ra, %505
+	in
+	ter --
+	
+	ra __
+	mul -- %510
+	to --
+	
+	rum.
+	Im --
+	ple -- bit, im -- %515
+	ple -- bit ru --
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit,
+	
+	im --
+	ple -- bit, im --
+	ple -- bit ru -- %520
+	i -- nas, ru --
+	i -- nas, ru -- %526
+	i -- nas:
+	Con -- quas --
+	sa -- bit
+	ca -- pi -- %530
+	ta,
+
+	con -- quas -- %536
+	sa -- bit __
+	in
+	ter -- ra,
+	in %540
+	ter -- ra __
+	mul --
+	to -- rum,
+	in
+	ter -- ra, %545
+	in
+	ter -- ra,
+	in
+	ter -- ra mul --
+	to -- %550
+	rum,
+	
+	con -- quas -- %554
+	sa -- bit %555
+	
+	in %558
+	ter -- ra,
+	in %560
+	ter --
+	ra, in
+	ter --
+	ra, __
+	%565
+	
+	in %571
+	ter -- ra mul --
+	to --
+	rum,
+	
+	in %579
+	ter -- ra mul -- %580
+	to --
+	rum. %582 finis
 }
 
 % BassoNotes = {

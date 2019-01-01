@@ -570,7 +570,7 @@ JudicabitTenoreLyrics = \lyricmode {
 	Con -- quas --
 	sa -- bit
 	ca -- pi -- %530
-	ta
+	ta,
 
 	[con -- quas -- %536
 	sa -- bit __
