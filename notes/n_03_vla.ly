@@ -480,7 +480,7 @@ JudicabitViola = {
 			1/8
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoJudicabit
 			\set Score.currentBarNumber = #442
 		d4-!\fE d-! b-! b-!
