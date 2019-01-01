@@ -912,28 +912,29 @@ JudicabitOrgano = {
 		b-! b-! b-! a-!
 		b d es f
 		b, d es f
-		\mvTr b,\fE-\tuttiE b g' g %450
-		es f b, \mvTr b'\pE-\soloE
+		b, b g' g %450
+		es f b, b'
 		a f g c,
 		f f b, h
-		\mvTr c\fE-\tuttiE c c c
-		c c f, \mvTr f'\pE-\soloE %455
+		c c c c
+		c c f, f' %455
 		f e f a
-		b g b b
-		c c, \mvTr f,\fE-\tuttiE f
+		b g a^\critnote b
+		c c, f, f
 		d' d8 b c4 c
 		f d b c %460
-		\mvTr f\pE-\soloE f f f
+		f f f f
 		e e f f
 		es es d d
-		g, g c \mvTr c\fE-\tuttiE
+		g, g c c
 		as' as f g %465
-		c, \mvTr c\pE-\soloE f f
+		c, c f f
 		f f b b 
-		\mvTr d,\fE-\tuttiE d es es
+		d, d es es
 		a,! a b b \noBreak
 		b b b2\fermata \bar "||" %470
-		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4
+			\newSpacingSection \tempoImplebit
 			R2*3
 		r4 r8 \mvTr f\fE-\tuttiE
 		b4 b8 b %475
@@ -1045,7 +1046,35 @@ JudicabitOrgano = {
 }
 
 JudicabitBassFigures = \figuremode {
-	
+	r2 <6 4> %442
+	<5 3> <4 2>4 <\t \t>
+	r2. <8 6>8 <7 5>
+	r2. <8 6>8 <7 5> %445
+	r2 <6 4>
+	<5 3> <4 2>4 <\t \t>
+	r4 <6> r <8 6>8 <7 5>
+	r4 <6> r <8 6>8 <7 5>
+	r1 %450
+	<6 5>
+	<6>2. <7>4
+	r2. <7>4
+	<5 _!>2 <6 4>
+	<5 _!>1 %455
+	<4 2>4 <\t \t> r <6>
+	r4 <5>8 <6!> <6>4 q
+	<6 4> <5 _!> r2
+	r2 <5 4>4 <7 _!>
+	r2. <8 6 _!>8 <7 5 \t> %460
+	r2 <4 2>
+	<\t \t> r4 <3>8 <4!>
+	<6>2 <6!>
+	<7 _!>1
+	r2 <6 5 _->4 <_!> %465
+	r2 <7>
+	<\t> <7->
+	<6 5->1
+	<7>2. <7->4
+	<6 4>2 <\t \t>4 <5 3> %470
 }
 
 % Organo = {

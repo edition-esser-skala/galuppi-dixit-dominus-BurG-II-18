@@ -471,10 +471,43 @@ DominusViolinoI = {
 
 JudicabitViolinoI = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef treble
 		\key b \major \time 4/4 \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		
+		<b' f b,>8[\fE r32 f-! g-! a-!] b8 f g es'4 g,8
+		f8[ r32 f g a] b8 d, es c'4 es,8
+		d b4 b8~ b g'16([ es)] f( d) es( c)
+		d8 b4 b8~ b g'16([ es)] f( d) es( c) %445
+		<b' f b,>8[\pE r32 f-! g-! a-!] b8 f g es'4 g,8
+		f8[ r32 f g a] b8 d, es c'4 es,8
+		d b4 b8~ b g'16([ es)] f( d) es( c)
+		d8 b4 b8~ b g'16([ es)] f( d) es( c)
+		b8 b' r b r b r b %450
+		r b r a^\critnote r b r d
+		r c r c r b r b
+		r a r c r d r d
+		r g, r g r a r a
+		r g r g r a r c %455
+		r b r b r a r c
+		r d4( e8) f( c d b)
+		a a g g a a a a
+		a a a( b) g g g g
+		a\pocoF f4 f8~ f d'16([ b)] a( f) g( e) %460
+		f8( c') r c\pE r b r b
+		r b r b r a4( h8)
+		c( es) r c r h4( c8)
+		d( f,) r f r es r es
+		r es r es r d r d %465
+		r es r es' r c r c
+		r c r c r d r d
+		r f r f r es r b
+		r es r g, r f r as \noBreak 
+		r g r g \appoggiatura g4 f4.\fermata f8 \bar "||" %470
 	}
 }
 

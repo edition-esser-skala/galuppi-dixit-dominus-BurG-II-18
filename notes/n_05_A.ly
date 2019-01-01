@@ -481,7 +481,7 @@ JudicabitAltoNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
 		R1*8 %449
-		\mvTr b'2\fE^\tutti d,4.( es8) %450
+		\mvTr b'2\pE^\tutti d,4.( es8) %450
 		\appoggiatura d4 c2 b
 		R1*2
 		c'2 f,
@@ -497,7 +497,7 @@ JudicabitAltoNotes = {
 		R1
 		b'2 es,
 		a,! b~ \noBreak
-		b2. r8\fermata f'^\critnote \bar "||" %470
+		b2. r8\fermata \mvTr f'\fE^\critnote \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
 			b4 b8 b
 		c4 c8 c

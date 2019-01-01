@@ -475,9 +475,42 @@ DominusViola = {
 
 JudicabitViola = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef treble
 		\key b \major \time 4/4 \tempoJudicabit
 			\set Score.currentBarNumber = #442
-		
+		d4-!\fE d-! b-! b-!
+		b-\parenthesize-! d-\parenthesize-! g,-! f-!
+		f-! g-\parenthesize-! g8 es'-! d-! c-!
+		b4 g g8 g f es %445
+		d4-\parenthesize-!\pE b'-! b-! b-!
+		b-! b-! b-! a-!
+		b f g8 es' d c
+		b4 d es f
+		b, b g' g %450
+		es f b, b'
+		a f g c,
+		f f b, h
+		c c c c
+		c c f, f' %455
+		f e f a
+		b g a^\critnote b
+		c c, f, f
+		d' d8 b c4 c
+		f,\pocoFE a d8 d c b %460
+		a4 f'\pE f f
+		e e f f
+		es es d d
+		h g g g
+		as as as g %465
+		c c f f
+		f f f f
+		b, b b es
+		c c b d \noBreak
+		es b b2\fermata \bar "||" %470
 	}
 }
