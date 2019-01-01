@@ -411,7 +411,8 @@ JudicabitBassoNotes = {
 			\set Score.currentBarNumber = #442
 		R1*28 \noBreak
 		R1\fermataMarkup \bar "||" %470
-		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4
+			\newSpacingSection \tempoImplebit
 			R2*3
 		r4 r8 \mvTr f\fE^\tuttiE
 		b4 b8 b %475

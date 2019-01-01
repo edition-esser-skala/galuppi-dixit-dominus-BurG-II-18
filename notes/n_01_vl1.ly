@@ -507,7 +507,119 @@ JudicabitViolinoI = {
 		r c r c r d r d
 		r f r f r es r b
 		r es r g, r f r as \noBreak 
-		r g r g \appoggiatura g4 f4.\fermata f8 \bar "||" %470
+		r g r g \appoggiatura g4 f4.\fermata f8\fE \bar "||" %470
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4
+			\newSpacingSection \tempoImplebit
+			b4 b8 b \noBreak
+		c4 c8 c
+		d4 d8 d
+		a4 a8 a
+		b4 f %475
+		r r8 f'
+		b4 b8 b
+		c4 c8 c
+		d4 d,8 f
+		es d c b %480
+		f'4 f,8 f'
+		es d c b
+		f'4 f,
+		c'16( b c d) es8 r
+		d b f d %485
+		c'16( b c d) es8 r
+		d b f d
+		d'16 c d e f8 r
+		e c g e
+		d'16 c d e f8 r %490
+		e c g e
+		c4 r
+		R2*2
+		f'16( e f g) a8 r %495
+		f16( e f g) a8 r
+		g16( f g a) b( a g f)
+		g( f) e( d) c( b) a( g)
+		f'16( e f g) a8 r
+		f16( e f g) a8 r %500
+		g16( f g a) b( a g f)
+		\slurDashed g( f) e( d) c( b) a( g) \slurSolid
+		a8 f c a
+		c' a f c
+		d' b f d %505
+		e' c g e
+		f'16( e f g) a8 r
+		f16( e f g) a8 r
+		a,8(-.\p a-. a-. a-.)
+		a(-. a-. a-. a-.) %510
+		a(-.^\critnote a-. a-. a-.)
+		g(-. g-. g-.) c\f
+		<a f'>4 q8 q
+		<c g'>4 q8 q
+		a'4 a8 a %515
+		e4 e8 e
+		f4 a8 c
+		c4 b8 a
+		b4 f
+		r r8 f %520
+		b4 b8 b
+		as4 as8 as
+		g4 g8 g
+		as4 as8 as
+		b4 b8 b %525
+		as4 as8 as
+		<g b, es,>4-! <f b, d,>-!
+		es-! d-!
+		<g b, es,>4-! <f b, d,>-!
+		es-! d-! %530
+		c8 a f f
+		f4 r
+		R2*2
+		b16( a b c) d8 r %535
+		b16( a b c) d8 r
+		c16( b c d) es( d c b)
+		\slurDashed c( b a g) f( es d c) \slurSolid
+		b'16( a b c) d8 r
+		b16( a b c) d8 r %540
+		c16( b c d) es( d c b)
+		c( b a g) f( es d c)
+		d( a' b c) d( c d es)
+		f( es d c) b( as g f)
+		g( b c d) es( d es f) %545
+		g( f es d) c( b a! g)
+		a( e' f g) a( g a b)
+		\slurDashed c( b a g) f( es d c) \slurSolid
+		d8 b' g es
+		d^\critnote b' c, a' %550
+		b,16(\p a b c) d8 r
+		b16( a b c) d8 r
+		c16( b c d) es( d c b)
+		\slurDashed c(\f b a g) f( es d c) \slurSolid
+		b'16(\p a b c) d8 r %555
+		b16( a b c) d8 r
+		c16( b c d) es( d c b)
+		\slurDashed c(\f b a g) f( es d c) \slurSolid
+		d a' b c d c d es
+		f f f f f f f f %560
+		f f f f f f f f
+		es es, es es es es es es
+		es es es es es es es es
+		d d d d d d d d
+		d2 %565
+		r4 r16 d' es f
+		g4 g,
+		g~ g16 d es f
+		g4 g,
+		g2 %570
+		r4 b''
+		<a c, f,>-! <b d, f,>-!
+		<b c, f,>-! <a c, f,>-!
+		<b d, f,>-! r16 d, es f
+		g4 g, %575
+		g~ g16 d es f
+		g4 g,
+		g2
+		r4 es''
+		\time 4/4 c2 d %580
+		c1
+		d\fermata \bar "||" %582 finis
 	}
 }
 

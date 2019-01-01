@@ -498,7 +498,8 @@ JudicabitAltoNotes = {
 		b'2 es,
 		a,! b~ \noBreak
 		b2. r8\fermata \mvTr f'\fE^\critnote \bar "||" %470
-		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4
+			\newSpacingSection \tempoImplebit
 			b4 b8 b
 		c4 c8 c
 		d4 d8 d

@@ -512,5 +512,110 @@ JudicabitViola = {
 		b, b b es
 		c c b d \noBreak
 		es b b2\fermata \bar "||" %470
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4
+			\newSpacingSection \tempoImplebit
+			R2*5 %475
+		r4 r8 c\fE
+		f4 f8 f
+		f4 f8 f
+		f4 f8 f
+		es d c b %480
+		f'4 f,8 f'
+		es d c b
+		f'4 f,
+		f'-! f-!
+		f-! f-! %485
+		f f
+		f f
+		g g
+		g g
+		g g %490
+		g c,
+		c r
+		R2*2
+		a'8 a a a %495
+		c^\critnote c c c
+		b b b b
+		b b b b
+		a^\critnote a a a
+		c c c c %500
+		b b b b
+		b b b b
+		a a, a a
+		a' f c a
+		b' f d b %505
+		c' g e c
+		a'4 f
+		a f
+		d\pE r
+		d r %510
+		g, r
+		c r
+		c r
+		R2*2 %515
+		r4 r8 c\fE
+		f4 f8 a
+		a4 r8 c,
+		d4 d8 d
+		a4 a8 a %520
+		b4 b8 b
+		d4 d8 d
+		es4 es
+		R2*2 %525
+		r4 r8 b
+		es4-! f-!
+		g-! d-!
+		es-! b-!
+		es-! f-! %530
+		f-! f,
+		f r
+		R2*2
+		d'8 d d d %535
+		f f f f
+		f f f f
+		es es es es
+		d d d d
+		f f f f %540
+		f f f f
+		es es es es
+		d d d d
+		b b b b
+		b b es es %545
+		c c c c
+		c c f f
+		f f f f
+		f4 g
+		f es %550
+		d8\pE d d d
+		f f f f
+		f f f f
+		es\fE es es es
+		d\pE d d d %555
+		f f f f
+		f f f f
+		es\fE es es es
+		d d d d
+		b b b b %560
+		b b b b
+		a a a a
+		g g g g
+		g g g g
+		g2 %565
+		R2*2
+		r4 r16 b c d
+		es4 es,
+		es2 %570
+		r4 g'4
+		f f
+		c c
+		d r
+		R2 %575
+		r4 r16 b c d
+		es4 es,
+		es2
+		r4 g'
+		\time 4/4 f2 f %580
+		f1
+		f\fermata \bar "||" %582 finis
 	}
 }
