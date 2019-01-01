@@ -619,3 +619,17 @@ JudicabitViola = {
 		f\fermata \bar "||" %582 finis
 	}
 }
+
+DeTorrenteViola = {
+	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+		\clef treble
+		\key es \major \time 2/4 \tempoDeTorrente
+			\set Score.currentBarNumber = #583
+		
+	}
+}

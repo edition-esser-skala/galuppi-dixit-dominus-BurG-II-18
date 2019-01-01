@@ -1181,6 +1181,24 @@ JudicabitBassFigures = \figuremode {
 	r1 %582 finis
 }
 
+DeTorrenteOrgano = {
+	\relative c {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+		\clef bass
+		\key es \major \time 2/4 \tempoDeTorrente
+			\set Score.currentBarNumber = #583
+		r8 \mvTr es\fE-\soloE d b
+	}
+}
+
+DeTorrenteBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

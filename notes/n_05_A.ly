@@ -710,6 +710,25 @@ JudicabitAltoLyrics = \lyricmode {
 	rum.] %582 finis
 }
 
+DeTorrenteAltoNotes = {
+	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+		\clef treble
+		\key es \major \time 2/4 \autoBeamOff \tempoDeTorrente
+			\set Score.currentBarNumber = #583
+		
+		
+	}
+}
+
+DeTorrenteAltoLyrics = \lyricmode {
+% 	De torrente in via bibet: propterea exaltabit caput
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
