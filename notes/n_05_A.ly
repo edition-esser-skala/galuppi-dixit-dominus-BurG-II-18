@@ -499,6 +499,102 @@ JudicabitAltoNotes = {
 		a,! b~ \noBreak
 		b2. r8\fermata f'^\critnote \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+			b4 b8 b
+		c4 c8 c
+		d4 d8 d
+		a4 a8 a
+		b4 b8 b %475
+		a4 a8 a
+		b4 b8 b
+		c4 c8 c
+		b4 f
+		R2*4 %483
+		f4 c'
+		b f %485
+		f c'
+		b f
+		g d'
+		c g
+		g d' %490
+		c r
+		r c
+		c,2~
+		c~
+		c~ %495
+		c
+		c~
+		c~
+		c~
+		c~ %500
+		c
+		r4^\critnote c
+		c f
+		r f
+		b b %505
+		r c
+		a2~
+		a
+		f\pE
+		R2*2 %511
+		r4 r8 c\fE
+		f4 f8 f
+		g4 g8 g
+		a4 a8 a %515
+		e4 e8 e
+		f4 a8 c
+		c4 b8 a
+		b4 f
+		r r8 f %520
+		b4 b8 b
+		as4 as8 as
+		g4 g8 g
+		as4 as8 as
+		b4 b8 b %525
+		as4 as8 as
+		g4 b
+		b as?
+		g b
+		a! b %530
+		a2
+		R2*4 %535
+		d4. d8
+		c4 c,~
+		c c
+		d d
+		r d' %540
+		c c,~
+		c c
+		d d
+		r as'
+		g g %545
+		r b
+		a! a
+		r c
+		b b8 b
+		\appoggiatura b4 a2 %550
+		b2
+		R2*2
+		r4 f8 f
+		b4 f %555
+		R2*2
+		r4 f
+		b f
+		r d' %560
+		d2
+		c4 c,
+		c2
+		b~
+		b %565
+		R2*5 %570
+		r4 b'
+		a b8 b
+		\appoggiatura b4 a2
+		b4 r
+		R2*4 %578
+		r4 g
+		\time 4/4 f2 f4 f %580
+		f1
+		f\fermata \bar "||" %582 finis
 	}
 }
 
@@ -519,6 +615,99 @@ JudicabitAltoLyrics = \lyricmode {
 	
 	ju -- di -- %468
 	ca -- bit, __
+	im -- %470
+	ple -- bit, im --
+	ple -- bit ru --
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit ru -- %475
+	i -- nas, im --
+	ple -- bit ru --
+	i -- nas, im --
+	ple -- bit:
+	
+	[Con -- quas -- %484
+	sa -- bit, %485
+	con -- quas --
+	sa -- bit,
+	con -- quas --
+	sa -- bit
+	ca -- pi -- %490
+	ta]
+	in
+	ter --
+	
+	ra, __ %497
+	
+	[in
+	ter -- ra,
+	in
+	ter -- ra, %505
+	in
+	ter --
+	
+	ra.]
+	
+	Im -- %512
+	ple -- bit, im --
+	ple -- bit ru -- %520
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit, im --
+	ple -- bit ru --
+	i -- nas,
+	
+	im --
+	ple -- bit, im --
+	ple -- bit ru --
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit, im --
+	[ple -- bit ru --
+	i -- nas:
+	Con -- quas --
+	sa -- bit
+	ca -- pi -- %530
+	ta,]
+	
+	con -- quas --
+	sa -- bit __
+	in
+	ter -- ra,
+	in
+	ter -- ra __
+	mul --
+	to -- rum,
+	[in
+	ter -- ra, %545
+	in
+	ter -- ra,
+	in
+	ter -- ra mul --
+	to -- %550
+	rum,]
+	
+	[con -- quas -- %554
+	sa -- bit] %555
+	
+	[in %558
+	ter -- ra,
+	in %560
+	ter --
+	ra, in
+	ter --
+	ra,] __
+	%565
+	
+	[in %571
+	ter -- ra mul --
+	to --
+	rum,]
+	
+	[in %579
+	ter -- ra mul -- %580
+	to --
+	rum.] %582 finis
 }
 
 % AltoNotes = {

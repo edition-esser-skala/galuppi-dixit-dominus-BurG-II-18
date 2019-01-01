@@ -789,7 +789,8 @@ JudicabitSopranoNotes = {
 		f'16.[ es32 d16. c32] b8[ as\trill] g8. a16 b4
 		r8 es es g, f[ as]~ \tuplet 3/2 8 { as16[ c b] as[ g f] } \noBreak
 		g8 es'4 g,8 \appoggiatura as16 g8. f16 f4\fermata \bar "||" %470
-		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit R2 \noBreak
+		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+			R2 \noBreak
 		r4 r8 f
 		b4 b8 b
 		c4 c8 c
