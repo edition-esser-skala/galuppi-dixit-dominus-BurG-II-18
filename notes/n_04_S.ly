@@ -791,7 +791,7 @@ JudicabitSopranoNotes = {
 		g8 es'4 g,8 \appoggiatura as16 g8. f16 f4\fermata \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
 			R2 \noBreak
-		r4 r8 f
+		r4 r8 \mvTr f\fE^\tuttiE
 		b4 b8 b
 		c4 c8 c
 		d4 d8 d %475

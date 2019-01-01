@@ -427,13 +427,189 @@ JudicabitTenoreNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoJudicabit
 			\set Score.currentBarNumber = #442
 		R1*28 \noBreak
-		R1\fermataMarkup \bar "||"
+		R1\fermataMarkup \bar "||" %470
 		\time 2/4 \set Staff.timeSignatureFraction = 2/4 \tempoImplebit
+			R2*5 %475
+		r4 r8 \mvTr c\fE^\tuttiE
+		f4 f8 f
+		f4 f8 f
+		f4 f8 f
+		es([ d)] c b %480
+		f'4 f,8 f'
+		es([ d)] c b
+		f'4 f,
+		f' f
+		f f %485
+		f f
+		f f
+		d g
+		g g
+		g g %490
+		g r
+		R2*4 %495
+		r4 a,
+		b b~
+		b g
+		f a
+		r a %500
+		g b
+		r b
+		a a
+		r f'
+		f f %505
+		r e
+		d2~
+		d
+		f~\pE
+		f4. g8 %510
+		\appoggiatura f4 e2~
+		e
+		f4 r
+		R2*4 %517
+		r4 r8 c\fE
+		d4 d8 d
+		a4 a8 a %520
+		b4 b8 b
+		d4 d8 d
+		es4 es
+		R2*2 %525
+		r4 r8 b
+		es4 f
+		g d
+		es b
+		es f %530
+		f2
+		R2*4 %535
+		f4. f8
+		f4 f,~
+		f f'
+		d b
+		r f' %540
+		f f,~
+		f f'
+		d b
+		r f'
+		es es %545
+		r g
+		f f
+		r f
+		f g8 g
+		f2 %550
+		f
+		R2*2
+		r4 c8 c
+		f4 d %555
+		R2*2
+		r4 c
+		f d
+		r f %560
+		g2
+		a4 a,
+		b2
+		b~
+		b %565
+		R2*5 %570
+		r4 g'
+		f f8 f
+		f2
+		f4 r
+		R2*4 %578
+		r4 es
+		\time 4/4 c2 d4 d %580
+		c1
+		d\fermata \bar "||" %582 finis
 	}
 }
 
 JudicabitTenoreLyrics = \lyricmode {
+	Im -- %476
+	ple -- bit ru --
+	i -- nas, [im --
+	ple -- bit, im --
+	ple -- bit ru -- %480
+	i -- nas, im --
+	ple -- bit ru --
+	i -- nas:
+	Con -- quas --
+	sa -- bit, %485
+	con -- quas --
+	sa -- bit,
+	con -- quas --
+	sa -- bit
+	ca -- pi -- %490
+	ta]
 	
+	[in %496
+	ter -- ra __
+	mul --
+	to -- rum,
+	in %500
+	ter -- ra,
+	in
+	ter -- ra,
+	in
+	ter -- ra, %505
+	in
+	ter --
+	
+	ra __
+	mul -- %510
+	to --
+	
+	rum.]
+	
+	Im -- %518
+	ple -- bit, im --
+	ple -- bit ru -- %520
+	i -- nas, ru --
+	i -- nas, im --
+	ple -- bit
+	
+	ru -- %526
+	i -- nas:
+	Con -- quas --
+	sa -- bit
+	ca -- pi -- %530
+	ta
+
+	[con -- quas -- %536
+	sa -- bit __
+	in
+	ter -- ra,
+	in %540
+	ter -- ra __
+	mul --
+	to -- rum,
+	in
+	ter -- ra, %545
+	in
+	ter -- ra,
+	in
+	ter -- ra mul --
+	to -- %550
+	rum,]
+	
+	[con -- quas -- %554
+	sa -- bit] %555
+	
+	[in %558
+	ter -- ra,
+	in %560
+	ter --
+	ra, in
+	ter --
+	ra,] __
+	%565
+	
+	[in %571
+	ter -- ra mul --
+	to --
+	rum,]
+	
+	[in %579
+	ter -- ra mul -- %580
+	to --
+	rum.] %582 finis
 }
 
 % TenoreNotes = {

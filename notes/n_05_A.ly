@@ -650,19 +650,18 @@ JudicabitAltoLyrics = \lyricmode {
 	
 	Im -- %512
 	ple -- bit, im --
-	ple -- bit ru -- %520
-	i -- nas, ru --
+	ple -- bit ru --
+	i -- nas, ru -- %515
 	i -- nas, im --
 	ple -- bit, im --
 	ple -- bit ru --
 	i -- nas,
-	
-	im --
+	im -- %520
 	ple -- bit, im --
 	ple -- bit ru --
 	i -- nas, ru --
 	i -- nas, im --
-	ple -- bit, im --
+	ple -- bit, im -- %525
 	[ple -- bit ru --
 	i -- nas:
 	Con -- quas --
@@ -670,11 +669,11 @@ JudicabitAltoLyrics = \lyricmode {
 	ca -- pi -- %530
 	ta,]
 	
-	con -- quas --
+	con -- quas -- %536
 	sa -- bit __
 	in
 	ter -- ra,
-	in
+	in %540
 	ter -- ra __
 	mul --
 	to -- rum,
