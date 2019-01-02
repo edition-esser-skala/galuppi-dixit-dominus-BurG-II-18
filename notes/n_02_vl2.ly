@@ -765,3 +765,12 @@ DeTorrenteViolinoII = {
 		\tuplet 3/2 8 { es16[ b b] g b b } es8 r\fermata \bar "||" %719 finis
 	}
 }
+
+GloriaPatriViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}

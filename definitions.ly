@@ -202,6 +202,7 @@ tempoDominus = \tempoMarkup "Allegro"
 tempoJudicabit = \tempoMarkup "Largo"
 tempoImplebit = \tempoMarkup "Allegro"
 tempoDeTorrente = \tempoMarkup "Andante"
+tempoGloriaPatri = \tempoMarkup "Andante"
 
 
 

@@ -1471,14 +1471,15 @@ DeTorrenteBassFigures = \figuremode {
 	r2 %719 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+GloriaPatriOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		R2.*3
+	}
+}
+
+GloriaPatriBassFigures = \figuremode {
+	
+}

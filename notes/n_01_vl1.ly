@@ -767,10 +767,11 @@ DeTorrenteViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
+GloriaPatriViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}

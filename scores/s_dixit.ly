@@ -247,49 +247,110 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "5 DE TORRENTE"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DeTorrenteViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DeTorrenteViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DeTorrenteViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DeTorrenteAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DeTorrenteAltoLyrics
+% 	
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DeTorrenteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DeTorrenteBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "5 DE TORRENTE"
+			movement = "6 GLORIA PATRI"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DeTorrenteViolinoI
+							\GloriaPatriViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DeTorrenteViolinoII
+							\GloriaPatriViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DeTorrenteViola
+						\GloriaPatriViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GloriaPatriSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \GloriaPatriSopranoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DeTorrenteAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \GloriaPatriAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DeTorrenteAltoLyrics
-	
+					\new Lyrics \lyricsto Alto \GloriaPatriAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GloriaPatriTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GloriaPatriTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GloriaPatriBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \GloriaPatriBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DeTorrenteOrgano
+						\GloriaPatriOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DeTorrenteBassFigures
+					\GloriaPatriBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

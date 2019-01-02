@@ -613,14 +613,15 @@ JudicabitTenoreLyrics = \lyricmode {
 	rum.] %582 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}
+
+GloriaPatriTenoreLyrics = \lyricmode {
+	
+}

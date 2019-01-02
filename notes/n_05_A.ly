@@ -936,14 +936,15 @@ DeTorrenteAltoLyrics = \lyricmode {
 	put. %717 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}
+
+GloriaPatriAltoLyrics = \lyricmode {
+	
+}

@@ -606,14 +606,15 @@ JudicabitBassoLyrics = \lyricmode {
 	rum. %582 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}
+
+GloriaPatriBassoLyrics = \lyricmode {
+	
+}

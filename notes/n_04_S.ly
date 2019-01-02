@@ -1012,14 +1012,15 @@ JudicabitSopranoLyrics = \lyricmode {
 	rum. %582 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
+			\set Score.currentBarNumber = #720
+		
+	}
+}
+
+GloriaPatriSopranoLyrics = \lyricmode {
+	
+}
