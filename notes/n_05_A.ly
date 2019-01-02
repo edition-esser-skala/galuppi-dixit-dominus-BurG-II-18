@@ -720,13 +720,220 @@ DeTorrenteAltoNotes = {
 		\clef treble
 		\key es \major \time 2/4 \autoBeamOff \tempoDeTorrente
 			\set Score.currentBarNumber = #583
-		
-		
+		R2*27 %609
+		b'8 b~ \tuplet 3/2 8 { b16[ c b] \appoggiatura b32 as16[ g f] } %610
+		es8 es4 b'16([ g)]
+		g([ f)] f4( c'16[ as)]
+		as8 g4 b8
+		c b16([ c)] \appoggiatura b8 as4
+		g4 r %615
+		R2*3
+		r4 r8 b,
+		es es16([ f)] g8 g16([ a)] %620
+		b8 f4 b16. b32
+		\tuplet 3/2 8 { es16[ f d] c[ d b] a[ b g] f[ g] es }
+		es8 d r r16 f
+		f8 a16.([ b32)] \tuplet 3/2 8 { c16[ b a] g[ f es] }
+		d8 f4 fis8 %625
+		\tuplet 3/2 8 { g16[ as f] } g4 h8
+		\tuplet 3/2 8 { c16[ d h?] c[ es d] es[ d c] \appoggiatura c32 b16[ a? g] }
+		\tuplet 3/2 8 { f[ g e] } f4 a?8
+		\tuplet 3/2 8 { b16[ c a?] b[ d c] d[ c b] \appoggiatura b32 a16[ g f] }
+		\tuplet 3/2 8 { es[ f d] } es8~ es16.[ d32 c16. b32] %630
+		a8[ c']~ \tuplet 3/2 8 { c16[ b a] \appoggiatura a32 g16[( f es]) }
+		d16.[( es32]) f8 r4
+		r c'8. es,16
+		d8 f r4
+		r8 c'16([ a?)] f8 es %635
+		d f r f
+		g8. g16 a8. a16
+		b8 b4 b8~
+		b b4 d8~
+		\tuplet 3/2 8 { d16[ c b] a[ b g] f[ g es] d[ es] c } %640
+		b8.[ c16] c4\trill
+		b r
+		r c'8. es,16
+		d8 f r4
+		r8 c'16([ a?)] f8 es %645
+		d f r f
+		g8. g16 a8. a16
+		\tuplet 3/2 8 { d[ c b] a?[ b g] f[ g es] d[ es] c }
+		\tuplet 3/2 8 { d[ f es] d[ c b] } c4(
+		d'16.) b32 a16. g32 f8 es' %650
+		\appoggiatura es32 d16[ c32 b] \appoggiatura b a16[ g32 f] c'4\trill
+		b r
+		R2*3 %655
+		r4 r8 r16 b
+		b8. f16 f8 b
+		b-! a-! r a16 c
+		c8~ c32[ d c d] es16[ c a] es
+		d8 f r g16. es32 %660
+		b'8 b, r4\fermata
+		R2
+		b'8 b~ \tuplet 3/2 8 { b16[ c b] \appoggiatura b32 as!16[ g f] }
+		es8 es4 b'16[( g)]
+		g([ f)] f4( c'16[ as)] %665
+		as([ g)] g4 b8
+		c b16.([ c32)] \appoggiatura b16 as4
+		g r
+		R2*2 %670
+		r4 r8 b
+		b g16.([ f32)] es8 es
+		es[~ es32 f es f] g[ as g as] b[ c b c]
+		<< \context Voice = "Alto" { \voiceOne des32[ c16.] b[ as32] \tuplet 3/2 8 { g16[ as f] es[ f des] } } \\
+			{ \voiceTwo des'32[ c b c] b[ as g as] g[ f es f] es16[ des] } >>
+		\oneVoice c8[ c']~ \tuplet 3/2 8 { c16[ b as] \appoggiatura as32 g16[ f e] } %675
+		\tuplet 3/2 8 { f[ g e] f[ g e] } f32[ g f g] as16 r
+		r8 b~ \tuplet 3/2 8 { b16[ as g] \appoggiatura g32 f16[ es d] }
+		\tuplet 3/2 8 { es[ f d] es[ f d] } es32[ f es f] g16 r
+		r8 as~ \tuplet 3/2 8 { as16[ g f] \appoggiatura f32 es16[ d c] }
+		d8([ f)] \tuplet 3/2 8 { r16 f[ g] as[ g f] } %680
+		es8([ g)] \tuplet 3/2 8 { r16 g[ as] b[ as g] }
+		f8([ as)] \tuplet 3/2 8 { r16 as[ b] c[ b as] }
+		g16.[ as32 b16 b] b8[ b]
+		b4~ \tuplet 3/2 8 { b16[ g b] as[ g f] }
+		g16.[ as32 b16 b] b8[ b] %685
+		b4~ \tuplet 3/2 8 { b16[ g b] as[ g f] }
+		\tuplet 3/2 8 { g[ as g] b[ c b] } c8[ d,]
+		es([ b')] c16[ as] \tuplet 3/2 8 { g[ as] f }
+		b,8 f'4.\trill
+		es4 r %690
+		r8 b'~ \tuplet 3/2 8 { b16[ c b] as[( g f]) }
+		g8 b r b,
+		b b'4( as8)
+		g16.[( as32)] b8 r b
+		c16.([ b32)] as16.([ g32)] \tuplet 3/2 8 { as16([ b)] g f([ g)] es } %695
+		b'2~
+		b~
+		b8[\fermata a?16 b] b8 r
+		b,16([ c32 b)] as'4( g8)
+		f es r r16 es %700
+		es16([ f32 es)] c'4( b8)
+		as g r r16 es
+		es8. f32([ es)] es'8 d16([ c)]
+		c[ b] b[ as] as[ g] f([ es)]
+		c8 c'16[ b32 as] \appoggiatura g8 f4 %705
+		es r
+		R2
+		r4 r8 es'16. b32
+		\tuplet 3/2 8 { c16[( b as]) g[( as f]) } es8([ f)]
+		\appoggiatura f g4 r %710
+		R2
+		r4 r8 es'16. b32
+		\tuplet 3/2 8 { c16[ b as] g[ as f] } es8[( f])
+		es'2~
+		es~ %715
+		es8.\fermata es,16 f4\trill
+		es\fermata r
+		R2
+		R\fermataMarkup \bar "||" %719 finis
 	}
 }
 
 DeTorrenteAltoLyrics = \lyricmode {
-% 	De torrente in via bibet: propterea exaltabit caput
+	De tor -- _ %610
+	ren -- te in
+	vi -- a __
+	bi -- bet, in
+	vi -- a __ bi --
+	bet: %615
+	
+	Pro -- %619
+	pter -- ea ex -- al -- %620
+	ta -- bit, ex -- al --
+	ta -- _ _ _ bit
+	ca -- put, pro --
+	pter -- ea ex -- al --
+	ta -- _ _ %625
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ %630
+	_ bit __
+	ca -- put.
+	De tor --
+	ren -- te
+	in __ vi -- a %635
+	bi -- bet: Pro --
+	pter -- ea ex -- al --
+	ta -- _ _
+	_ _
+	_ _ _ bit %640
+	ca -- _
+	put.
+	De tor --
+	ren -- te
+	in __ vi -- a %645
+	bi -- bet: Pro --
+	pter -- ea ex -- al --
+	ta -- _ _ _ bit
+	ca -- _ _
+	put, ex -- al -- ta -- bit %650
+	ca -- _ _
+	put.
+	
+	Pro -- %656
+	pter -- ea ex -- al --
+	ta -- bit, ex -- al --
+	ta -- _ bit
+	ca -- put, ex -- al -- %660
+	ta -- bit.
+	
+	De tor -- _
+	ren -- te in
+	vi -- a __ %665
+	bi -- bet, in
+	vi -- a __ bi --
+	bet:
+	
+	Pro -- %671
+	pter -- ea ex -- al --
+	ta -- _ _
+	_ _ _ _
+	_ _ %675
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ %680
+	_ _ _
+	_ _ _
+	_ _
+	_ _
+	_ _ %685
+	_ _
+	_ _ _
+	_ _ _ bit
+	ca -- _
+	put. %690
+	De __ tor --
+	ren -- te in
+	vi -- a __
+	bi -- bet: Pro --
+	pter -- ea ex -- al -- ta -- bit %695
+	ca --
+	
+	put.
+	De tor --
+	ren -- te %700
+	in vi -- a __
+	bi -- bet: Pro --
+	pter -- ea ex -- al --
+	ta -- _ _ bit
+	ca -- _ _ %705
+	put,
+	
+	ex -- al --
+	ta -- bit __ ca --
+	put, %710
+	
+	ex -- al --
+	ta -- _ _
+	_
+	%715
+	bit ca --
+	put. %717 finis
 }
 
 % AltoNotes = {
