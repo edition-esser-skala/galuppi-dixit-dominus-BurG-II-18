@@ -657,7 +657,7 @@ DeTorrenteViolinoI = {
 		b8(\f c) \tuplet 3/2 8 { b16-! as-! g-! f[-! es-! d]-! }
 		\tuplet 3/2 8 { g16\p( as b) b[ b b] b( c b) b([ c b)] }
 		b8(\f c) \tuplet 3/2 8 { b16-! as-! g-! f[-! es-! d]-! }
-		es8 b es r
+		es8[ b] es r
 		b'8\p b4 as8 %610
 		\tuplet 3/2 8 { g16[ g g] g g g g[ g g] g g g
 		f[ f f] f f f f[ f f] as as as
@@ -702,7 +702,7 @@ DeTorrenteViolinoI = {
 		f8 f,4 es16(\trill d32 es)
 		d8 b' a32([ g16.)] es'32([ c16.)]
 		b8~ b32 c b c c4\trill %655
-		b8 f b, r
+		b8[ f] b, r
 		R2
 		r8 es'16. es32 es8 es,
 		r es'\p es es
@@ -758,7 +758,7 @@ DeTorrenteViolinoI = {
 		R2
 		r4 r8 es'16.\f b32
 		\tuplet 3/2 8 { c16[ b as] g as f } g8\p f
-		g'8.\f b64( as g f) es16. es32 des16. des32
+		g'8~\f g16 b64( as g f) es16. es32 des16. des32
 		c16. c32 as16. as32 g16. g32 f16. f32 %715
 		g4 r\fermata
 		es8~ es32 f64( g as b c d) \tuplet 3/2 8 { es16 g es des[ c des] }

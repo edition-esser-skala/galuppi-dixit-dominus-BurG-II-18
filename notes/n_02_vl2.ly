@@ -626,6 +626,142 @@ DeTorrenteViolinoII = {
 		\clef treble
 		\key es \major \time 2/4 \tempoDeTorrente
 			\set Score.currentBarNumber = #583
-		
+		g''8\p g~ \tuplet 3/2 8 { g16 as g \appoggiatura g32 f16[ es d]
+		\appoggiatura es32 d16^\critnote es es es[ es es] es es es es[ b' g]
+		\appoggiatura as32 g16 f f f[ f f] f f f f[ c' as] %585
+		\appoggiatura b32 as16 g g g[ g g] g g g g[ b b,]
+		c es es es[ d c] } \appoggiatura b8 as4
+		g r8 g16.(-\solo as32)
+		b8 b4 es16.( c32)
+		b8 b4 es16( b) %590
+		c([ as)] as([\trill g)] g([\trill f)] f([\trill es)]
+		\mvTr es8~\f-\tuttiE es32 f64 g as b c d \tuplet 3/2 8 { es16 f g es[ f g]
+		f[ d b] } b8~ \tuplet 3/2 8 { b16 c b as[ g f] }
+		es8~ es32 f64 g as b c d \tuplet 3/2 8 { es16 f g es[ f g]
+		f[ d b] } b8~ \tuplet 3/2 8 { b16 c b as[ g as] %595
+		g b es es[ d es] c d b as[ b g] }
+		g8\trill f r4
+		b,16\p c32 b as'4( g8)
+		\appoggiatura g16 f8\trill es4.
+		es16 f32 es c'4( b8) %600
+		\appoggiatura b16 as8 g4.
+		es16 f32 es es'4 \appoggiatura d16 c8
+		c16([\trill b)] b([\trill as)] as([\trill g)] f([\trill es)]
+		c8.(\f as'32 f)] \appoggiatura es8 d4
+		\tuplet 3/2 8 { es16\p( f g) g[ g g] g( as g) g([ as g)] } %605
+		g8(\f c) \tuplet 3/2 8 { b16-! as-! g-! f[-! es-! d]-! }
+		\tuplet 3/2 8 { es16\p( f g) g[ g g] g( as g) g([ as g)] }
+		g8(\f c) \tuplet 3/2 8 { b16-! as-! g-! f[-! es-! d]-! }
+		es8[ b] es r
+		r8 g\p f f %610
+		\tuplet 3/2 8 { es16[ es es] es es es es[ es es] es es es
+		es[ es es] es es es d[ d d] f f f
+		f[ f f] es es es es[ es es] es es es }
+		es8 es4 d8
+		es4 r8 g16.-\solo as32 %615
+		b8 b4 es16. c32^\critnote
+		b8 b4 es16 b
+		c([ as)] as([\trill g)] g([\trill f)] f([\trill es)]
+		\tuplet 3/2 8 { es16[-\tuttiE es es] es[ g g] g[ b b] b es es
+		es[ g, g] g g g g[ g g] g g g %620
+		f[ f f] f f f f[ f f] f f f
+		g[ g g] g g g a[ a a] a a a
+		b[ f f] f f f f[ f f] f f f
+		f[ f f] f f f f[ f f] f f f
+		f[ f f] f f f f[ f f] f f f %625
+		g[ g g] g g g g[ g g] g g g }
+		g8-! g-! g-! g-!
+		\tuplet 3/2 8 { f16[ f f] f f f f[ f f] f f f }
+		f8-! f-! f-! f-!
+		\tuplet 3/2 8 { es16[ es es] es es es es[ es es] es es es %630
+		c[ c c] c c c a'[ a a] a a a
+		b[ b c] d d es f([ g e)] f( g e)
+		f([\f g e?)] f( g e) f([\p d f)] es( d c)
+		d[ b c] d d es f([ g e)] f( g e)
+		f([\f g e)] f( g e) f([\p d f)] es( d c) %635
+		d[ b b] b b b f[ f f] f f f
+		g[ g g] g g g a[ a a] a a a
+		b[ b b] g g g f[ f f] es es es
+		d[ d d] g g g f[ f f] es es es }
+		d4 r8 b' %640
+		b b4 a8
+		\tuplet 3/2 8 { b16[ b c] d d es f([ g e)] f( g e)
+		f([\f g e)] f( g e) f([\p d f)] es( d c)
+		d[ b c] d d es f([ g e)] f( g e)
+		f([\f g e)] f( g e) f([\p d f)] es( d c) %645
+		b[ b b] b b b b[ b b] b b b
+		g[ g g] g g g a[ a a] a a a }
+		b8 r c c
+		\tuplet 3/2 8 { b16[ b b] b b b a[ a a] a a a }
+		b16.\f g'32 f16. es32 \tuplet 3/2 8 { d16[ d d] c c c %650
+		b[\p b b] b b b a[ a a] a a a
+		b[\f b c] d d es f([ g e)] f( g e) }
+		f8 f,4 es16(\trill d32 es)
+		d8 b' a32([ g16.)] es'32([ c16.)]
+		b8~ b32 c b c c4\trill %655
+		b8[ f] b, r
+		R2
+		r8 a'16. a32 a8 a,
+		r c'\p c c
+		r d16.\f b32 b8 r %660
+		r d16. b32 \tuplet 3/2 8 { d16[ b d,] es d c }
+		b8 b' r4
+		r8 g\p f f
+		\tuplet 3/2 8 { es16[ es es] es es es es[ es es] es es es
+		es[ es es] es es es d[ d d] d d d %665
+		g[ g g] g g g g[ g g] g g g
+		es[ es es] es es es c[ c c] d d d }
+		es4 r8 g16.(-\solo as32)
+		b8 b4 es16.( c32)
+		b8 b4 es16.( b32) %670
+		c16([ as)] as([\trill g)] g([\trill f)] f([\trill es)]
+		es4 es8-\tuttiE es
+		es2~
+		es8 es[ es es]
+		\tuplet 3/2 8 { es16[ es es] es es es es[ es es] es es es %675
+		f[ f f] f f f f[ f f] f f f
+		f[ f f] f f f f[ f f] f f f
+		es[ es es] es es es es[ es es] es es es
+		es[ es es] es es es es[ es es] es es es
+		d[ d d] d d d d[ d d] d d d %680
+		es[ es es] es es es es[ es es] es es es
+		f[ f f] f f f f[ f f] f f f
+		g[ g as] b b b \once \slurDashed b[( c a] b c a)
+		b([\f c a] b c a]) b[\p g b] as g f
+		g[ g as] b b b b[( c a] b c a) %685
+		b([\f c a] b c a]) b[\p g b] as g f }
+		g8 es4 as8(
+		g) es4 es8
+		\tuplet 3/2 8 { es16[ es es] es es es d[ d d] d d d }
+		es8~\f es32 f64( g as b c d) \tuplet 3/2 8 { es16 f g es[ f g] %690
+		f[ d b] } b8~\p \tuplet 3/2 8 { b16 c b \appoggiatura b32 as16[ g f] }
+		es8~\f es32 f64( g as b c d) \tuplet 3/2 8 { es16 f g es[ f g]
+		f[ d b] } b8~\pE \tuplet 3/2 8 { b16 c b as[ g f] }
+		es8~\f es32 f64( g as b c d) \tuplet 3/2 8 { es16[(\p b c] des c b) }
+		c16. b32 as16. g32 \tuplet 3/2 8 { as16[\fE b g] f g es %695
+		d[ d d] b' b b b[ b b] a a a
+		b[ b b] b, b b b[ b b] a a a }
+		<b f' b>8 r r4\fermata
+		r8 es4\p d8
+		c b r4 %700
+		r8 es4 es8
+		d es r4
+		es8.( f32 es) es'16([\trillE d)] d([\trill c)]
+		c([\trill b)] b([\trill as)] as([\trillE g)] f([\trillE_\critnote es)]
+		c8.\f f16\p \appoggiatura es8 d4 %705
+		es r8 g16.-\solo as32
+		b8 b4 es16. c32
+		b8 b4 \mvTr es16.\f-\tuttiE b32
+		\tuplet 3/2 8 { c16[ b as] g as f } es8\p d
+		\appoggiatura d es4 r8 g16.-\solo as32 %710
+		b8 b4 es16. c32
+		b8 b4 \mvTr es16.\f-\tuttiE b32
+		\tuplet 3/2 8 { c16[ b as] g as f } es8\p d
+		g'8~\f g16 b64( as g f) es16. es32 des16. des32
+		c16. c32 es,16. es32 es16. es32 es16. es32 %715
+		es4 r\fermata
+		es8~ es32 f64( g as b c d) \tuplet 3/2 8 { es16 g es des[ c des] }
+		c16. d32 es16. es,32 b8 f'\trill
+		\tuplet 3/2 8 { es16[ b b] g b b } es8 r\fermata \bar "||" %719 finis
 	}
 }
