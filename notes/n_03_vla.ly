@@ -630,6 +630,142 @@ DeTorrenteViola = {
 		\clef treble
 		\key es \major \time 2/4 \tempoDeTorrente
 			\set Score.currentBarNumber = #583
-		
+		es8\pE g b f
+		g g b g
+		r c d f, %585
+		r b4 es,8~
+		es es[ c d]
+		es4 r8 es16.(-\solo f32)
+		g8 g4 g16.( as32)
+		g8 g4 b16( g) %590
+		as([ f)] f(\trillE es) es([\trillE d)] d(\trillE es)
+		\mvTr es8\fE-\tuttiE es g g
+		b f f f,
+		g g g' g
+		b f f f %595
+		b, es es es
+		es d d4
+		r8 es4\p d8
+		c b4.
+		r8 es4 es8 %600
+		d es4.
+		r8 b'4 g8
+		f4 r8 b,
+		r c\fE b as
+		g4 r %605
+		r8 es' es d
+		es4 r
+		r8 es es b
+		g4 r
+		r8 es'\pE d b %610
+		c c g' es
+		as as b b
+		es, es g g
+		as g f b,
+		es[ es,] es es'16.[-\solo f32] %615
+		g8 g4 g16. as32
+		g8 g4 b16 g
+		as([ f)] f(\trill es) es([\trill d)] d(\trill es)
+		es8-\tuttiE es, es es
+		es' es es es %620
+		d d d d
+		c c f f
+		b, b b b
+		a a a a
+		b b d d %625
+		es es es es
+		es es es es
+		d d d d
+		d d d d
+		c c c c %630
+		f f f f
+		b, b d d
+		c\f c c\p c
+		f, f d' d
+		c\f c c\p c %635
+		f, f d' d
+		es g f f
+		d es d c
+		b es d c
+		b4 r8 es %640
+		d g es f
+		b, b d d
+		c\f c c\p c
+		f, f d' d
+		c\fE c c\pE c %645
+		f, f d' d
+		es es c c
+		f4 r8 g
+		f f f, f
+		b\fE c d es %650
+		f\pE f f, f
+		f\fE f' d d
+		c c c c
+		b b b g'
+		f b4 a8 %655
+		f4 r
+		R2
+		r8 c16. c32 c8 c
+		r f4\pE f8
+		r b16.\fE b32 es,8 r %660
+		r b'16. b32 b8 \tuplet 3/2 8 { es,16[ d c] }
+		b4 r
+		r8 es\pE d b
+		c c g g
+		as as b b %665
+		r es g es
+		as g f b,
+		r4 r8 es16.(-\solo f32)
+		g8 g4 g16.( as32)
+		g8 g4 g8 %670
+		as16([ f)] f([\trill es)] es(\trill d) d([\trill es)]
+		es4 g,8-\tuttiE g
+		g g r es'
+		des2
+		as'8 as as as %675
+		r as as as
+		g g g g
+		r g g g
+		f f f f
+		b, b b b %680
+		g' g g g
+		d d d d
+		es es g g
+		f\f f f\p f
+		b, b g' g %685
+		f\f f f\p f
+		r es as b
+		c g as as
+		b b b, b
+		g\f g g' g %690
+		b f[\pE f f,]
+		g\fE g g' g
+		b f[\pE f f,]
+		g\fE g b\pE es
+		es es c\fE c %695
+		b es d c
+		b^\critnote es d c
+		d4 r\fermata
+		r8 c4(\pE b8)
+		as g16. f32 g8 es %700
+		r as4 g8
+		f es16. d32 es8 es
+		r b' es g
+		f4. es8
+		as,\fE r r4 %705
+		r r8 \mvTr es'16.\pE-\solo f32
+		g8 g4 c16. as32
+		g8 g4 \mvTr g8\fE-\tuttiE
+		es c b\pE b
+		b4 r8 es16.-\solo f32 %710
+		g8 g4 g16. as32
+		g8 g4 \mvTr g8\fE-\tuttiE
+		as es b\pE b
+		b\fE b es es
+		es c16. c32 b16. b32 a16. a32 %715
+		b2\fermata
+		g8 g b es
+		es es4 d8
+		es[ b] g r\fermata \bar "||" %719 finis
 	}
 }

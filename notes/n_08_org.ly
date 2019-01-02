@@ -1214,7 +1214,7 @@ DeTorrenteOrgano = {
 		d4. es8
 		as,\fE as b b
 		es,4 r %605
-		es'8\fE as b b,
+		es'8 as b b,
 		es4 r
 		es8 as b b,
 		es4 r
@@ -1223,7 +1223,7 @@ DeTorrenteOrgano = {
 		as as b b
 		es, es g g
 		as g f b,
-		es es, es r %615
+		es[ es,] es r %615
 		r b'' g es
 		r b' g es
 		as as, b b
