@@ -251,6 +251,7 @@
 		\header {
 			movement = "5 DE TORRENTE"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -288,7 +289,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

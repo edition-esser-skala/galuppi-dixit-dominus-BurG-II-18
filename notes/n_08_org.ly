@@ -1342,7 +1342,7 @@ DeTorrenteBassFigures = \figuremode {
 	r %590
 	<6>4 <6 4>8 <5 3>
 	r2
-	<6 5>
+	<6>
 	r
 	q %595
 	r8 <6> r <7>
@@ -1382,9 +1382,9 @@ DeTorrenteBassFigures = \figuremode {
 	<7> %630
 	<_!>
 	r
-	<6 5>
+	<6>
 	r
-	<6 5> %635
+	<6> %635
 	r4 <6>
 	r <4! 2>
 	<6>8 r q <7>
@@ -1392,11 +1392,11 @@ DeTorrenteBassFigures = \figuremode {
 	r2 %640
 	<6>4 <6 5>8 <_!>
 	r2
-	<6 5>
+	<6>
 	r
 	q %645
 	r4 <6>
-	<9 7> <7 _!>
+	<9> <7 _!>
 	r4. <6>8
 	<6 4>4 <5 _!>
 	r8 <6!> <6> q %650
@@ -1433,14 +1433,14 @@ DeTorrenteBassFigures = \figuremode {
 	<6>
 	<6 5>
 	r
-	q
+	<6>
 	r %685
 	q
 	r4. <7>8
 	r <6>4 q8
 	<6 4>4 <5 3>
 	r2 %690
-	<6 5>
+	<6>
 	r
 	q
 	r4 <6 5->

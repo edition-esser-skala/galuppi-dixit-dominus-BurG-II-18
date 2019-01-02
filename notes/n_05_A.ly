@@ -733,9 +733,9 @@ DeTorrenteAltoNotes = {
 		b8 f4 b16. b32
 		\tuplet 3/2 8 { es16[ f d] c[ d b] a[ b g] f[ g] es }
 		es8 d r r16 f
-		f8 a16.([ b32)] \tuplet 3/2 8 { c16[ b a] g[ f es] }
+		f8 a16.([ b32)] \tuplet 3/2 8 { c16[( b a]) g[( f es]) }
 		d8 f4 fis8 %625
-		\tuplet 3/2 8 { g16[ as f] } g4 h8
+		\tuplet 3/2 8 { g16[ a? fis?] } g4 h8
 		\tuplet 3/2 8 { c16[ d h?] c[ es d] es[ d c] \appoggiatura c32 b16[ a? g] }
 		\tuplet 3/2 8 { f[ g e] } f4 a?8
 		\tuplet 3/2 8 { b16[ c a?] b[ d c] d[ c b] \appoggiatura b32 a16[ g f] }
@@ -795,7 +795,7 @@ DeTorrenteAltoNotes = {
 		g16.[ as32 b16 b] b8[ b] %685
 		b4~ \tuplet 3/2 8 { b16[ g b] as[ g f] }
 		\tuplet 3/2 8 { g[ as g] b[ c b] } c8[ d,]
-		es([ b')] c16[ as] \tuplet 3/2 8 { g[ as] f }
+		es[ b'] c16[ as] \tuplet 3/2 8 { g[ as] f }
 		b,8 f'4.\trill
 		es4 r %690
 		r8 b'~ \tuplet 3/2 8 { b16[ c b] as[( g f]) }
@@ -820,7 +820,7 @@ DeTorrenteAltoNotes = {
 		\appoggiatura f g4 r %710
 		R2
 		r4 r8 es'16. b32
-		\tuplet 3/2 8 { c16[ b as] g[ as f] } es8[( f])
+		\tuplet 3/2 8 { c16[ b as] g[ as f] } es8[ f]
 		es'2~
 		es~ %715
 		es8.\fermata es,16 f4\trill
@@ -839,11 +839,11 @@ DeTorrenteAltoLyrics = \lyricmode {
 	bet: %615
 	
 	Pro -- %619
-	pter -- ea ex -- al -- %620
+	pter -- ea __ ex -- al -- %620
 	ta -- bit, ex -- al --
 	ta -- _ _ _ bit
 	ca -- put, pro --
-	pter -- ea ex -- al --
+	pter -- ea __ ex -- al --
 	ta -- _ _ %625
 	_ _ _
 	_ _ _ _
@@ -881,14 +881,14 @@ DeTorrenteAltoLyrics = \lyricmode {
 	ta -- bit.
 	
 	De tor -- _
-	ren -- te in
+	ren -- te in __
 	vi -- a __ %665
 	bi -- bet, in
 	vi -- a __ bi --
 	bet:
 	
 	Pro -- %671
-	pter -- ea ex -- al --
+	pter -- ea __ ex -- al --
 	ta -- _ _
 	_ _ _ _
 	_ _ %675
@@ -911,11 +911,11 @@ DeTorrenteAltoLyrics = \lyricmode {
 	ren -- te in
 	vi -- a __
 	bi -- bet: Pro --
-	pter -- ea ex -- al -- ta -- bit %695
+	pter -- ea __ ex -- al -- ta -- bit %695
 	ca --
 	
 	put.
-	De tor --
+	De __ tor --
 	ren -- te %700
 	in vi -- a __
 	bi -- bet: Pro --

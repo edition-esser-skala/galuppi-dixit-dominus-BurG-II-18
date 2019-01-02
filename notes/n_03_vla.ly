@@ -627,7 +627,7 @@ DeTorrenteViola = {
 			1/8
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
-		\clef treble
+		\clef alto
 		\key es \major \time 2/4 \tempoDeTorrente
 			\set Score.currentBarNumber = #583
 		es8\pE g b f
