@@ -832,7 +832,7 @@ DeTorrenteAltoNotes = {
 
 DeTorrenteAltoLyrics = \lyricmode {
 	De tor -- _ %610
-	ren -- te in
+	ren -- te in __
 	vi -- a __
 	bi -- bet, in
 	vi -- a __ bi --

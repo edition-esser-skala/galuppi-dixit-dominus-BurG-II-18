@@ -1269,7 +1269,7 @@ DeTorrenteOrgano = {
 		r8 c16. c32 c8 c
 		r f\pE f f
 		r b,16.\fE b32 es8 r %660
-		r b'16. b32 b16 es,[ d c]
+		r b'16. b32 b8 \tuplet 3/2 8 { es,16[ d c] }
 		b4 r
 		r8 es\pE d b
 		c c g g
@@ -1299,10 +1299,10 @@ DeTorrenteOrgano = {
 		c g as as
 		b b b, b
 		es\f es es es %690
-		d\p d d d
+		d d\p d d
 		es\f es es es
-		d\p d d d
-		es es g g
+		d d\p d d
+		es\fE es g\pE g
 		as as, as\f a %695
 		b es d c
 		b es d c
@@ -1313,16 +1313,16 @@ DeTorrenteOrgano = {
 		f es16. d32 es8 es,
 		r g' g es
 		d4. es8
-		as, as' b b, %705
+		as,\fE as'\pE b b, %705
 		es es, es r
 		r es' es,4
-		r8 es' g es
-		as, as' b b,
+		r8 es' g es\fE
+		as, as' b\pE b,
 		es es, es r %710
 		r es' es,4
-		r8 es'\f g es
-		as,\p as' b b,
-		es es\f g g,
+		r8 es' g es\f
+		as, as' b\p b,
+		es\f es g g,
 		as c b a %715
 		b2\fermata
 		es8 es g g
