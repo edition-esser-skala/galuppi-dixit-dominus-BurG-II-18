@@ -911,42 +911,42 @@ GloriaPatriViola = {
 		R2*2
 		d4 b
 		c a
-		R2*2
+		R2*2 %861
 		d4 b
 		c a
 		R2
-		r4 f'8 f
+		r4 f'8 f %865
 		g4 f
 		f d
 		R2
 		r4 f8 f
-		g4 f
+		g4 f %870
 		f d
 		R2
 		f4 c
 		R2
-		f4 c
+		f4 c %875
 		R2
 		f4 c
 		R2
 		a4 r8 f'
-		d4 es
+		d4 es %880
 		c d
 		b c
 		a b
 		g g'
-		f f
+		f f %885
 		f f
 		f r
 		R2
 		d4 g
-		g f
+		g f %890
 		f r
 		R2
 		d4 g
 		g f
+		f f %895
 		f f
-		f f
-		f r\fermata \bar "|."
+		f r\fermata \bar "|." %897 FINIS
 	}
 }
