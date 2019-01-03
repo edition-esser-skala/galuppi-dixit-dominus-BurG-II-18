@@ -1559,7 +1559,7 @@ GloriaPatriOrgano = {
 		d d d d d d %780
 		a' a a a a a
 		b b g g c c
-		a\f a a a b[\p b]
+		a\pocoFE a a a b[\p b]
 		c c c, c c c
 		d[\f d] a'\p a b b \noBreak %785
 		c c c, c c c

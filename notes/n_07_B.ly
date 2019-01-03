@@ -648,7 +648,8 @@ GloriaPatriBassoNotes = {
 		r4 d^\critnote f
 		b8. b,16 b4 r
 		R2.*13 %786
-		\key b \major \time 2/4 R2*9 %795
+		\key b \major \time 2/4 \newSpacingSection
+			R2*9 %795
 		b'4 b
 		b a8 a
 		b a b g

@@ -1028,7 +1028,8 @@ GloriaPatriAltoNotes = {
 		a[ g16 f] g2\trillE
 		f'16[ e f e] f8[ c d b] \noBreak %785
 		a[ g16 f] g2\trillE
-		\key b \major \time 2/4 f4 r \noBreak
+		\key b \major \time 2/4 \newSpacingSection
+			f4 r \noBreak
 		R2*2
 		\mvTr b4\fE^\tuttiE b %790
 		b a8 a
