@@ -1281,15 +1281,12 @@ GloriaPatriSopranoLyrics = \lyricmode {
 	men,]
 	
 	[glo -- ri -- a,
-	a --
+	a -- %890
 	men,]
 	
 	[glo -- ri -- a,
 	a --
+	men, a -- %895
 	men, a --
-	men, a --
-	men.]
+	men.] %897 FINIS
 }
-
-% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pio et nunc et sem -- per, et in sae -- cu -- la sae -- cu -- lo -- rum.
