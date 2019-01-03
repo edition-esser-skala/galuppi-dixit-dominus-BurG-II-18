@@ -843,6 +843,109 @@ GloriaPatriViolinoII = {
 		f f f f e g
 		f'16(\f e f e) f8\p f, f f \noBreak %785
 		f f f f e e
-		\key b \major \time 2/4 \newSpacingSection f'4 f \noBreak
+		\key b \major \time 2/4 \newSpacingSection
+			f'4 f \noBreak
+		f d8 d
+		es d es c
+		d4 b %790
+		r c
+		d e
+		f c
+		R2*5 %798
+		f4 f
+		f d8 d %800
+		es d es c
+		d4 d
+		r c
+		d e
+		f8 f a, f' %805
+		b, f' c f
+		d g h, g'
+		c, g' d g
+		e a cis, a'
+		d, a' e a %810
+		a,4 f'~
+		f e8 d
+		cis4 d~
+		d cis
+		d r %815
+		R2*3
+		r4 r8 d
+		c b! c a %820
+		b4 a8 d
+		c b c a
+		b4 d
+		es f
+		b, d %825
+		es f
+		b, es
+		c2
+		d4 es~
+		es d %830
+		es b
+		c d
+		es b
+		c d
+		es8 r es4~ %835
+		es d
+		c es~
+		es d
+		c r
+		R2*3 %842
+		\once \tieDashed f2~
+		\once \tieDashed f2~
+		f~ %845
+		f4. f8
+		f4. f8
+		es d es c
+		d4 c8 f
+		es d es c %850
+		d4 f~
+		f es~
+		es d
+		c2
+		d4 r8 d\pE %855
+		es d es c
+		d4 b16( c32 d es f g a)
+		b4\f b,
+		a r8 d\p
+		es d es c %860
+		d4 b16( c32 d es f g a)
+		b4\f b,
+		a r8 f'\p
+		g([ es)] a([ f)]
+		b([ f)] b,-!\f d-! %865
+		c4 a
+		b r8 f'\p
+		g([ es)] a([ f)]
+		b([ f)] b,-!\f d-!
+		c4 a %870
+		b r8 d
+		b(\p a) b-! g-!
+		a(\f c) f,-! a-!
+		b(\p a) b-! g-!
+		a(\f c) f,-! a-! %875
+		b(\p a) b-! g-!
+		a(\f c) f,-! a-!
+		b(\p a) b-! g-!
+		f( a) f-!\f f'-!
+		f4 es~ %880
+		es d~
+		d c~
+		c b~
+		b es
+		c8 a' b d, %885
+		c b' a, c
+		d4 f8\p es16 f
+		g8 es a f
+		b4\f b,8 a16 b
+		c4 a %890
+		b8 r f'\p es16 f
+		g8 es a f
+		b4\f b,8 a16 b
+		c4 a
+		b a %895
+		b a
+		b r\fermata \bar "|." %897 FINIS
 	}
 }
