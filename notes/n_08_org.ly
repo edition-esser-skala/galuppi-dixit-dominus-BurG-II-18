@@ -1508,9 +1508,9 @@ GloriaPatriOrgano = {
 		e e e e e e
 		h h h h h h
 		<< {
-			c^\vlcE c e e f\pE f %750
+			c^\vlcE c e e f[\pE f] %750
 			g g g g g g
-			c, c e e f\pE f
+			c, c e e f[\pE f]
 			g g g g g g
 			c, c e e g g
 		} \\ {
@@ -1564,7 +1564,7 @@ GloriaPatriOrgano = {
 		d[\f d] a'\p a b b \noBreak %785
 		c c c, c c c
 		\key b \major \time 2/4 \newSpacingSection
-			f,4-\critnote \clef treble f''' \noBreak
+			f,4-\critnote \clef treble \mvTr f'''\fE-\tuttiE \noBreak
 		f d8 d
 		es d es c
 		<< {

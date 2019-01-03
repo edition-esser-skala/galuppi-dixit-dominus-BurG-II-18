@@ -780,6 +780,71 @@ GloriaPatriViola = {
 		\clef treble
 		\key f \major \time 3/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		R2.*3 %722
+		c4.\fE c8 c4
+		c c2
+		R2.*2 %726
+		r4 r r8 a'
+		a2 a4
+		a g2
+		R2. %730
+		f,8\pE f f f g g
+		a a a a a a
+		b b c c c, c
+		d d d' d a a
+		b b c c c, c %735
+		f f a[\fE a c c]
+		c c c4 r
+		f8 f\pE f f b, b
+		f' f f f d d
+		b b b b h h %740
+		c c c[\fE c g' g]
+		c, c c,4 r
+		c'8\pE c c c f f
+		c c c c e e
+		f f f f f f %745
+		fis fis fis fis fis fis
+		g g g g g g
+		e e e e e e
+		h h h h h h
+		c c e e f[\pE f] %750
+		g g g, g g g
+		c\fE c e e f[\pE f]
+		g g g, g g g
+		c c e[\fE e d d]
+		e c e e d d %755
+		e g g16 g g g g g g g
+		a8 a a a f f
+		g g g, g g g
+		c c c c f f
+		g g g, g g g %760
+		c c, c''[\pE b! a g]
+		f f f, f g g
+		a a a a a a
+		b b c c c, c
+		d d d' d a a %765
+		b b c c c c
+		f f c[\fE c c c]
+		c4 f8\pE f f f
+		f f f f f f
+		es es es es es es %770
+		es? es es es es es
+		d d f[\fE f f f]
+		f4 f8\pE b, b b
+		b b b b b b
+		c c b b a a %775
+		g g c c b b
+		a a a a d d
+		b b c c c, c
+		f f f f f f
+		d' d d d d d %780
+		a a a a a a
+		b b g g c c
+		a[\pocoFE a a a] b\pE b
+		c c c c c c
+		d[\fE d] a\pE a b b \noBreak
+		c c c, c c c
+		\key b \major \time 2/4 \newSpacingSection
+			f4 r\noBreak
 	}
 }

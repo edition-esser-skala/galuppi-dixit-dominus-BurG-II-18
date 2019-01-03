@@ -1055,7 +1055,7 @@ GloriaPatriSopranoNotes = {
 		d8. b16 b4 r
 		R2.*13 %786
 		\key b \major \time 2/4 \newSpacingSection
-			f'4 f \noBreak
+			\mvTr f'4\fE^\tuttiE f \noBreak
 		f d8 d
 		es d es c
 		d4 b %790

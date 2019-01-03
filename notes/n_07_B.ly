@@ -650,7 +650,7 @@ GloriaPatriBassoNotes = {
 		R2.*13 %786
 		\key b \major \time 2/4 \newSpacingSection
 			R2*9 %795
-		b'4 b
+		\mvTr b'4\fE^\tuttiE b
 		b a8 a
 		b a b g
 		a4 f

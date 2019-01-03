@@ -657,7 +657,7 @@ GloriaPatriTenoreNotes = {
 		R2.*13 %786
 		\key b \major \time 2/4 \newSpacingSection
 			R2*6 %792
-		f4 f
+		\mvTr f4\fE^\tuttiE f
 		f d8 d
 		es d es c %795
 		d4 b
