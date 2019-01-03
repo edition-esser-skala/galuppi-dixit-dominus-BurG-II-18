@@ -777,7 +777,7 @@ GloriaPatriViola = {
 			1/8
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
-		\clef treble
+		\clef alto
 		\key f \major \time 3/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
 		R2.*3 %722

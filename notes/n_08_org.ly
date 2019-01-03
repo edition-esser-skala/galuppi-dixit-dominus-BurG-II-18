@@ -1699,7 +1699,7 @@ GloriaPatriOrgano = {
 		es f
 		b, f' %895
 		b f
-		b, r\fermata \bar "||" %897 FINIS
+		b, r\fermata \bar "|." %897 FINIS
 	}
 }
 
@@ -1716,7 +1716,7 @@ GloriaPatriBassFigures = \figuremode {
 	r4 <8 6> <7 5>
 	r2 <6>4
 	q <6 4> <5 3> %735
-	r <6>2
+	r <6> <7>
 	r2.
 	r
 	r
