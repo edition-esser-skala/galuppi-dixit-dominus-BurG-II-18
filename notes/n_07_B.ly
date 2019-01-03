@@ -608,6 +608,11 @@ JudicabitBassoLyrics = \lyricmode {
 
 GloriaPatriBassoNotes = {
 	\relative c {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef bass
 		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #720

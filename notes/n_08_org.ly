@@ -1473,10 +1473,232 @@ DeTorrenteBassFigures = \figuremode {
 
 GloriaPatriOrgano = {
 	\relative c {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef bass
 		\key f \major \time 3/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
 		R2.*3
+		\mvTr e2\fE-\tuttiE e4
+		f2.
+		R2.*3 %727
+		h,2 h4
+		c2.
+		R %730
+		\mvTr f8\pE-\soloE f f f g g
+		a a a a a a
+		b b c c c, c
+		d d d d a' a
+		b b c c c, c %735
+		f f \mvTr a[\fE-\tuttiE a c c]
+		f, f, f f f4
+		\mvTr f'8\pE-\soloE f f f b, b
+		f' f f f d d
+		b b b b h h %740
+		c c \mvTr c[\fE-\tuttiE c g' g]
+		c, c c,4 r
+		\mvTr c''8\pE-\soloE c c c d, d
+		c' c c c e, e
+		f f f f f f %745
+		fis fis fis fis fis fis
+		g g g g g g
+		e e e e e e
+		h h h h h h
+		<< {
+			c^\vlcE c e e f\pE f %750
+			g g g g g g
+			c, c e e f\pE f
+			g g g g g g
+			c, c e e g g
+		} \\ {
+			\mvTr c,8\fE-\bassiE c e4 r %750
+			R2.
+			c8\fE c e4 r
+			R2.
+			r4 \mvTr e8\fE-\tuttiE e g g
+		} >>
+		c c e, e g g %755
+		c c c, c h h
+		a a a' a f f
+		g g g, g g g
+		c c c c f f
+		g g g, g g g %760
+		<< { s4 c'8-\vlcE b a g } \\
+			 { \oneVoice c,8 c, \voiceTwo \once \override DynamicText.X-offset = #1.5 \once \override TextScript.X-offset = #1.5 c4\pE-\bassiE r } >>
+		f'8 f f f g g
+		a a a a a a
+		b b c c c, c
+		d d d d a' a %765
+		b b c c c, c
+		f f << {
+			a, a c c
+			f4 f8 f f f
+		} \\ {
+			a,8\fE a
+			c c f4 f,\pE r
+		} >>
+		f'8 f f f f f
+		es es es es es es %770
+		es? es es es es es
+		d d << {
+			d d f f
+			b4 b8 b b b
+		} \\ {
+			d,8\fE d f f
+			b4 b,\pE r
+		} >>
+		b'8 b b b b b
+		c c b b a a %775
+		g g c c b b
+		a a a a d d
+		b b c c c, c
+		f f f f f f
+		d d d d d d %780
+		a' a a a a a
+		b b g g c c
+		a\f a a a b[\p b]
+		c c c, c c c
+		d[\f d] a'\p a b b \noBreak %785
+		c c c, c c c
+		\key b \major \time 2/4 f,4-\critnote \clef treble f''' \noBreak
+		f d8 d
+		es d es c
+		<< {
+			d4 b %790
+			r c
+			d e
+		} \\ {
+			b b %790
+			b a
+			b8 a b g
+		} >>
+		\clef "treble_8" << {
+			<a f'>4 c
+			r f,
+			g a %795
+		} \\ {
+			f4 f
+			f d8 d
+			es d es c %795
+		} >>
+		\clef bass b4 b
+		b a8 a
+		b a b g
+		a4 f
+		r f, %800
+		g a
+		b b
+		r a'
+		g2
+		f4 f, %805
+		g a
+		b g
+		a h
+		c a
+		h cis %810
+		d d
+		g8 f g e
+		a4 f8 g
+		a4 a,
+		d \clef "treble_8" a' %815
+		h cis
+		d a
+		h cis
+		d \clef treble << {
+			r8 d'
+			c b! c a %820
+			b4 a8 d^\critnote
+			c b c a
+			b4
+		} \\ {
+			d,4
+			e fis %820
+			g d
+			e fis
+			g
+		} >> \clef bass b,,
+		c d
+		es b %825
+		c d
+		es r
+		R2
+		<< b' \\ b, >>
+		<< b' \\ b, >> %830
+		es4 f8 g
+		as g as f
+		g4 es8 g
+		as g as f
+		g4 es8 g, %835
+		a?4 h
+		c g
+		a h
+		c r8 \clef "treble_8" c'
+		<< {
+			d4 e %840
+			f c
+			d e
+			f
+		} \\ {
+			b,8 a b g %840
+			a4 f8 a
+			b a b g
+			a4
+		} >> r8 \clef bass f
+		es! d es c
+		d4 b8 d %845
+		es d es c
+		d4 f
+		g a
+		b f
+		g a %850
+		b a
+		g8 f g es
+		f4 b,
+		f' f,
+		b r %855
+		R2*2
+		b'4 g
+		f f,
+		R2*2 %861
+		b'4 g
+		f f,
+		R2
+		r4 b8 b %865
+		es4 f
+		b, b
+		R2
+		r4 b8 b
+		es4 f %870
+		b, b
+		R2
+		f'4 f,
+		R2
+		f'4 f, %875
+		R2
+		f'4 f,
+		R2
+		f'4 r8 f
+		g f g es %880
+		f es f d
+		es d es c
+		d c d b
+		es c d es
+		f4 b, %885
+		f' f,
+		b r
+		R2
+		b4 g'
+		es f %890
+		b, r
+		R2
+		b4 g'
+		es f
+		b, f' %895
+		b f
+		b, r\fermata \bar "||" %897 FINIS
 	}
 }
 
