@@ -1563,7 +1563,7 @@ GloriaPatriOrgano = {
 		c c c, c c c
 		d[\f d] a'\p a b b \noBreak %785
 		c c c, c c c
-		\key b \major \time 2/4
+		\key b \major \time 2/4 \newSpacingSection
 			f,4-\critnote \clef treble f''' \noBreak
 		f d8 d
 		es d es c
@@ -1628,7 +1628,7 @@ GloriaPatriOrgano = {
 		R2
 		<< b' \\ b, >>
 		<< b' \\ b, >> %830
-		es4 f8 g
+		es4 g8 g
 		as g as f
 		g4 es8 g
 		as g as f
