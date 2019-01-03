@@ -1500,7 +1500,7 @@ GloriaPatriOrgano = {
 		b b b b h h %740
 		c c \mvTr c[\fE-\tuttiE c g' g]
 		c, c c,4 r
-		\mvTr c''8\pE-\soloE c c c d, d
+		\mvTr c''8\pE-\soloE c c c f,-\critnote f
 		c' c c c e, e
 		f f f f f f %745
 		fis fis fis fis fis fis

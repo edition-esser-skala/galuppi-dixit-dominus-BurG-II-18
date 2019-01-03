@@ -946,10 +946,159 @@ GloriaPatriAltoNotes = {
 		\clef treble
 		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		R2.*3 %722
+		\mvTr g'4.\fE^\tuttiE g8 g4
+		g f2
+		R2.*3 %727
+		a4. f8 f4
+		f4. e8 e4
+		R2. %730
+		<< \context Voice = "Alto" {
+			\oneVoice \mvTr c'2\pE^\soloE e,4
+			f8.([ e16)] f2
+			d'4 c8[( a)] b([ g)]
+			f8. e16 f2
+			g4 a b %735
+			\voiceTwo a8. g16 f2
+			\once \override MultiMeasureRest.staff-position = #-6 R2.
+			\oneVoice \mvTr c'8([\pE^\soloE a)] f4.( d'8)
+			c([ a)] f4.( <f f'>8)
+			q[ <d d'>] b'4 a %740
+			\voiceTwo a g r
+			\once \override MultiMeasureRest.staff-position = #-8 R2.
+			\oneVoice \mvTr g4.(\pE^\soloE e8) c'([ a)]
+			g4.( e8) c'([ b!])
+			a4. g8 f8.[\trill e16] %745
+			d4 d' c
+			h8([ g fis g)] g4\trill
+			c8([ g fis g)] g4\trill
+			d'8([ g, fis g)] g4\trill
+			\voiceOne e'16[ c d h] c8[ g \mvTr a^\pE^\soloE f] %750
+			\appoggiatura f16 e8[ d16 c] d2\trill
+			e'16[ c d h] c8[ g \mvTr a^\pE^\soloE f]
+			e[ d16 c] <d d'>2\trill
+			<c c'>4 \voiceTwo \mvTr c'_\fE_\tuttiE h
+			\oneVoice c8. g16 c4 h %755
+			c8 g16 g c4 c
+			c2 c4
+			c \appoggiatura c h2
+			c c4
+			c8 c \appoggiatura c4 h2 %760
+			c4 r r
+			\mvTr c8.([\pE^\soloE d16] c4) e,
+			f8.([ e16)] f2
+			d'4( c8[ a)] b([ g)]
+			f8. e16 f2 %765
+			g4 a b
+			\voiceTwo a8.([ g16)] f4 r
+			\once \override MultiMeasureRest.staff-position = #-6 R2.
+			\oneVoice \mvTr c'2\pE^\soloE a8([ c)]
+			c2 f,8 g %770
+			a b! c([ d es)] a,
+			\voiceTwo b8.([ a16)] b4 r
+			\once \override MultiMeasureRest.staff-position = #-6 R2.
+		} \\ {
+			\autoBeamOff \voiceOne s2.*5 %735
+			r4 \mvTr a^\fE^\tuttiE g
+			a8. a16 a2
+			s2.*3 %740
+			r4 \mvTr g^\fE^\tuttiE g
+			g8. e16 e4 r
+			s2.*7 %749
+			\voiceTwo \mvTr c'8.\fE-\tuttiE g16 g4 r %750
+			\once \override MultiMeasureRest.staff-position = #-8 R2.
+			\mvTr c8.\fE-\tuttiE g16 g4 r
+			\once \override MultiMeasureRest.staff-position = #-8 R2.
+			r4 \voiceOne r r
+			s2.*12 %766
+			\voiceOne r4 \mvTr a^\fE^\tuttiE g
+			a8. a16 a4 r
+			s2.*3 %771
+			\voiceOne r4 \mvTr b^\fE^\tuttiE a
+			b8. f16 f4 r
+		} >>
+		\oneVoice \mvTr d'4\pE^\soloE \appoggiatura d16 c8([ b)] \appoggiatura b16 a8([ g)]
+		\appoggiatura f4 e2 f4 %775
+		g8[ a16 b] a4 g
+		c8[ a] \appoggiatura g4 f2
+		g8[ a16 b] a4 g
+		a8[ f e f] f4\trill
+		b8[ f e f] f4\trill %780
+		c'8[ f, e f] f4\trill
+		d'2 e4
+		f16[ e f e] f8[ c d b]
+		a[ g16 f] g2\trillE
+		f'16[ e f e] f8[ c d b] \noBreak %785
+		a[ g16 f] g2\trillE
+		\key b \major \time 2/4 f4 r \noBreak
 	}
 }
 
 GloriaPatriAltoLyrics = \lyricmode {
+	[Glo -- ri -- a %723
+	Pa -- tri,]
 	
+	[Pa -- tri et %728
+	Fi -- li -- o,]
+	%730
+	Glo -- ria
+	Pa -- tri,
+	Pa -- tri __ et __
+	Fi -- li -- o,
+	Pa -- tri et %735
+	Fi -- li -- o
+	
+	et __ Spi --
+	ri -- tui __
+	San -- _ _ %740
+	_ cto,
+	
+	et __ Spi --
+	ri -- tui __
+	San -- _ _ %745
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ %750
+	_ _
+	_ _
+	_ _
+	cto. [Glo -- ria %754
+	Pa -- tri, glo -- ria %755
+	Fi -- li -- o et Spi --
+	ri -- tui
+	San -- _
+	cto, Spi --
+	ri -- tui San -- %760
+	cto.]
+	Si -- cut
+	e -- rat
+	in __ prin --
+	ci -- pi -- o %765
+	et nunc et sem --
+	per,
+	
+	et in __
+	sae -- cu -- la %770
+	sae -- cu -- lo -- rum,
+	a -- men,
+	
+	in sae -- cu --
+	lo -- rum, %775
+	a -- _ _
+	_ _
+	_ _ _
+	_ _
+	_ _ %780
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ %785
+	_ _
+	men.
+	
+% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pio et nunc et sem -- per, et in sae -- cu -- la sae -- cu -- lo -- rum.
 }

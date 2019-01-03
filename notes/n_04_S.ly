@@ -1054,7 +1054,7 @@ GloriaPatriSopranoNotes = {
 		r4 d c
 		d8. b16 b4 r
 		R2.*13 %786
-		\key b \major \time 2/4
+		\key b \major \time 2/4 b4 b \noBreak
 	}
 }
 
@@ -1089,5 +1089,4 @@ GloriaPatriSopranoLyrics = \lyricmode {
 	
 	[glo -- ria, %772
 	glo -- ri -- a.]
-% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
 }
