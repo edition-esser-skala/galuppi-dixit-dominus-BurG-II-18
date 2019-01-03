@@ -776,6 +776,73 @@ GloriaPatriViolinoII = {
 		\clef treble
 		\key f \major \time 3/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		c'4\fE r16 c \appoggiatura d32 c( h c16) e16. c32 g'16. e32
+		c'4 r16 c, \appoggiatura d32 c h c16 g16. c32 e,16. g32
+		c,8( e g) e'-! g-! b,-!
+		b4. b8 b4
+		b a2
+		f4 r16 f \appoggiatura g32 f e f16 a16. f32 c'16. a32 %725
+		f'4 r16 f, \appoggiatura g32 f e f16 d16. f32 c16. f32
+		h,8-\critnote d f h d d
+		d2 d4
+		c c2
+		R2. %730
+		f,8\p f f f e e
+		f f f f f f
+		b b a a g g
+		f f f f f f
+		g g f f e e %735
+		f a <c f, c>4\f b
+		a8 a a,4 r
+		a'8\p a a a b b
+		a a a a a a
+		d b g g f f %740
+		f f <e c' e>4\f d'8.(\trill c32 h)
+		c8 g c,4 r
+		e'8\p e e e f f
+		e e e e c c
+		c c c c c c %745
+		d d d d c c
+		h h h h h h
+		c c c c c c
+		d d d d d d
+		c\f e e4 c\p %750
+		c8 c c c h h
+		c\f e e4 c\p
+		c8 c c c h h
+		c4 g'\f g
+		g8 e g4 g %755
+		g8 e e16 e e e e e e e
+		e d e d e8 c c c
+		c c h h h h
+		e16 d e d e8 c c c
+		c c h h h h %760
+		c g c,4 r
+		f8\p f f f e e
+		f f f f f f
+		b b a a g g
+		f f f f f f %765
+		g g f f e e
+		f c' <f c f,>4\f e8.(\trill d32 e)
+		f8 c f,4 r
+		a8\p a a a a a
+		a a a a a a %770
+		a a a a a a
+		b d <d d,>4\f c8.(\trill b32 c)
+		d8 b d,4 r
+		f8\pE f f f f f
+		e e e e f f %775
+		g g f f e e
+		f f f f f f
+		g g f f e e
+		f f f f f f
+		f f f f f f %780
+		f f f f f f
+		f f b b g g
+		f'16(\pocoF e f e) f8 f, f\p f
+		f f f f e g
+		f'16(\f e f e) f8\p f, f f \noBreak %785
+		f f f f e e
+		\key b \major \time 2/4 \newSpacingSection f'4 f \noBreak
 	}
 }
