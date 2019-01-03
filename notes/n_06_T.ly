@@ -655,7 +655,108 @@ GloriaPatriTenoreNotes = {
 		r4 f f
 		f8. d16 d4 r
 		R2.*13 %786
-		\key b \major \time 2/4 R2 \noBreak
+		\key b \major \time 2/4 R2*6 %792
+		f4 f
+		f d8 d
+		es d es c %795
+		d4 b
+		r c
+		d e
+		f c
+		r a %800
+		b c
+		f, f'
+		d c
+		b2
+		a4 r %805
+		r f'
+		f r
+		r g
+		g r
+		r a~ %810
+		a f
+		d e~
+		e f
+		e2
+		f4 a, %815
+		h cis
+		d a
+		h cis
+		d r
+		R2*3 %822
+		r4 g~
+		g f
+		es! f %825
+		es b
+		es g
+		as8[ g f es]
+		f4 b,
+		R2 %830
+		r4 es~
+		es d
+		b es~
+		es d
+		g b, %835
+		c d
+		g,4. es'8
+		c4 d
+		g, r8 c
+		b! a b g %840
+		a4 f8 a
+		b a b g
+		a4 f'~
+		f es!
+		d f~ %845
+		f es
+		d c
+		b es
+		d f~
+		f es %850
+		d c
+		d es
+		c d
+		f2
+		f4 r %855
+		R2*2
+		d4 b
+		c a
+		R2*2 %861
+		d4 b
+		c8. a16 a4
+		R2
+		r4 f'8 f %865
+		g4 f
+		f d
+		R2
+		r4 f8 f
+		g4 f %870
+		f d
+		R2
+		f8. f16 f4
+		R2
+		f8. c16 c4 %875
+		R2
+		f8. f16 f4
+		R2
+		r4 r8 f
+		d4 es %880
+		c d
+		b c
+		a b
+		g g'
+		f f %885
+		f2
+		f4 r
+		R2
+		d8. d16 d4
+		r4 f %890
+		f r
+		R2
+		d8. d16 d4
+		r f
+		f f %895
+		f f
+		f r\fermata \bar "|." %897 FINIS
 	}
 }
 
@@ -690,4 +791,106 @@ GloriaPatriTenoreLyrics = \lyricmode {
 	
 	glo -- ria, %772
 	glo -- ri -- a.
+	
+	Et in %793
+	sae -- cu -- la
+	sae -- cu -- lo -- rum, %795
+	a -- men,
+	a --
+	_ _
+	_ men,
+	a -- %800
+	_ _
+	_ _
+	_ _
+	_
+	[men,] %805
+	a --
+	men,
+	a --
+	men,
+	a -- %810
+	_
+	_ _
+	_
+	_
+	men, a -- %815
+	_ _
+	_ _
+	_ _
+	men,
+	
+	a -- %823
+	_
+	_ _ %825
+	_ _
+	_ _
+	_
+	_ men,
+	%830
+	a --
+	_
+	_ _
+	_
+	men, a -- %835
+	_ _
+	_ _
+	_ _
+	men, in
+	sae -- cu -- lo -- rum, %840
+	a -- men, in
+	sae -- cu -- lo -- rum,
+	a -- _
+	_
+	_ _ %845
+	_
+	mem, a --
+	_ _
+	_ _
+	_ %850
+	_ _
+	_ _
+	_ men,
+	a --
+	men. %855
+	
+	[Glo -- ria %858
+	Pa -- tri,]
+	
+	[glo -- ria %862
+	Fi -- li -- o]
+	
+	[et Spi -- %865
+	ri -- tui
+	San -- cto,]
+	
+	[et Spi --
+	ri -- tui %870
+	San -- cto,]
+	
+	[glo -- ri -- a,]
+	
+	[glo -- ri -- a,] %875
+	
+	[glo -- ri -- a]
+	
+	[in
+	sae -- cu -- %880
+	lo -- rum
+	a -- _
+	_ _
+	_ _
+	_ men, %885
+	a --
+	men,]
+	
+	[glo -- ri -- a,
+	a -- %890
+	men,]
+	
+	[glo -- ri -- a,
+	a --
+	men, a -- %895
+	men, a --
+	men.] %897 FINIS
 }

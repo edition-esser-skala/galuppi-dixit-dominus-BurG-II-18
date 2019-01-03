@@ -1643,7 +1643,7 @@ GloriaPatriOrgano = {
 			d e
 			f
 		} \\ {
-			b,8 a b g %840
+			b,!8 a b g %840
 			a4 f8 a
 			b a b g
 			a4
