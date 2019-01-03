@@ -7,8 +7,47 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #2
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
@@ -20,43 +59,21 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DixitViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DixitViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DixitViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \DixitSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \DixitSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \DixitAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \DixitAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \DixitTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \DixitTenoreLyrics
@@ -77,8 +94,6 @@
 					\DixitBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
@@ -87,22 +102,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\JuravitViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\JuravitViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\JuravitViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -138,34 +137,16 @@
 					\JuravitBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3 DOMINUS A DEXTRIS"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DominusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DominusViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DominusViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \DominusSopranoNotes }
@@ -182,8 +163,6 @@
 					\DominusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
@@ -192,22 +171,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\JudicabitViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\JudicabitViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\JudicabitViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -243,40 +206,21 @@
 					\JudicabitBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "5 DE TORRENTE"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DeTorrenteViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DeTorrenteViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DeTorrenteViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \DeTorrenteAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \DeTorrenteAltoLyrics
-	
 				>>
 				\new StaffGroup <<
 					\new Staff {
@@ -288,8 +232,6 @@
 					\DeTorrenteBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -298,22 +240,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GloriaPatriViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GloriaPatriViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\GloriaPatriViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -349,8 +275,6 @@
 					\GloriaPatriBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 }
