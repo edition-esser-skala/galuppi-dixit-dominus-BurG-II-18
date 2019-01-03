@@ -616,10 +616,71 @@ GloriaPatriBassoNotes = {
 		\clef bass
 		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		R2.*3 %722
+		\mvTr e4.\fE^\tuttiE e8 e4
+		f f2
+		R2.*3 %727
+		h4. h8 h4
+		c4. c,8 c4
+		R2.*6 %735
+		r4 a' c
+		f,8. f16 f2
+		R2.*3 %740
+		r4 c' g
+		c,8. c16 c4 r
+		R2.*7 %749
+		c'8. c,16 c4 r %750
+		R2.
+		c'8. c,16 c4 r
+		R2.
+		r4 e g
+		c8. c16 e,4 g %755
+		c8 c16 c c4 h
+		a2 f4
+		g2.
+		c2 f,4
+		g8 g g2 %760
+		c,4 r r
+		R2.*5 %766
+		r4 a' c
+		f,8. f16 f4 r
+		R2.*3 %771
+		r4 d^\critnote f
+		b8. b,16 b4 r
+		R2.*13 %786
+		\key b \major \time 2/4 R2 \noBreak
 	}
 }
 
 GloriaPatriBassoLyrics = \lyricmode {
+	Glo -- ri -- a %723
+	Pa -- tri,
 	
+	Pa -- tri et %728
+	Fi -- li -- o,
+	
+	glo -- ria, %736
+	glo -- ri -- a,
+	
+	glo -- ria, %741
+	glo -- ri -- a,
+	
+	glo -- ri -- a, %750
+	
+	glo -- ri -- a, %752
+	
+	glo -- ria %754
+	Pa -- tri, glo -- ria %755
+	Fi -- li -- o et Spi --
+	ri -- tui
+	San --
+	cto, Spi --
+	ri -- tui San -- %760
+	cto,
+	
+	glo -- ria, %767
+	glo -- ri -- a,
+	
+	[glo -- ria, %772
+	glo -- ri -- a.]
 }

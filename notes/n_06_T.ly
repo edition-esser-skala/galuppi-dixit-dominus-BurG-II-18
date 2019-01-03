@@ -688,6 +688,6 @@ GloriaPatriTenoreLyrics = \lyricmode {
 	[glo -- ria, %767
 	glo -- ri -- a,]
 	
-	[glo -- ria, %772
-	glo -- ri -- a.]
+	glo -- ria, %772
+	glo -- ri -- a.
 }
