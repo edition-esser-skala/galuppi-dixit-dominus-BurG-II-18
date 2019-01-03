@@ -1054,7 +1054,106 @@ GloriaPatriSopranoNotes = {
 		r4 d c
 		d8. b16 b4 r
 		R2.*13 %786
-		\key b \major \time 2/4 b4 b \noBreak
+		\key b \major \time 2/4 f'4 f \noBreak
+		f d8 d
+		es d es c
+		d4 b %790
+		r c
+		d e
+		f c
+		R2*5 %798
+		f4 f
+		f d8 d %800
+		es d es c
+		d4 d
+		r c
+		d e
+		f a, %805
+		b c
+		f, h
+		c d
+		g, cis
+		d e %810
+		a, f'~
+		f e8[ d]
+		cis4 d~
+		d cis
+		d r %815
+		R2*3
+		r4 r8 d
+		c[ b! c a] %820
+		b4 a8 d
+		c[ b c a]
+		b4 d
+		es^\critnote f
+		b, d %825
+		es f
+		b, es
+		c2
+		d4 es~
+		es d %830
+		es b
+		c^\critnote d
+		es b
+		c d
+		es8 r es4~ %835
+		es d
+		c es~
+		es d
+		c r
+		R2*4 %843
+		\once \tieDashed f2~
+		f~ %845
+		f4. f8
+		f4. f8
+		es d es c
+		d4 c8[ f]
+		es[ d es c] %850
+		d4 f~
+		f es~
+		es d
+		c2
+		d4 r %855
+		R2*2
+		d4 e
+		f c
+		R2*2 %861
+		d4 e
+		f8. c16 c4
+		R2
+		r4 d8 d %865
+		es!4 c
+		d b
+		R2
+		r4 d8 d
+		es4 c %870
+		d b
+		R2
+		f'8. c16 c4
+		R2
+		c8. a16 a4 %875
+		R2
+		f'8. c16 c4
+		R2
+		r4 f
+		f es8 es %880
+		es4 d
+		d c
+		c b~
+		b es~
+		es d^\critnote %885
+		c2
+		d4 r
+		R2
+		f8. d16 d4
+		r4 c %890
+		d r
+		R2
+		f8. d16 d4
+		r c
+		d c %895
+		d c
+		d r\fermata \bar "|." %897 FINIS
 	}
 }
 
@@ -1089,4 +1188,108 @@ GloriaPatriSopranoLyrics = \lyricmode {
 	
 	[glo -- ria, %772
 	glo -- ri -- a.]
+	
+	Et in %787
+	sae -- cu -- la
+	sae -- cu -- lo -- rum,
+	a -- men, %790
+	a --
+	_ _
+	_ men,
+	
+	et in %799
+	sae -- cu -- la %800
+	sae -- cu -- lo -- rum,
+	a -- men,
+	[a] --
+	_ _
+	men, a -- %805
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ %810
+	_ _
+	_
+	_ _
+	_
+	men, %815
+	
+	a -- %819
+	_ %820
+	_ men, a --
+	_
+	men, a --
+	_ _
+	_ _ %825
+	_ _
+	men, a --
+	_
+	_ _
+	_ %830
+	men, a --
+	_ _
+	_ _
+	_ _
+	men, a -- %835
+	_
+	_ _
+	_
+	men,
+	
+	sae -- %844
+	%845
+	cu --
+	la, in
+	sae -- cu -- lo -- rum,
+	a -- _
+	_ %850
+	_ _
+	_
+	men,
+	a --
+	men. %855
+	
+	Glo -- ria %858
+	[Pa -- tri,]
+	
+	[glo -- ria %862
+	Fi -- li -- o]
+	
+	[et Spi -- %865
+	ri -- tui
+	San -- cto,]
+	
+	[et Spi --
+	ri -- tui %870
+	San -- cto,]
+	
+	[glo -- ri -- a,]
+	
+	[glo -- ri -- a,] %875
+	
+	[glo -- ri -- a]
+	
+	[in
+	sae -- cu -- la %880
+	sae -- cu --
+	lo -- rum,
+	a -- _
+	_
+	men, %885
+	a --
+	men,]
+	
+	[glo -- ri -- a,
+	a --
+	men,]
+	
+	[glo -- ri -- a,
+	a --
+	men, a --
+	men, a --
+	men.]
 }
+
+% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pio et nunc et sem -- per, et in sae -- cu -- la sae -- cu -- lo -- rum.

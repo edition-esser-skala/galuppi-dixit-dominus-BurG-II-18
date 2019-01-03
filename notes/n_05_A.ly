@@ -1097,6 +1097,4 @@ GloriaPatriAltoLyrics = \lyricmode {
 	_ _
 	men.
 	
-% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pio et nunc et sem -- per, et in sae -- cu -- la sae -- cu -- lo -- rum.
 }
