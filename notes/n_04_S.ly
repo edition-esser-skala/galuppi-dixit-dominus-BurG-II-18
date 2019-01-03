@@ -1022,10 +1022,72 @@ GloriaPatriSopranoNotes = {
 		\clef treble
 		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		R2.*3 %722
+		\mvTr b'4.\fE^\tuttiE b8 b4
+		b a2
+		R2.*3 %727
+		f'4. a,8 a4
+		a4. g8 g4
+		R2.*6 %735
+		r4 f' e
+		f8. f,16 f2
+		R2.*3 %740
+		r4 e' d
+		c8. g16 g4 r
+		R2.*7 %749
+		e'8. c16 c4 r %750
+		R2.
+		e8. c16 c4 r
+		R2.
+		r4 e d
+		e8. c16 e4 d %755
+		e8 d16 c e4 e
+		e2 f4
+		e8[ d16 c] d2\trill
+		e f4
+		e8 d16([ c)] d2\trill %760
+		e4 r r
+		R2.*5 %766
+		r4 f e
+		f8. c16 c4 r
+		R2.*3 %771
+		r4 d c
+		d8. b16 b4 r
+		R2.*13 %786
+		\key b \major \time 2/4
 	}
 }
 
 GloriaPatriSopranoLyrics = \lyricmode {
+	[Glo -- ri -- a %723
+	Pa -- tri,]
 	
+	[Pa -- tri et %728
+	Fi -- li -- o,]
+	
+	[glo -- ria, %736
+	glo -- ri -- a,]
+	
+	[glo -- ria, %741
+	glo -- ri -- a,]
+	
+	[glo -- ri -- a,] %750
+	
+	[glo -- ri -- a,] %752
+	
+	[glo -- ria %754
+	Pa -- tri, glo -- ria %755
+	Fi -- li -- o et Spi --
+	ri -- tui
+	San -- _
+	cto, Spi --
+	ri -- tui San -- %760
+	cto,]
+	
+	[glo -- ria, %767
+	glo -- ri -- a,]
+	
+	[glo -- ria, %772
+	glo -- ri -- a.]
+% 	Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tui San -- cto.
 }

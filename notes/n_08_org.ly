@@ -1526,7 +1526,7 @@ GloriaPatriOrgano = {
 		g g g, g g g
 		c c c c f f
 		g g g, g g g %760
-		<< { s4 c'8-\vlcE b a g } \\
+		<< { s4 c'8-\vlcE b! a g } \\
 			 { \oneVoice c,8 c, \voiceTwo \once \override DynamicText.X-offset = #1.5 \once \override TextScript.X-offset = #1.5 c4\pE-\bassiE r } >>
 		f'8 f f f g g
 		a a a a a a
@@ -1563,7 +1563,8 @@ GloriaPatriOrgano = {
 		c c c, c c c
 		d[\f d] a'\p a b b \noBreak %785
 		c c c, c c c
-		\key b \major \time 2/4 f,4-\critnote \clef treble f''' \noBreak
+		\key b \major \time 2/4
+			f,4-\critnote \clef treble f''' \noBreak
 		f d8 d
 		es d es c
 		<< {
