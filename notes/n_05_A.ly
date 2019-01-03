@@ -976,9 +976,9 @@ GloriaPatriAltoNotes = {
 			\voiceOne e'16[ c d h] c8[ g \mvTr a^\pE^\soloE f] %750
 			\appoggiatura f16 e8[ d16 c] d2\trill
 			e'16[ c d h] c8[ g \mvTr a^\pE^\soloE f]
-			e[ d16 c] <d d'>2\trill
-			<c c'>4 \voiceTwo \mvTr c'_\fE_\tuttiE h
-			\oneVoice c8. g16 c4 h %755
+			\oneVoice e[ d16 c] <d d'>2\trill
+			<c c'>4 \mvTr c'\fE^\tuttiE h
+			c8. g16 c4 h %755
 			c8 g16 g c4 c
 			c2 c4
 			c \appoggiatura c h2
@@ -1008,9 +1008,7 @@ GloriaPatriAltoNotes = {
 			\voiceTwo \mvTr c'8.\fE-\tuttiE g16 g4 r %750
 			\once \override MultiMeasureRest.staff-position = #-8 R2.
 			\mvTr c8.\fE-\tuttiE g16 g4 r
-			\once \override MultiMeasureRest.staff-position = #-8 R2.
-			r4 \voiceOne r r
-			s2.*12 %766
+			s2.*14 %766
 			\voiceOne r4 \mvTr a^\fE^\tuttiE g
 			a8. a16 a4 r
 			s2.*3 %771

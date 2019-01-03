@@ -623,10 +623,71 @@ GloriaPatriTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 3/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #720
-		
+		R2.*3 %722
+		\mvTr c4.\fE^\tuttiE c8 c4
+		c c2
+		R2.*3 %727
+		d4. d8 d4
+		c4. c8 c4
+		R2.*6 %735
+		r4 c c
+		c8. c16 c2
+		R2.*3 %740
+		r4 c h
+		c8. c16 c4 r
+		R2.*7 %749
+		g'8. e16 e4 r %750
+		R2.
+		g8. e16 e4 r
+		R2.
+		r4 g g
+		g8. e16 g4 g %755
+		g8 f16 e g4 g
+		e2 a4
+		g2.
+		g2 a4
+		g8 g g2 %760
+		g4 r r
+		R2.*5 %766
+		r4 c, c
+		c8. c16 c4 r
+		R2.*3 %771
+		r4 f f
+		f8. d16 d4 r
+		R2.*13 %786
+		\key b \major \time 2/4 R2 \noBreak
 	}
 }
 
 GloriaPatriTenoreLyrics = \lyricmode {
+	[Glo -- ri -- a %723
+	Pa -- tri,]
 	
+	[Pa -- tri et %728
+	Fi -- li -- o,]
+	
+	[glo -- ria, %736
+	glo -- ri -- a,]
+	
+	[glo -- ria, %741
+	glo -- ri -- a,]
+	
+	[glo -- ri -- a,] %750
+	
+	[glo -- ri -- a,] %752
+	
+	[glo -- ria %754
+	Pa -- tri, glo -- ria %755
+	Fi -- li -- o et Spi --
+	ri -- tui
+	San --
+	cto, Spi --
+	ri -- tui San -- %760
+	cto,]
+	
+	[glo -- ria, %767
+	glo -- ri -- a,]
+	
+	[glo -- ria, %772
+	glo -- ri -- a.]
 }
