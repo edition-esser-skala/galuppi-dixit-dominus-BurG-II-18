@@ -844,7 +844,7 @@ GloriaPatriViolinoII = {
 		f'16(\f e f e) f8\p f, f f \noBreak %785
 		f f f f e e
 		\key b \major \time 2/4 \newSpacingSection
-			f'4 f \noBreak
+			f'4\fE f \noBreak
 		f d8 d
 		es d es c
 		d4 b %790

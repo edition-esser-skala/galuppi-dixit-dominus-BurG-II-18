@@ -842,9 +842,111 @@ GloriaPatriViola = {
 		b b g g c c
 		a[\pocoFE a a a] b\pE b
 		c c c c c c
-		d[\fE d] a\pE a b b \noBreak
+		d[\fE d] a\pE a b b \noBreak %785
 		c c c, c c c
 		\key b \major \time 2/4 \newSpacingSection
 			f4 r\noBreak
+		R2*5 %792
+		f'4\fE f
+		f d8 d
+		es d es c %795
+		d4 b
+		r c
+		d e
+		f c
+		r a %800
+		b c
+		f, f'
+		d c
+		b2
+		a4 f'~ %805
+		f es!
+		d g~
+		g f
+		e a~
+		a g %810
+		f f
+		d e~
+		e f
+		e2
+		f4 a, %815
+		h cis
+		d a
+		h cis
+		d r
+		R2*3 %822
+		r4 g~
+		g f
+		es! f %825
+		es b
+		es g
+		as8[ g f es]
+		f4 b,
+		R2 %830
+		r4 es~
+		es d
+		b es~
+		es d
+		g b, %835
+		c d
+		g,4. es'8
+		c4 d
+		g, r8 c
+		b! a b g %840
+		a4 f8 a
+		b a b g
+		a4 f'~
+		f es!
+		d f~ %845
+		f es
+		d c
+		b es
+		d f~
+		f es %850
+		d c
+		d es
+		c d
+		f2
+		f4 r %855
+		R2*2
+		d4 b
+		c a
+		R2*2
+		d4 b
+		c a
+		R2
+		r4 f'8 f
+		g4 f
+		f d
+		R2
+		r4 f8 f
+		g4 f
+		f d
+		R2
+		f4 c
+		R2
+		f4 c
+		R2
+		f4 c
+		R2
+		a4 r8 f'
+		d4 es
+		c d
+		b c
+		a b
+		g g'
+		f f
+		f f
+		f r
+		R2
+		d4 g
+		g f
+		f r
+		R2
+		d4 g
+		g f
+		f f
+		f f
+		f r\fermata \bar "|."
 	}
 }
