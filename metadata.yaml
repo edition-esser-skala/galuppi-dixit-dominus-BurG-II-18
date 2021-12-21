@@ -1,17 +1,18 @@
-composer: Galuppi, Baldassare
+composer:
+  last: Galuppi
+  first: Baldassare
 title: Dixit Dominus
 id: BurG II/18
 genre: psalm
-scoring: S, A (solo), S, A, T, B (coro), 2 vl, vla, b, org
+scoring: S, 2 A (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-D-30
-    type: manuscript copy
     date: 1751–1764
     rism: 212006125
-    url: http://digital.slub-dresden.de/id426600487
-github: galuppi-dixit-dominus-BurG-II-18
+    url: https://digital.slub-dresden.de/id426600487
+    license: public domain
+    principal: true
 imslp: Dixit_Dominus_in_B-flat_major_(Galuppi,_Baldassare)
-notes:
-
